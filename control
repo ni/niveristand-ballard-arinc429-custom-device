@@ -1,0 +1,16 @@
+Package: ni-communication-bus-template-veristand-{veristand_version}-support
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides a custom device template for getting started with communication protocols.
+  This is an actual implementation, but should only be used for testing.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: NI Communication Bus Template for VeriStand {veristand_version}
+Depends: {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0)
