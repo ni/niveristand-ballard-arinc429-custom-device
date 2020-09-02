@@ -7,11 +7,17 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="Database.vi" Type="VI" URL="../Database.vi"/>
+				<Item Name="Databases.vi" Type="VI" URL="../Databases.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Frame.vi"/>
+				<Item Name="Port.vi" Type="VI" URL="../Port.vi"/>
+				<Item Name="Ports.vi" Type="VI" URL="../Ports.vi"/>
 				<Item Name="Protocol.vi" Type="VI" URL="../Protocol.vi"/>
 				<Item Name="Vendor.vi" Type="VI" URL="../Vendor.vi"/>
 			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			<Item Name="Add Database.vi" Type="VI" URL="../Add Database.vi"/>
+			<Item Name="Add Port.vi" Type="VI" URL="../Add Port.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>

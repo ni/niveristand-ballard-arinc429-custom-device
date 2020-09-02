@@ -61,8 +61,8 @@
     </SourceDistribution>
   </CustomDeviceVI>
   <Dependencies />
-  <Pages>
-    <Page>
+<Pages>
+	<Page>
       <Name>
         <eng>Communication Bus Template</eng>
         <loc>Communication Bus Template</loc>
@@ -122,55 +122,144 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
-    </Page>
-    
-<Page>
-      <Name>
-        <eng>Frame</eng>
-        <loc>Frame</loc>
-      </Name>
-      <GUID>12b029fd-7aaa-4aa7-9f3a-279e0ce107c0</GUID>
-      <Glyph>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Databases</eng>
+			<loc>Databases</loc>
+		</Name>
+		<GUID>0ea00ee9-bf24-4f89-bc82-a2a280190e7b</GUID>
+		<Glyph>
 			<Type>To Application Data Dir</Type>
 			<Path>System Explorer\Glyphs\default fpga category.png</Path>
 		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Databases.vi</Path>
+		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>cdc240f6-8a8e-4b98-b947-dc43e26f33eb</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Add Database</eng>
+					<loc>Add Database</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Database.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+		</RunTimeMenu>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Ports</eng>
+			<loc>Ports</loc>
+		</Name>
+		<GUID>54d3c231-5bbc-41bd-84f0-cbf6c48b59d0</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Ports.vi</Path>
+		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>61f3d1e1-96da-4953-b846-b1921f4633dd</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Add Port</eng>
+					<loc>Add Port</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Port.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+		</RunTimeMenu>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Port %d</eng>
+			<loc>Port %d</loc>
+		</Name>
+		<Copy>Copy</Copy>
+		<GUID>c33f961b-5445-4ca2-95c0-8ffbb92313cb</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Port.vi</Path>
+		</Item2Launch>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Database</eng>
+			<loc>Database</loc>
+		</Name>
+		<Copy>Copy</Copy>
+		<GUID>93c42860-b6b1-49e2-82f1-7f71f23907bd</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Database.vi</Path>
+		</Item2Launch>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Frame</eng>
+			<loc>Frame</loc>
+		</Name>
+		<GUID>12b029fd-7aaa-4aa7-9f3a-279e0ce107c0</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Frame.vi</Path>
-      </Item2Launch>
-    </Page>
-<Page>
-      <Name>
-        <eng>Vendor</eng>
-        <loc>Vendor</loc>
-      </Name>
-      <GUID>350f1f90-dede-4c86-9a3d-8bedbf3ddc34</GUID>
-      <Glyph>
+		</Item2Launch>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Vendor</eng>
+			<loc>Vendor</loc>
+		</Name>
+		<GUID>350f1f90-dede-4c86-9a3d-8bedbf3ddc34</GUID>
+		<Glyph>
 			<Type>To Application Data Dir</Type>
 			<Path>System Explorer\Glyphs\default fpga category.png</Path>
 		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Vendor.vi</Path>
-      </Item2Launch>
-    </Page>
-<Page>
-      <Name>
-        <eng>Protocol</eng>
-        <loc>Protocol</loc>
-      </Name>
-      <GUID>936f3d3d-57f9-4ae0-ac61-b0abf738573d</GUID>
-      <Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Vendor.vi</Path>
+		</Item2Launch>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Protocol</eng>
+			<loc>Protocol</loc>
+		</Name>
+		<GUID>936f3d3d-57f9-4ae0-ac61-b0abf738573d</GUID>
+		<Glyph>
 			<Type>To Application Data Dir</Type>
 			<Path>System Explorer\Glyphs\default fpga category.png</Path>
 		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Protocol.vi</Path>
-      </Item2Launch>
-    </Page>
-  </Pages>
-  <CustomXML>
-    <Dummy></Dummy>
-  </CustomXML>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Protocol.vi</Path>
+		</Item2Launch>
+	</Page>
+</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
 </CustomDevice>
