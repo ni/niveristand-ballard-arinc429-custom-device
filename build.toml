@@ -2,8 +2,18 @@
 build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\communication_bus_template'
 
+[projects.interfaces]
+path = 'Source\Interfaces\Communication Bus Template Interfaces.lvproj'
+
 [projects.cd]
 path = 'Source\Custom Device\Communication Bus Template Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Bus Interfaces'
+type = 'lvBuildSpec'
+project = '{interfaces}'
+target = 'My Computer'
+build_spec = 'Communication Bus Interfaces'
 
 [[build.steps]]
 name = 'Configuration Library'
