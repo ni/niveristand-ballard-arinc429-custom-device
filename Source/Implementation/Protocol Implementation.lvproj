@@ -11,6 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Includes" Type="Folder">
+			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Execution Unit/Execution Unit.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Protocol Implementation.lvlib" Type="Library" URL="../Protocol Implementation.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
