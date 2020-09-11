@@ -139,7 +139,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Database.vi</Path>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Database RTM.vi</Path>
 				</Item2Launch>
 			</MenuItem>
 		</RunTimeMenu>
@@ -168,7 +168,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Port.vi</Path>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Port RTM.vi</Path>
 				</Item2Launch>
 			</MenuItem>
 		</RunTimeMenu>
@@ -207,6 +207,64 @@
 	</Page>
 	<Page>
 		<Name>
+			<eng>Incoming</eng>
+			<loc>Incoming</loc>
+		</Name>
+		<GUID>0806d046-d172-41c6-923a-ea2f0a033aaf</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Incoming.vi</Path>
+		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>db43d6e5-53fb-4f66-935d-3df211fac2b0</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Import Frames</eng>
+					<loc>Import Frames</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Frames RTM.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+		</RunTimeMenu>
+	</Page>
+	<Page>
+		<Name>
+			<eng>Outgoing</eng>
+			<loc>Outgoing</loc>
+		</Name>
+		<GUID>4a2a8cff-0efe-4d8d-9297-6d7b1461b132</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Outgoing.vi</Path>
+		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>db43d6e5-53fb-4f66-935d-3df211fac2b0</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Import Frames</eng>
+					<loc>Import Frames</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Frames RTM.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+		</RunTimeMenu>
+	</Page>
+	<Page>
+		<Name>
 			<eng>Frame</eng>
 			<loc>Frame</loc>
 		</Name>
@@ -218,6 +276,21 @@
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Frame.vi</Path>
+		</Item2Launch>
+	</Page>
+   <Page>
+		<Name>
+			<eng>Channel</eng>
+			<loc>Channel</loc>
+		</Name>
+		<GUID>0675c943-5444-47d6-a732-30e8170ca818</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Channel.vi</Path>
 		</Item2Launch>
 	</Page>
 	<Page>
