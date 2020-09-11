@@ -2,6 +2,10 @@
 build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\communication_bus_template'
 
+[dependencies.local]
+libraries = ['Source\Built\Interfaces\Communication Bus Interfaces.lvlibp']
+copy_location = 'Includes'
+
 [projects.interfaces]
 path = 'Source\Interfaces\Communication Bus Template Interfaces.lvproj'
 
@@ -21,12 +25,15 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
+dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
 
 [[build.steps]]
-name = 'Engine Libraries'
-type = 'lvBuildSpecAllTargets'
+name = 'Engine Library'
+type = 'lvBuildSpec'
 project = '{cd}'
+target = 'My Computer'
 build_spec = 'Engine Release'
+dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
 
 [package]
 type = 'nipkg'

@@ -7,6 +7,7 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
+			<Item Name="Execution Unit Compiled Information.ctl" Type="VI" URL="../Execution Unit Compiled Information.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>

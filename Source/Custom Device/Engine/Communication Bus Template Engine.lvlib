@@ -5,13 +5,22 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
-		<Item Name="Init" Type="Folder"/>
+		<Item Name="Init" Type="Folder">
+			<Item Name="Initialize Execution Units.vi" Type="VI" URL="../Initialize Execution Units.vi"/>
+			<Item Name="Start Execution Units.vi" Type="VI" URL="../Start Execution Units.vi"/>
+			<Item Name="Unflatten Compiled Data.vi" Type="VI" URL="../Unflatten Compiled Data.vi"/>
+		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Communication Bus Template.Async.vi" Type="VI" URL="../Communication Bus Template.Async.vi"/>
+			<Item Name="Read from Execution Units.vi" Type="VI" URL="../Read from Execution Units.vi"/>
+			<Item Name="Write to Execution Units.vi" Type="VI" URL="../Write to Execution Units.vi"/>
 		</Item>
-		<Item Name="Shut Down" Type="Folder"/>
+		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Finalize Execution Units.vi" Type="VI" URL="../Finalize Execution Units.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Execution Unit Runtime Information.ctl" Type="VI" URL="../Execution Unit Runtime Information.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
