@@ -27,8 +27,14 @@
 		</Item>
 		<Item Name="Includes" Type="Folder">
 			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
+				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Execution Unit/Execution Unit.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Protocol Implementation.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Implementation/Protocol Implementation.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
@@ -808,6 +814,16 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
+				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Protocol Implementation.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Implementation/Protocol Implementation.lvlib"/>
+			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1020,6 +1036,16 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
+				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Protocol Implementation.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Implementation/Protocol Implementation.lvlib"/>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
@@ -1234,6 +1260,16 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
+				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Protocol Implementation.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Implementation/Protocol Implementation.lvlib"/>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">

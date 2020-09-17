@@ -10,4 +10,5 @@
 
 </Property>
 	<Item Name="Execution Unit.lvlib" Type="Library" URL="../Execution Unit/Execution Unit.lvlib"/>
+	<Item Name="Protocol Implementation.lvlib" Type="Library" URL="../../Implementation/Protocol Implementation.lvlib"/>
 </Library>
