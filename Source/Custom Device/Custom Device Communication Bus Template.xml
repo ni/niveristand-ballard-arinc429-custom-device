@@ -123,7 +123,7 @@
 		<GUID>0ea00ee9-bf24-4f89-bc82-a2a280190e7b</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\databases.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -152,7 +152,7 @@
 		<GUID>54d3c231-5bbc-41bd-84f0-cbf6c48b59d0</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -182,7 +182,7 @@
 		<GUID>c33f961b-5445-4ca2-95c0-8ffbb92313cb</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -198,7 +198,7 @@
 		<GUID>93c42860-b6b1-49e2-82f1-7f71f23907bd</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\Database.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -213,7 +213,7 @@
 		<GUID>0806d046-d172-41c6-923a-ea2f0a033aaf</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -242,7 +242,7 @@
 		<GUID>4a2a8cff-0efe-4d8d-9297-6d7b1461b132</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -271,7 +271,7 @@
 		<GUID>12b029fd-7aaa-4aa7-9f3a-279e0ce107c0</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
@@ -286,7 +286,7 @@
 		<GUID>0675c943-5444-47d6-a732-30e8170ca818</GUID>
 		<Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
