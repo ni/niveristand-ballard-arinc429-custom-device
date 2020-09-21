@@ -452,10 +452,6 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Execution Unit/Execution Unit.lvlib"/>
-			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
