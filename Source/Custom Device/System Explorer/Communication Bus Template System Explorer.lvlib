@@ -30,7 +30,8 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Compile Data Refs.vi" Type="VI" URL="../Compile Data Refs.vi"/>
+			<Item Name="Compile Asynchronous Execution Units.vi" Type="VI" URL="../Compile Asynchronous Execution Units.vi"/>
+			<Item Name="Compile Inline Execution Units.vi" Type="VI" URL="../Compile Inline Execution Units.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Read Database.vi" Type="VI" URL="../Read Database.vi"/>
 			<Item Name="Write Database.vi" Type="VI" URL="../Write Database.vi"/>
