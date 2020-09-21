@@ -27,7 +27,6 @@
 		</Item>
 		<Item Name="Includes" Type="Folder">
 			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
-				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
@@ -815,7 +814,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
-				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
@@ -1038,7 +1036,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
-				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
@@ -1262,7 +1259,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Communication Bus Interfaces.lvlibp" Type="LVLibp" URL="../../../Includes/Communication Bus Interfaces.lvlibp">
-				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Communication Bus Interfaces.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Execution Unit.lvlib" Type="Library" URL="../../../Includes/Communication Bus Interfaces.lvlibp/Interfaces/Execution Unit/Execution Unit.lvlib"/>
