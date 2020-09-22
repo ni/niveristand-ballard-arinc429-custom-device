@@ -1,0 +1,16 @@
+Package: ni-communication-bus-template-veristand-{veristand_version}-labview-support
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides LabVIEW support for the Communication Bus Template custom device for NI VeriStand {veristand_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: Communication Bus Template LabVIEW Support for VeriStand {veristand_version}
+Depends: {AUTOVERSION_ni-labview-{labview_version}-x86}, {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0), ni-veristand-{veristand_version}-custom-device-labview-support-common
+Recommends: ni-communication-bus-template-veristand-{veristand_version}-support (>= {display_version})

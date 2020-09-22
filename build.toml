@@ -35,7 +35,24 @@ target = 'My Computer'
 build_spec = 'Engine Release'
 dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
 
-[package]
+[[build.steps]]
+name = 'Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
+
+[[package]]
 type = 'nipkg'
 payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Communication Bus Template'
+control_file = 'control_custom_device'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\Scripting'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Communication Bus Template'
+control_file = 'control_scripting'
+package_output_dir = 'Source\Built'
