@@ -9,37 +9,18 @@
 </Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
-			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Channel.vi" Type="VI" URL="../Channel.vi"/>
-				<Item Name="Database.vi" Type="VI" URL="../Database.vi"/>
-				<Item Name="Databases.vi" Type="VI" URL="../Databases.vi"/>
-				<Item Name="Frame.vi" Type="VI" URL="../Frame.vi"/>
-				<Item Name="Incoming.vi" Type="VI" URL="../Incoming.vi"/>
-				<Item Name="Outgoing.vi" Type="VI" URL="../Outgoing.vi"/>
-				<Item Name="Port.vi" Type="VI" URL="../Port.vi"/>
-				<Item Name="Ports.vi" Type="VI" URL="../Ports.vi"/>
-				<Item Name="Protocol.vi" Type="VI" URL="../Protocol.vi"/>
-				<Item Name="Vendor.vi" Type="VI" URL="../Vendor.vi"/>
-			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-			<Item Name="Add Database RTM.vi" Type="VI" URL="../Add Database RTM.vi"/>
-			<Item Name="Add Port RTM.vi" Type="VI" URL="../Add Port RTM.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
-			<Item Name="Import Frames RTM.vi" Type="VI" URL="../Import Frames RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+			<Item Name="Page Wrapper.vi" Type="VI" URL="../Page Wrapper.vi"/>
+			<Item Name="RunTimeMenu Custom Population.vi" Type="VI" URL="../RunTimeMenu Custom Population.vi"/>
+			<Item Name="RunTimeMenu Wrapper.vi" Type="VI" URL="../RunTimeMenu Wrapper.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Asynchronous Execution Units.vi" Type="VI" URL="../Compile Asynchronous Execution Units.vi"/>
 			<Item Name="Compile Inline Execution Units.vi" Type="VI" URL="../Compile Inline Execution Units.vi"/>
-			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
-			<Item Name="Read Database.vi" Type="VI" URL="../Read Database.vi"/>
-			<Item Name="Write Database.vi" Type="VI" URL="../Write Database.vi"/>
+			<Item Name="Get Item GUID.vi" Type="VI" URL="../Get Item GUID.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder">
-			<Item Name="Browse Button.ctl" Type="VI" URL="../Types/Browse Button.ctl"/>
-			<Item Name="Database.ctl" Type="VI" URL="../Types/Database.ctl"/>
-			<Item Name="Path Control.ctl" Type="VI" URL="../Types/Path Control.ctl"/>
-		</Item>
+		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>

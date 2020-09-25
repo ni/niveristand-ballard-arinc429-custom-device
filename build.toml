@@ -3,21 +3,35 @@ build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\communication_bus_template'
 
 [dependencies.local]
-libraries = ['Source\Built\Interfaces\Communication Bus Interfaces.lvlibp']
+libraries = ['Source\Built\Support\{target}\Communication Bus System Explorer.lvlibp', 'Source\Built\Support\{target}\Communication Bus Engine.lvlibp']
 copy_location = 'Includes'
 
-[projects.interfaces]
-path = 'Source\Interfaces\Communication Bus Template Interfaces.lvproj'
+[projects.support]
+path = 'Source\Custom Device Support\Communication Bus Template Support.lvproj'
 
 [projects.cd]
 path = 'Source\Custom Device\Communication Bus Template Custom Device.lvproj'
 
 [[build.steps]]
-name = 'Bus Interfaces'
+name = 'Scripting API'
 type = 'lvBuildSpec'
-project = '{interfaces}'
+project = '{support}'
 target = 'My Computer'
-build_spec = 'Communication Bus Interfaces'
+build_spec = 'Scripting API'
+
+[[build.steps]]
+name = 'System Explorer PPL'
+type = 'lvBuildSpec'
+project = '{support}'
+target = 'My Computer'
+build_spec = 'Communication Bus System Explorer'
+
+[[build.steps]]
+name = 'Engine PPL'
+type = 'lvBuildSpec'
+project = '{support}'
+target = 'My Computer'
+build_spec = 'Communication Bus Engine'
 
 [[build.steps]]
 name = 'Configuration Library'
@@ -25,7 +39,7 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
-dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
+dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Engine Library'
@@ -33,15 +47,7 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Engine Release'
-dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
-
-[[build.steps]]
-name = 'Scripting API'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'My Computer'
-build_spec = 'Scripting API'
-dependency_target = '_' # Needed to opt in to the dependency copying, even though the path is currently OS-agnostic
+dependency_target = 'Windows'
 
 [[package]]
 type = 'nipkg'

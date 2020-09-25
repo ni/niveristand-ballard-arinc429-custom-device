@@ -52,7 +52,16 @@
       </Source>
     </SourceDistribution>
   </CustomDeviceVI>
-  <Dependencies />
+  <Dependencies>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Engine.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Engine.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+  </Dependencies>
 <Pages>
 	<Page>
       <Name>
@@ -66,7 +75,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -127,20 +136,24 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Databases.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
 		<RunTimeMenu>
 			<MenuItem>
-				<GUID>cdc240f6-8a8e-4b98-b947-dc43e26f33eb</GUID>
-				<Type>Action</Type>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
 				<Name>
-					<eng>Add Database</eng>
-					<loc>Add Database</loc>
+					<eng></eng>
+					<loc></loc>
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Database RTM.vi</Path>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
 			</MenuItem>
 		</RunTimeMenu>
 	</Page>
@@ -156,20 +169,24 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Ports.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
 		<RunTimeMenu>
 			<MenuItem>
-				<GUID>61f3d1e1-96da-4953-b846-b1921f4633dd</GUID>
-				<Type>Action</Type>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
 				<Name>
-					<eng>Add Port</eng>
-					<loc>Add Port</loc>
+					<eng></eng>
+					<loc></loc>
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Add Port RTM.vi</Path>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
 			</MenuItem>
 		</RunTimeMenu>
 	</Page>
@@ -186,8 +203,26 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Port.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
+				<Name>
+					<eng></eng>
+					<loc></loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
+			</MenuItem>
+		</RunTimeMenu>
 	</Page>
 	<Page>
 		<Name>
@@ -202,8 +237,26 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Database.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
+				<Name>
+					<eng></eng>
+					<loc></loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
+			</MenuItem>
+		</RunTimeMenu>
 	</Page>
 	<Page>
 		<Name>
@@ -217,20 +270,24 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Incoming.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
 		<RunTimeMenu>
 			<MenuItem>
-				<GUID>db43d6e5-53fb-4f66-935d-3df211fac2b0</GUID>
-				<Type>Action</Type>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
 				<Name>
-					<eng>Import Frames</eng>
-					<loc>Import Frames</loc>
+					<eng></eng>
+					<loc></loc>
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Frames RTM.vi</Path>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
 			</MenuItem>
 		</RunTimeMenu>
 	</Page>
@@ -246,20 +303,24 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Outgoing.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
 		<RunTimeMenu>
 			<MenuItem>
-				<GUID>db43d6e5-53fb-4f66-935d-3df211fac2b0</GUID>
-				<Type>Action</Type>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
 				<Name>
-					<eng>Import Frames</eng>
-					<loc>Import Frames</loc>
+					<eng></eng>
+					<loc></loc>
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Frames RTM.vi</Path>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
 			</MenuItem>
 		</RunTimeMenu>
 	</Page>
@@ -275,8 +336,26 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Frame.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
+				<Name>
+					<eng></eng>
+					<loc></loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
+			</MenuItem>
+		</RunTimeMenu>
 	</Page>
    <Page>
 		<Name>
@@ -290,8 +369,26 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Channel.vi</Path>
+		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
+				<Name>
+					<eng></eng>
+					<loc></loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
+			</MenuItem>
+		</RunTimeMenu>
 	</Page>
 	<Page>
 		<Name>
@@ -305,8 +402,26 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Vendor.vi</Path>
+			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
+				<Name>
+					<eng></eng>
+					<loc></loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
+			</MenuItem>
+		</RunTimeMenu>
 	</Page>
 	<Page>
 		<Name>
@@ -320,8 +435,26 @@
 		</Glyph>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Protocol.vi</Path>
+			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 		</Item2Launch>
+		<RunTimeMenu>
+			<MenuItem>
+				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+				<Type>Custom</Type>
+				<Name>
+					<eng></eng>
+					<loc></loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+				</Item2Launch>
+				<CustomPopulation>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+				</CustomPopulation>
+			</MenuItem>
+		</RunTimeMenu>
 	</Page>
 </Pages>
 	<CustomXML>
