@@ -2,10 +2,6 @@
 build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\communication_bus_template'
 
-[dependencies.local]
-libraries = ['Source\Built\Support\{target}\Communication Bus System Explorer.lvlibp', 'Source\Built\Support\{target}\Communication Bus Engine.lvlibp']
-copy_location = 'Includes'
-
 [projects.support]
 path = 'Source\Custom Device Support\Communication Bus Template Support.lvproj'
 
@@ -39,7 +35,6 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
-dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Engine Library'
@@ -47,7 +42,20 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Engine Release'
-dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Linux x64 Engine PPL'
+type = 'lvBuildSpec'
+project = '{support}'
+target = 'RT CompactRIO Target - Linux x64'
+build_spec = 'Communication Bus Engine'
+
+[[build.steps]]
+name = 'Linux x64 Engine Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'RT CompactRIO Target - Linux x64'
+build_spec = 'Engine Release'
 
 [[package]]
 type = 'nipkg'
