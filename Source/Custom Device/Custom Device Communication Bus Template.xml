@@ -91,6 +91,19 @@
             <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Export Configuration RTM.vi</Path>
           </Item2Launch>
         </MenuItem>
+        <MenuItem>
+          <GUID>089728fe-9b2f-4073-8646-572ad1172b32</GUID>
+          <Type>Action</Type>
+          <Execution>silent</Execution>
+          <Name>
+            <eng>Import Configuration</eng>
+            <loc>Import Configuration</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
       </RunTimeMenu>
       <ButtonList>
         <Button>
@@ -116,6 +129,31 @@
           <Documentation>
             <eng>Export Custom Device Configuration</eng>
             <loc>Export Custom Device Configuration</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>089728fe-9b2f-4073-8646-572ad1172b32-Button</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Import.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>089728fe-9b2f-4073-8646-572ad1172b32</ReferencedGUID>
+          <ButtonText>
+            <eng>Import Configuration</eng>
+            <loc>Import Configuration</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import Configuration</eng>
+            <loc>Import Configuration</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import Custom Device Configuration</eng>
+            <loc>Import Custom Device Configuration</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Import Custom Device Configuration</eng>
+            <loc>Import Custom Device Configuration</loc>
           </Documentation>
         </Button>
       </ButtonList>

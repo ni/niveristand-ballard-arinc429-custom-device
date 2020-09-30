@@ -26,6 +26,7 @@
 		<Item Name="Add Database RTM.vi" Type="VI" URL="../System Explorer/RTM/Add Database RTM.vi"/>
 		<Item Name="Add Port RTM.vi" Type="VI" URL="../System Explorer/RTM/Add Port RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
+		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 		<Item Name="Import Frames RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Frames RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
