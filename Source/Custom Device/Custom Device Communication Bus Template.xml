@@ -1,500 +1,500 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
-  <AddMenu>
-    <eng>National Instruments::Communication Bus Template</eng>
-    <loc>National Instruments::Communication Bus Template</loc>
-  </AddMenu>
-  <Version>1.0.0</Version>
-  <Type>Inline HW Interface</Type>
-  <MaxOccurrence>-1</MaxOccurrence>
-  <MainPageGUID>6d83d852-1383-4c81-9895-38ca2655dae3</MainPageGUID>
-  <InitializationVI>
-    <Type>Action</Type>
-    <Item2Launch>
-      <Type>To Common Doc Dir</Type>
-      <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Initialization VI.vi</Path>
-    </Item2Launch>
-  </InitializationVI>
-  <CustomDeviceVI>
-    <SourceDistribution>
-      <Source>
-        <SupportedTarget>Windows</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>Pharlap</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Communication Bus Template\PharLap\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Communication Bus Template\Linux_32_ARM\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>Linux_x64</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-    </SourceDistribution>
-  </CustomDeviceVI>
-  <Dependencies>
-    <Dependency>
-      <SupportedTarget>Linux_x64</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Engine.lvlibp</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Engine.lvlibp</RealTimeSystemDestination>
-    </Dependency>
-  </Dependencies>
-<Pages>
-	<Page>
-      <Name>
-        <eng>Communication Bus Template</eng>
-        <loc>Communication Bus Template</loc>
-      </Name>
-      <GUID>6d83d852-1383-4c81-9895-38ca2655dae3</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
-      </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-      </Item2Launch>
-      <RunTimeMenu>
-        <MenuItem>
-          <GUID>c90d1b42-9eb1-4e89-92b6-6c073196ade9</GUID>
-          <Type>Action</Type>
-          <Execution>silent</Execution>
-          <Name>
-            <eng>Export Configuration</eng>
-            <loc>Export Configuration</loc>
-          </Name>
-          <Item2Launch>
-            <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Export Configuration RTM.vi</Path>
-          </Item2Launch>
-        </MenuItem>
-        <MenuItem>
-          <GUID>089728fe-9b2f-4073-8646-572ad1172b32</GUID>
-          <Type>Action</Type>
-          <Execution>silent</Execution>
-          <Name>
-            <eng>Import Configuration</eng>
-            <loc>Import Configuration</loc>
-          </Name>
-          <Item2Launch>
-            <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Configuration RTM.vi</Path>
-          </Item2Launch>
-        </MenuItem>
-      </RunTimeMenu>
-      <ButtonList>
-        <Button>
-          <ID>c90d1b42-9eb1-4e89-92b6-6c073196ade9-Button</ID>
-          <Glyph>
-            <Type>To Application Data Dir</Type>
-            <Path>System Explorer\Glyphs\Export.png</Path>
-          </Glyph>
-          <Type>Action</Type>
-          <ReferencedGUID>c90d1b42-9eb1-4e89-92b6-6c073196ade9</ReferencedGUID>
-          <ButtonText>
-            <eng>Export Configuration</eng>
-            <loc>Export Configuration</loc>
-          </ButtonText>
-          <Caption>
-            <eng>Export Configuration</eng>
-            <loc>Export Configuration</loc>
-          </Caption>
-          <TipStrip>
-            <eng>Export Custom Device Configuration</eng>
-            <loc>Export Custom Device Configuration</loc>
-          </TipStrip>
-          <Documentation>
-            <eng>Export Custom Device Configuration</eng>
-            <loc>Export Custom Device Configuration</loc>
-          </Documentation>
-        </Button>
-        <Button>
-          <ID>089728fe-9b2f-4073-8646-572ad1172b32-Button</ID>
-          <Glyph>
-            <Type>To Application Data Dir</Type>
-            <Path>System Explorer\Glyphs\Import.png</Path>
-          </Glyph>
-          <Type>Action</Type>
-          <ReferencedGUID>089728fe-9b2f-4073-8646-572ad1172b32</ReferencedGUID>
-          <ButtonText>
-            <eng>Import Configuration</eng>
-            <loc>Import Configuration</loc>
-          </ButtonText>
-          <Caption>
-            <eng>Import Configuration</eng>
-            <loc>Import Configuration</loc>
-          </Caption>
-          <TipStrip>
-            <eng>Import Custom Device Configuration</eng>
-            <loc>Import Custom Device Configuration</loc>
-          </TipStrip>
-          <Documentation>
-            <eng>Import Custom Device Configuration</eng>
-            <loc>Import Custom Device Configuration</loc>
-          </Documentation>
-        </Button>
-      </ButtonList>
-      <ActionVIOnCompile>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\ActionVIOnCompile.vi</Path>
-      </ActionVIOnCompile>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Databases</eng>
-			<loc>Databases</loc>
-		</Name>
-		<GUID>0ea00ee9-bf24-4f89-bc82-a2a280190e7b</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\databases.png</Path>
-		</Glyph>
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>National Instruments::Communication Bus Template</eng>
+		<loc>National Instruments::Communication Bus Template</loc>
+	</AddMenu>
+	<Version>1.0.0</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>-1</MaxOccurrence>
+	<MainPageGUID>6d83d852-1383-4c81-9895-38ca2655dae3</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
+					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Ports</eng>
-			<loc>Ports</loc>
-		</Name>
-		<GUID>54d3c231-5bbc-41bd-84f0-cbf6c48b59d0</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
+					<Path>Custom Devices\Communication Bus Template\PharLap\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
+					<Path>Custom Devices\Communication Bus Template\Linux_32_ARM\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Port %d</eng>
-			<loc>Port %d</loc>
-		</Name>
-		<Copy>Copy</Copy>
-		<GUID>c33f961b-5445-4ca2-95c0-8ffbb92313cb</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Database</eng>
-			<loc>Database</loc>
-		</Name>
-		<Copy>Copy</Copy>
-		<GUID>93c42860-b6b1-49e2-82f1-7f71f23907bd</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\Database.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Incoming</eng>
-			<loc>Incoming</loc>
-		</Name>
-		<GUID>0806d046-d172-41c6-923a-ea2f0a033aaf</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Outgoing</eng>
-			<loc>Outgoing</loc>
-		</Name>
-		<GUID>4a2a8cff-0efe-4d8d-9297-6d7b1461b132</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Frame</eng>
-			<loc>Frame</loc>
-		</Name>
-		<GUID>12b029fd-7aaa-4aa7-9f3a-279e0ce107c0</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-   <Page>
-		<Name>
-			<eng>Channel</eng>
-			<loc>Channel</loc>
-		</Name>
-		<GUID>0675c943-5444-47d6-a732-30e8170ca818</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Vendor</eng>
-			<loc>Vendor</loc>
-		</Name>
-		<GUID>350f1f90-dede-4c86-9a3d-8bedbf3ddc34</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-	<Page>
-		<Name>
-			<eng>Protocol</eng>
-			<loc>Protocol</loc>
-		</Name>
-		<GUID>936f3d3d-57f9-4ae0-ac61-b0abf738573d</GUID>
-		<Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
-		</Item2Launch>
-		<RunTimeMenu>
-			<MenuItem>
-				<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
-				<Type>Custom</Type>
-				<Name>
-					<eng></eng>
-					<loc></loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-				</Item2Launch>
-				<CustomPopulation>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-				</CustomPopulation>
-			</MenuItem>
-		</RunTimeMenu>
-	</Page>
-</Pages>
+					<Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies>
+		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Engine.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Engine.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+	</Dependencies>
+	<Pages>
+		<Page>
+			<Name>
+				<eng>Communication Bus Template</eng>
+				<loc>Communication Bus Template</loc>
+			</Name>
+			<GUID>6d83d852-1383-4c81-9895-38ca2655dae3</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>c90d1b42-9eb1-4e89-92b6-6c073196ade9</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Export Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>089728fe-9b2f-4073-8646-572ad1172b32</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>c90d1b42-9eb1-4e89-92b6-6c073196ade9-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Export.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>c90d1b42-9eb1-4e89-92b6-6c073196ade9</ReferencedGUID>
+					<ButtonText>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>089728fe-9b2f-4073-8646-572ad1172b32-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>089728fe-9b2f-4073-8646-572ad1172b32</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Databases</eng>
+				<loc>Databases</loc>
+			</Name>
+			<GUID>0ea00ee9-bf24-4f89-bc82-a2a280190e7b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\databases.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Ports</eng>
+				<loc>Ports</loc>
+			</Name>
+			<GUID>54d3c231-5bbc-41bd-84f0-cbf6c48b59d0</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Port %d</eng>
+				<loc>Port %d</loc>
+			</Name>
+			<Copy>Copy</Copy>
+			<GUID>c33f961b-5445-4ca2-95c0-8ffbb92313cb</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Database</eng>
+				<loc>Database</loc>
+			</Name>
+			<Copy>Copy</Copy>
+			<GUID>93c42860-b6b1-49e2-82f1-7f71f23907bd</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Database.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Incoming</eng>
+				<loc>Incoming</loc>
+			</Name>
+			<GUID>0806d046-d172-41c6-923a-ea2f0a033aaf</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Outgoing</eng>
+				<loc>Outgoing</loc>
+			</Name>
+			<GUID>4a2a8cff-0efe-4d8d-9297-6d7b1461b132</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Frame</eng>
+				<loc>Frame</loc>
+			</Name>
+			<GUID>12b029fd-7aaa-4aa7-9f3a-279e0ce107c0</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel</eng>
+				<loc>Channel</loc>
+			</Name>
+			<GUID>0675c943-5444-47d6-a732-30e8170ca818</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Vendor</eng>
+				<loc>Vendor</loc>
+			</Name>
+			<GUID>350f1f90-dede-4c86-9a3d-8bedbf3ddc34</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Protocol</eng>
+				<loc>Protocol</loc>
+			</Name>
+			<GUID>936f3d3d-57f9-4ae0-ac61-b0abf738573d</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>
 	</CustomXML>
