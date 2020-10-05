@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::Communication Bus Template</eng>
-		<loc>National Instruments::Communication Bus Template</loc>
+		<eng>National Instruments::Ballard ARINC 429</eng>
+		<loc>National Instruments::Ballard ARINC 429</loc>
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
@@ -65,8 +65,8 @@
 	<Pages>
 		<Page>
 			<Name>
-				<eng>Communication Bus Template</eng>
-				<loc>Communication Bus Template</loc>
+				<eng>Ballard ARINC 429</eng>
+				<loc>Ballard ARINC 429</loc>
 			</Name>
 			<GUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</GUID>
 			<Glyph>
