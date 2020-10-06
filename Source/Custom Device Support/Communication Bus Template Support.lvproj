@@ -92,9 +92,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Communication Bus Engine" Type="Packed Library">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Engine" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{1292050D-A0DC-43FC-8EB3-6FC5EDB32D8A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support/Windows</Property>
@@ -103,15 +104,15 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{00026C2A-569B-4D6A-BC7B-D707A1CC9505}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Communication Bus Engine.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Support/Windows/Communication Bus Engine.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Ballard ARINC 429 Engine.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Support/Windows/Ballard ARINC 429 Engine.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Support/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E93100DB-8765-4027-BFEF-B69A997158F7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{24634815-CDE3-453C-A444-D20B0C8D8EE3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Communication Bus Template Engine.lvlib</Property>
@@ -122,17 +123,17 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_productName" Type="Str">Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{42316925-79E8-4345-8D40-0BF14F60C9A2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Communication Bus Engine.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Ballard ARINC 429 Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Communication Bus System Explorer" Type="Packed Library">
+			<Item Name="System Explorer" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{9EDCC426-A584-4087-8244-A3B57E74FF5E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus System Explorer</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">System Explorer</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support/Windows</Property>
@@ -141,15 +142,15 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AF25D28-E070-4F3E-AD75-4F2B8F2A5EC5}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Communication Bus System Explorer.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Support/Windows/Communication Bus System Explorer.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Ballard ARINC 429 System Explorer.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Support/Windows/Ballard ARINC 429 System Explorer.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Support/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E93100DB-8765-4027-BFEF-B69A997158F7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{24634815-CDE3-453C-A444-D20B0C8D8EE3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Communication Bus Template Engine.lvlib</Property>
@@ -173,7 +174,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
 				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B041E42F-38F2-47C3-8F1C-2EFEAD6FB030}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Communication Bus System Explorer.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Ballard ARINC 429 System Explorer.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
@@ -326,9 +327,9 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Communication Bus Engine" Type="Packed Library">
+			<Item Name="Engine" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{9B60B8DD-65DB-42E1-BD19-0C238DAC493D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support</Property>
@@ -338,8 +339,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8AA1FCC3-1B94-4973-86E5-7B61E470C5EB}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Communication Bus Engine.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Communication Bus Engine.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Ballard ARINC 429 Engine.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Ballard ARINC 429 Engine.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -347,7 +348,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8CE2EAF5-8ADF-4C47-A3FC-7B488CE3F50A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE1E0ACF-1746-427D-9576-1C436CC732B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Communication Bus Template Engine.lvlib</Property>
@@ -358,12 +359,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_productName" Type="Str">Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A8C809B0-8DE3-45F2-8238-35B4DA35C3AD}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Communication Bus Engine.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Ballard ARINC 429 Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
