@@ -2,18 +2,18 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::Communication Bus Template</eng>
-		<loc>National Instruments::Communication Bus Template</loc>
+		<eng>National Instruments::Ballard ARINC 429</eng>
+		<loc>National Instruments::Ballard ARINC 429</loc>
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
-	<MainPageGUID>6d83d852-1383-4c81-9895-38ca2655dae3</MainPageGUID>
+	<MainPageGUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</MainPageGUID>
 	<InitializationVI>
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -22,33 +22,33 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\PharLap\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\PharLap\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_32_ARM</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Linux_32_ARM\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\Linux_32_ARM\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\Linux_x64\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
@@ -57,29 +57,29 @@
 			<SupportedTarget>Linux_x64</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Linux_x64\Communication Bus Engine.lvlibp</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine.lvlibp</Path>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Communication Bus Template\Communication Bus Engine.lvlibp</RealTimeSystemDestination>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 	</Dependencies>
 	<Pages>
 		<Page>
 			<Name>
-				<eng>Communication Bus Template</eng>
-				<loc>Communication Bus Template</loc>
+				<eng>Ballard ARINC 429</eng>
+				<loc>Ballard ARINC 429</loc>
 			</Name>
-			<GUID>6d83d852-1383-4c81-9895-38ca2655dae3</GUID>
+			<GUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>c90d1b42-9eb1-4e89-92b6-6c073196ade9</GUID>
+					<GUID>0FA4631E-1DDA-4740-B222-5345145C2367</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
 					<Name>
@@ -88,11 +88,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Export Configuration RTM.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Export Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
-					<GUID>089728fe-9b2f-4073-8646-572ad1172b32</GUID>
+					<GUID>DBFAA98C-D586-4FF1-BAF5-225D75A36837</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
 					<Name>
@@ -101,7 +101,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Import Configuration RTM.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Import Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -113,7 +113,7 @@
 						<Path>System Explorer\Glyphs\Export.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>c90d1b42-9eb1-4e89-92b6-6c073196ade9</ReferencedGUID>
+					<ReferencedGUID>0FA4631E-1DDA-4740-B222-5345145C2367</ReferencedGUID>
 					<ButtonText>
 						<eng>Export Configuration</eng>
 						<loc>Export Configuration</loc>
@@ -138,7 +138,7 @@
 						<Path>System Explorer\Glyphs\Import.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>089728fe-9b2f-4073-8646-572ad1172b32</ReferencedGUID>
+					<ReferencedGUID>DBFAA98C-D586-4FF1-BAF5-225D75A36837</ReferencedGUID>
 					<ButtonText>
 						<eng>Import Configuration</eng>
 						<loc>Import Configuration</loc>
@@ -159,7 +159,7 @@
 			</ButtonList>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\ActionVIOnCompile.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
 		</Page>
 		<Page>
@@ -167,18 +167,18 @@
 				<eng>Databases</eng>
 				<loc>Databases</loc>
 			</Name>
-			<GUID>0ea00ee9-bf24-4f89-bc82-a2a280190e7b</GUID>
+			<GUID>5F9EF1FD-304F-4EA9-BDF8-DC215A306754</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\databases.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -186,11 +186,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -200,18 +200,18 @@
 				<eng>Ports</eng>
 				<loc>Ports</loc>
 			</Name>
-			<GUID>54d3c231-5bbc-41bd-84f0-cbf6c48b59d0</GUID>
+			<GUID>879B7DAF-C156-4E60-80C7-980946E79B26</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -219,11 +219,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -234,18 +234,18 @@
 				<loc>Port %d</loc>
 			</Name>
 			<Copy>Copy</Copy>
-			<GUID>c33f961b-5445-4ca2-95c0-8ffbb92313cb</GUID>
+			<GUID>4344CD5A-2266-4D64-A775-8F5615E9A1AD</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -253,11 +253,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -268,18 +268,18 @@
 				<loc>Database</loc>
 			</Name>
 			<Copy>Copy</Copy>
-			<GUID>93c42860-b6b1-49e2-82f1-7f71f23907bd</GUID>
+			<GUID>93911212-5CC3-4FE5-877D-B534BF9C5E40</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\Database.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -287,11 +287,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -301,18 +301,18 @@
 				<eng>Incoming</eng>
 				<loc>Incoming</loc>
 			</Name>
-			<GUID>0806d046-d172-41c6-923a-ea2f0a033aaf</GUID>
+			<GUID>3098426F-4C09-481E-8916-57E537FEC0AE</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -320,11 +320,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -334,18 +334,18 @@
 				<eng>Outgoing</eng>
 				<loc>Outgoing</loc>
 			</Name>
-			<GUID>4a2a8cff-0efe-4d8d-9297-6d7b1461b132</GUID>
+			<GUID>7D7F8E01-8E02-4E6A-8E22-BF1B7D107645</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -353,11 +353,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -367,18 +367,18 @@
 				<eng>Frame</eng>
 				<loc>Frame</loc>
 			</Name>
-			<GUID>12b029fd-7aaa-4aa7-9f3a-279e0ce107c0</GUID>
+			<GUID>8CE6E51F-BC83-4569-865F-9C808FB30A26</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -386,11 +386,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -400,18 +400,18 @@
 				<eng>Channel</eng>
 				<loc>Channel</loc>
 			</Name>
-			<GUID>0675c943-5444-47d6-a732-30e8170ca818</GUID>
+			<GUID>7862A4D1-00AD-42C2-8A9F-4C525861A8AC</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -419,11 +419,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -433,18 +433,18 @@
 				<eng>Vendor</eng>
 				<loc>Vendor</loc>
 			</Name>
-			<GUID>350f1f90-dede-4c86-9a3d-8bedbf3ddc34</GUID>
+			<GUID>2F6A7EFE-5C12-4510-A940-FB1E70DEF407</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -452,11 +452,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -466,18 +466,18 @@
 				<eng>Protocol</eng>
 				<loc>Protocol</loc>
 			</Name>
-			<GUID>936f3d3d-57f9-4ae0-ac61-b0abf738573d</GUID>
+			<GUID>D8399BD9-D898-4CE7-A38F-CD0EDB89D6D6</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>4a264cda-93bf-4d77-92b0-38d997c67151</GUID>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
 					<Type>Custom</Type>
 					<Name>
 						<eng />
@@ -485,11 +485,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Communication Bus Template\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
