@@ -20,14 +20,14 @@ name = 'System Explorer PPL'
 type = 'lvBuildSpec'
 project = '{support}'
 target = 'My Computer'
-build_spec = 'Communication Bus System Explorer'
+build_spec = 'System Explorer'
 
 [[build.steps]]
 name = 'Engine PPL'
 type = 'lvBuildSpec'
 project = '{support}'
 target = 'My Computer'
-build_spec = 'Communication Bus Engine'
+build_spec = 'Engine'
 
 [[build.steps]]
 name = 'Configuration Library'
@@ -48,7 +48,7 @@ name = 'Linux x64 Engine PPL'
 type = 'lvBuildSpec'
 project = '{support}'
 target = 'RT CompactRIO Target - Linux x64'
-build_spec = 'Communication Bus Engine'
+build_spec = 'Engine'
 
 [[build.steps]]
 name = 'Linux x64 Engine Library'
