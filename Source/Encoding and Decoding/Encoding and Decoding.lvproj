@@ -15,6 +15,8 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="BCD.lvclass" Type="LVClass" URL="../Tests/BCD/BCD.lvclass"/>
 			<Item Name="BNR.lvclass" Type="LVClass" URL="../Tests/BNR/BNR.lvclass"/>
+			<Item Name="Discrete.lvclass" Type="LVClass" URL="../Tests/Discrete/Discrete.lvclass"/>
+			<Item Name="Parity.lvclass" Type="LVClass" URL="../Tests/Parity/Parity.lvclass"/>
 		</Item>
 		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../Encoding and Decoding.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
