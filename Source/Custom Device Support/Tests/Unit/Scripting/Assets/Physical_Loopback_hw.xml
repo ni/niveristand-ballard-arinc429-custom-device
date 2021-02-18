@@ -1,0 +1,101 @@
+
+<bti:core xmlns:bti="http://www.ballardtech.com/DatabusSchemas/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ID="-1" name="CoreName" schemaVersion="1.0">
+	<bti:coreConfiguration>
+		<bti:sequentialLog perChannelStreaming="false"/>
+		<bti:builtInTest/>
+		<bti:pxi/>
+		<bti:sysMon/>
+		<bti:timing/>
+	</bti:coreConfiguration>
+
+<!--*******************************************************************************************-->
+<!-- NOTES																					   -->
+<!-- 1. The ID is a I32 datatype,															   -->
+<!-- 2. For channel429 ID, it's the hardwareChannel number,									   -->
+<!-- 3. For label ID (Rx), it's arbitrary but here are the elements: XXXYYZZ,				   -->
+<!--		XXX: label index (1-256) for considered channel on 3 digits,					   -->
+<!--		YY: channel decimal number (0-31) (hardwareChannel) on 2 digits,				   -->
+<!--		ZZ: OPTIONAL: SDI Variant (00/10/01/11),										   -->
+<!-- 4. For hardwareChannel numbering, for a core with 16 (Rx/Tx) Channels, Rx Channels are	   -->
+<!-- numbered between 0 and 15, Tx Channels are numbered between 16 and 31. Physically, for    -->
+<!-- instance, hardwareChannel 1 and 17 are the same but the direction is different.		   -->
+<!-- 5. For message ID (Tx), it's arbitrary but here are the elements: XXXYYZZZ,			   -->
+<!--		XXX`: label index (1-256) for considered channel on 3 digits,					   -->
+<!--		YY: channel decimal number (0-31) (hardwareChannel) on 2 digits,				   -->
+<!-- 6. For messageBuffer ID (Tx), it's arbitrary but here are the elements: XXXYYZZZ,		   -->
+<!--		XXX`: label index (1-999) for considered channel on 3 digits,					   -->
+<!--		YY: channel decimal number (0-31) (hardwareChannel) on 2 digits,				   -->
+<!--		ZZZ: messageBuffer Index on 3 digits (1-999),									   -->
+<!-- 7. For Rx Channels, it's important to list ALL labels physically present on the Channel   -->
+<!--    and, for each, set "monitor" element to true or false.								   -->
+<!--*******************************************************************************************-->
+
+<!--***************************************	Rx Channels ***************************************-->
+<!--Channel 0: Rx -->
+	<bti:channel429 ID="0" name="CH0" hardwareChannel="0" monitorMode="Selective" selfTestBus="false">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="134" name="label 134" labelDecimal="134" monitor="true"/>			
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="2" name="CH2" hardwareChannel="2" monitorMode="Selective" selfTestBus="false">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="135" name="label 135" labelDecimal="135" monitor="true"/>			
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="4" name="CH4" hardwareChannel="4" monitorMode="Selective" selfTestBus="false">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="136" name="label 136" labelDecimal="136" monitor="true"/>			
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+
+
+<!--*******************************************************************************************-->
+
+<!--***************************************	Tx Channels ***************************************-->
+	<bti:channel429 ID="17" name="CH17" hardwareChannel="17" selfTestBus="false">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Microsecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="134" name="label 134" messageBufferIDRef="128" minRate="1000" maxRate="1000" labelDecimal="134">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="128" name="MessageBuffer">
+							<bti:rawData>AAAAAAAA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="19" name="CH19" hardwareChannel="19" selfTestBus="false">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Microsecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="135" name="label 135" messageBufferIDRef="128" minRate="1000" maxRate="1000" labelDecimal="135">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="128" name="MessageBuffer">
+							<bti:rawData>AAAAAAAA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="21" name="CH21" hardwareChannel="21" selfTestBus="false">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Microsecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="136" name="label 136" messageBufferIDRef="128" minRate="1000" maxRate="1000" labelDecimal="136">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="128" name="MessageBuffer">
+							<bti:rawData>AAAAAAAA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+<!--*******************************************************************************************-->
+</bti:core>
