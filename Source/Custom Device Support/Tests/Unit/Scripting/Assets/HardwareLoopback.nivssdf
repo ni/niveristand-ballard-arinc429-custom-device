@@ -259,7 +259,7 @@
 								<Section Name="CH0" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="31522798-f82c-4157-93fd-e81189dfc5b0">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Channel #">
+										<Property Name="user.CD.Port">
 											<U16>0</U16>
 										</Property>
 									</Properties>
@@ -380,7 +380,7 @@
 								<Section Name="CH2" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="1c283a7e-80db-4d23-87be-caf825eebb43">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Channel #">
+										<Property Name="user.CD.Port">
 											<U16>2</U16>
 										</Property>
 									</Properties>
@@ -501,7 +501,7 @@
 								<Section Name="CH4" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="c5923a5a-c086-4ef1-a6c4-7737401f0349">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Channel #">
+										<Property Name="user.CD.Port">
 											<U16>4</U16>
 										</Property>
 									</Properties>
@@ -693,7 +693,7 @@
 								<Section Name="CH17" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="33d8ecf9-a504-4916-a21b-0edc7e7281a5">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Channel #">
+										<Property Name="user.CD.Port">
 											<U16>17</U16>
 										</Property>
 									</Properties>
@@ -785,7 +785,7 @@ NOTE: actual  SDI content may differ based on Label Settings.</Description>
 								<Section Name="CH19" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="648a0f10-ce8f-4daa-9406-cdf4b845747d">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Channel #">
+										<Property Name="user.CD.Port">
 											<U16>19</U16>
 										</Property>
 									</Properties>
@@ -877,7 +877,7 @@ NOTE: actual  SDI content may differ based on Label Settings.</Description>
 								<Section Name="CH21" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="a87094bb-88d3-4401-a0a8-7296b896d75e">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Channel #">
+										<Property Name="user.CD.Port">
 											<U16>21</U16>
 										</Property>
 									</Properties>
