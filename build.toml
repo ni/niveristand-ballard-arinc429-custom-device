@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Source\Built'
-archive_location = '\\nirvana\Measurements\VeriStandAddons\communication_bus_template'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\ballard_arinc_429'
 
 [projects.support]
 path = 'Source\Custom Device Support\Communication Bus Template Support.lvproj'
