@@ -12,12 +12,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Shared" Type="Folder">
+			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Rx Timestamp Data Channel Reference.vi" Type="VI" URL="../Shared/Get Rx Timestamp Data Channel Reference.vi"/>
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
+			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
@@ -715,12 +717,14 @@
 			</Item>
 			<Item Name="Communication Bus Template Scripting.lvlib" Type="Library" URL="../Scripting/Communication Bus Template Scripting.lvlib"/>
 			<Item Name="Communication Bus Template System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Communication Bus Template System Explorer.lvlib"/>
+			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../Encoding and Decoding/Encoding and Decoding.lvlib"/>
 			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Rx Timestamp Data Channel Reference.vi" Type="VI" URL="../Shared/Get Rx Timestamp Data Channel Reference.vi"/>
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
+			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
 			<Item Name="Label.ctl" Type="VI" URL="../Shared/Label.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
