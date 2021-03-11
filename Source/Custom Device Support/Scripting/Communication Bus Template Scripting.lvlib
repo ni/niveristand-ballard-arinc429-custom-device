@@ -23,6 +23,10 @@
 		<Item Name="Add Databases Section.vi" Type="VI" URL="../Database/Add Databases Section.vi"/>
 		<Item Name="Get Database List of Names and Paths.vi" Type="VI" URL="../Database/Get Database List of Names and Paths.vi"/>
 	</Item>
+	<Item Name="Device" Type="Folder">
+		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
+		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
+	</Item>
 	<Item Name="Frame" Type="Folder">
 		<Item Name="Add Frame.vi" Type="VI" URL="../Frame/Add Frame.vi"/>
 		<Item Name="Get Default Word.vi" Type="VI" URL="../Frame/Get Default Word.vi"/>
