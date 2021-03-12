@@ -24,6 +24,7 @@
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Close Hardware Session.vi" Type="VI" URL="../Close Hardware Session.vi"/>
 			<Item Name="Finalize Inline Execution Units.vi" Type="VI" URL="../Finalize Inline Execution Units.vi"/>
 		</Item>
 	</Item>
