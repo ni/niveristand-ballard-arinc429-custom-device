@@ -8,7 +8,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
+			<Item Name="Initialize Rx HW Channels for RT.vi" Type="VI" URL="../Initialize Rx HW Channels for RT.vi"/>
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Start Inline Execution Units.vi" Type="VI" URL="../Start Inline Execution Units.vi"/>
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
@@ -22,6 +24,7 @@
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Close Hardware Session.vi" Type="VI" URL="../Close Hardware Session.vi"/>
 			<Item Name="Finalize Inline Execution Units.vi" Type="VI" URL="../Finalize Inline Execution Units.vi"/>
 		</Item>
 	</Item>
@@ -29,6 +32,9 @@
 		<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Compiled Information.ctl"/>
 		<Item Name="Asynchronous Execution Unit Runtime Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Runtime Information.ctl"/>
 		<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
+		<Item Name="Device Information.ctl" Type="VI" URL="../Device Information.ctl"/>
+		<Item Name="Hardware Direction and Channels.ctl" Type="VI" URL="../Hardware Direction and Channels.ctl"/>
+		<Item Name="Hardware Handles.ctl" Type="VI" URL="../Hardware Handles.ctl"/>
 		<Item Name="Inline Execution Unit Compiled Information.ctl" Type="VI" URL="../Inline Execution Unit Compiled Information.ctl"/>
 		<Item Name="Inline Execution Unit Runtime Information.ctl" Type="VI" URL="../Inline Execution Unit Runtime Information.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
