@@ -13,7 +13,7 @@
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -22,33 +22,33 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\PharLap\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\PharLap\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_32_ARM</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\Linux_32_ARM\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\Linux_32_ARM\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\Linux_x64\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Communication Bus Template Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
@@ -75,7 +75,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -88,7 +88,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Export Configuration RTM.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Export Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -101,7 +101,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Import Configuration RTM.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Import Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -159,7 +159,7 @@
 			</ButtonList>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\ActionVIOnCompile.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
 		</Page>
 		<Page>
@@ -174,7 +174,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -186,11 +186,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -207,7 +207,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -219,11 +219,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -241,7 +241,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -253,11 +253,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -275,7 +275,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -287,11 +287,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -308,7 +308,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -320,11 +320,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -341,7 +341,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -353,11 +353,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -374,7 +374,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -386,11 +386,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -407,7 +407,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -419,11 +419,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -440,7 +440,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -452,11 +452,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -473,7 +473,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -485,11 +485,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Communication Bus Template Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>

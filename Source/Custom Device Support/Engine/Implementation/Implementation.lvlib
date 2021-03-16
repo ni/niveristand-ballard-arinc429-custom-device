@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Communication Bus Template Engine.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Communication Bus Template Engine.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Ballard ARINC 429 Engine.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Ballard ARINC 429 Engine.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)0!!!*Q(C=\&gt;4.=2J"')4BNEM(8]H!21J^VIU53/&amp;,A;O0J.!JE!)J@#G1!CGMXRW.E1]K\=7K5LEUQST1/T]0M]N+I`S1HL2MF?&gt;XS_0]]LS](.&gt;E?@0]S_N0VT@',__0@RSXT\`'G`[.IK`S6@\P]GPT4`$B`Y.P7B^%N+;&amp;6D2L88:J]C:P]C:P]C90?=B$(P+1B\T)C\T)C\T)C^TE*D?ZS5VO]F(*23ZSE5.K&amp;G]7;C:N*GA[1V&amp;T;$S.J`%U(L[K]43?RN.Y'A^&gt;V(A;4_.J0)W(97I]D;@R.*\'QV2$UK/3YWE]4+`A#:\A#:\A95E&amp;4Q#%R=,%92)9#C@$B_!*HO$BIY)H?))H?)+(UQK?Y!G?Y!E?BIR&gt;S&gt;#MF2Q0U[DQ&amp;*\#5XA+$V/L]"3?QF.Y#A`,K@!5HA*2,&amp;B-$E(&amp;I+*$];8Q&amp;"\?6(A+4_%J0)7(5_-+V&gt;C:6&lt;.7=DT'9TT'9TT'QR1S(O-R(O-R(K;6]2C0]2C0]&lt;#5D-&gt;YD-&gt;!T+)M,T/:'7A[G="Y?)W\R?-K:5A]KD2P8MW&lt;5P.GU\S*.']/T9OO?4%V,Z,GZGNOKO:G;7[#ZI`42'NC."@2(,RWV*XDD8;F87BHWIFWJ"VI?^JO(@K0/^\P&gt;^VO.VWP6VUO&amp;ZX0:ZV/*RW02RU/"_XX?_VWO]&gt;DY#@V]5$Y$-_F4W(YLL`89)^_![DF;[!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
