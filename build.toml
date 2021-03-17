@@ -3,10 +3,10 @@ build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\ballard_arinc_429'
 
 [projects.support]
-path = 'Source\Custom Device Support\Communication Bus Template Support.lvproj'
+path = 'Source\Custom Device Support\Ballard ARINC 429 Support.lvproj'
 
 [projects.cd]
-path = 'Source\Custom Device\Communication Bus Template Custom Device.lvproj'
+path = 'Source\Custom Device\Ballard ARINC 429 Custom Device.lvproj'
 
 [[build.steps]]
 name = 'Scripting API'
