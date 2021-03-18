@@ -15,6 +15,7 @@
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
+			<Item Name="Encode Parameter and Update Word (32-bit).vi" Type="VI" URL="../Shared/Encode Parameter and Update Word (32-bit).vi"/>
 			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Rx Timestamp Data Channel Reference.vi" Type="VI" URL="../Shared/Get Rx Timestamp Data Channel Reference.vi"/>
