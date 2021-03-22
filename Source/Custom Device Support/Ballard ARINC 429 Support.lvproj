@@ -12,9 +12,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Shared" Type="Folder">
+			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
+			<Item Name="Encode Parameter and Update Word (32-bit).vi" Type="VI" URL="../Shared/Encode Parameter and Update Word (32-bit).vi"/>
+			<Item Name="Get Changed Indices in Array.vim" Type="VI" URL="../Shared/Get Changed Indices in Array.vim"/>
 			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Rx Timestamp Data Channel Reference.vi" Type="VI" URL="../Shared/Get Rx Timestamp Data Channel Reference.vi"/>
@@ -43,6 +46,10 @@
 						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/Unit/Scripting/Assets/Physical_Loopback_param.xml"/>
 					</Item>
 					<Item Name="Scripting.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Scripting.lvclass"/>
+				</Item>
+				<Item Name="Shared" Type="Folder">
+					<Item Name="Encoding and Decoding.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Encoding and Decoding/Encoding and Decoding/Encoding and Decoding.lvclass"/>
+					<Item Name="Shared VIs.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Shared VIs/Shared VIs.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
@@ -456,6 +463,8 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="32-bit Word.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC429-32bit/32-bit Word.lvclass"/>
+			<Item Name="ARINC 429.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC 429.lvclass"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -485,6 +494,7 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protocol.lvclass" Type="LVClass" URL="../../Protocol/Interfaces/Protocol.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
