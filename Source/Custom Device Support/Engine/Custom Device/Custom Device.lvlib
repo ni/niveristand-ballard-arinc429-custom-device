@@ -22,8 +22,8 @@
 			<Item Name="Compute RT Index from Label and SDI.vi" Type="VI" URL="../Compute RT Index from Label and SDI.vi"/>
 			<Item Name="Get RT Label Settings for Message.vi" Type="VI" URL="../Get RT Label Settings for Message.vi"/>
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
-			<Item Name="Parse BTI ARINC 429 Record.vi" Type="VI" URL="../Parse BTI ARINC 429 Record.vi"/>
-			<Item Name="Parse BTI MSGACT.vi" Type="VI" URL="../Parse BTI MSGACT.vi"/>
+			<Item Name="Parse MSGACT.vi" Type="VI" URL="../Parse MSGACT.vi"/>
+			<Item Name="Parse Record.vi" Type="VI" URL="../Parse Record.vi"/>
 			<Item Name="Process Records.vi" Type="VI" URL="../Process Records.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
 			<Item Name="Start Sequential Monitor if Not Started.vi" Type="VI" URL="../Start Sequential Monitor if Not Started.vi"/>
