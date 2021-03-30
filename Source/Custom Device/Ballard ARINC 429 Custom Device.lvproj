@@ -91,6 +91,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Assert Unsigned Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Unsigned Integer Type.vim"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays__ogtk__jki_vi_tester.vi"/>
@@ -435,22 +436,23 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../../Custom Device Support/Scripting/Ballard ARINC 429 Scripting.lvlib"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Device Parameters.ctl" Type="VI" URL="../../Custom Device Support/Shared/Device Parameters.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Implementation/Execution Unit Factory/Execution Unit Factory.lvclass"/>
-			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Interfaces/Execution Unit Factory/Execution Unit Factory.lvclass"/>
-			<Item Name="Execution Unit Information.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Interfaces/Controls/Execution Unit Information.ctl"/>
-			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
+			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../Encoding and Decoding/Encoding and Decoding.lvlib"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/RTM/Export Configuration RTM.vi"/>
 			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/RTM/Import Configuration RTM.vi"/>
+			<Item Name="Initialization Method.ctl" Type="VI" URL="../../Custom Device Support/Shared/Initialization Method.ctl"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/Initialize.vi"/>
+			<Item Name="Label Properties.ctl" Type="VI" URL="../../Custom Device Support/Shared/Label Properties.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -469,13 +471,10 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeriStand_DataServices.dll"/>
+			<Item Name="Parameter Definition.ctl" Type="VI" URL="../../Custom Device Support/Shared/Parameter Definition.ctl"/>
 			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
 			<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 			<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Interfaces/System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -822,7 +821,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3C75360-6443-4331-92D8-60C4EC795698}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E01D1FEA-CC17-4227-A8B3-32CB015D7A74}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - PharLap/Ballard ARINC 429 Engine.lvlib/RT Driver VI.vi</Property>
