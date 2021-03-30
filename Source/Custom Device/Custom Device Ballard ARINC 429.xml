@@ -71,7 +71,7 @@
 			<GUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+				<Path>System Explorer\Glyphs\ArincGrey.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -164,13 +164,13 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Databases</eng>
-				<loc>Databases</loc>
+				<eng>Configuration Files</eng>
+				<loc>Configuration Files</loc>
 			</Name>
 			<GUID>5F9EF1FD-304F-4EA9-BDF8-DC215A306754</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\databases.png</Path>
+				<Path>System Explorer\Glyphs\file.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -230,8 +230,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Port %d</eng>
-				<loc>Port %d</loc>
+				<eng>CH %d</eng>
+				<loc>CH %d</loc>
 			</Name>
 			<Copy>Copy</Copy>
 			<GUID>4344CD5A-2266-4D64-A775-8F5615E9A1AD</GUID>
@@ -364,8 +364,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Frame</eng>
-				<loc>Frame</loc>
+				<eng>Label</eng>
+				<loc>Label</loc>
 			</Name>
 			<GUID>8CE6E51F-BC83-4569-865F-9C808FB30A26</GUID>
 			<Glyph>
@@ -397,10 +397,142 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Channel</eng>
-				<loc>Channel</loc>
+				<eng>Parameter</eng>
+				<loc>Parameter</loc>
 			</Name>
 			<GUID>7862A4D1-00AD-42C2-8A9F-4C525861A8AC</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SinglePoint.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+      <Page>
+			<Name>
+				<eng>Channel Specification</eng>
+				<loc>Channel Specification</loc>
+			</Name>
+			<GUID>0ceacc7e-2a0c-4161-94e4-a05224c7d47b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+      <Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<GUID>d3f909f4-31dd-4b46-b0c0-188c355fd2ae</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+      <Page>
+			<Name>
+				<eng>Receive Time</eng>
+				<loc>Receive Time</loc>
+			</Name>
+			<GUID>3b6787ca-0ab3-48b7-849a-2ad8b01a43ed</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+      <Page>
+			<Name>
+				<eng>Word</eng>
+				<loc>Word</loc>
+			</Name>
+			<GUID>f906cc29-2aac-40b2-844c-3debd55d7c10</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
@@ -428,7 +560,7 @@
 				</MenuItem>
 			</RunTimeMenu>
 		</Page>
-		<Page>
+      <Page>
 			<Name>
 				<eng>Vendor</eng>
 				<loc>Vendor</loc>

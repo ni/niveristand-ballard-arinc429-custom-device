@@ -10,17 +10,21 @@
 		<Item Name="Initialize.vi" Type="VI" URL="../System Explorer/Initialize.vi"/>
 	</Item>
 	<Item Name="Pages" Type="Folder">
-		<Item Name="Channel.vi" Type="VI" URL="../System Explorer/Pages/Channel.vi"/>
+		<Item Name="Channel Specification.vi" Type="VI" URL="../System Explorer/Pages/Channel Specification.vi"/>
+		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
 		<Item Name="Database.vi" Type="VI" URL="../System Explorer/Pages/Database.vi"/>
 		<Item Name="Databases.vi" Type="VI" URL="../System Explorer/Pages/Databases.vi"/>
-		<Item Name="Frame.vi" Type="VI" URL="../System Explorer/Pages/Frame.vi"/>
+		<Item Name="Hardware Channel.vi" Type="VI" URL="../System Explorer/Pages/Hardware Channel.vi"/>
 		<Item Name="Incoming.vi" Type="VI" URL="../System Explorer/Pages/Incoming.vi"/>
+		<Item Name="Label.vi" Type="VI" URL="../System Explorer/Pages/Label.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
 		<Item Name="Outgoing.vi" Type="VI" URL="../System Explorer/Pages/Outgoing.vi"/>
-		<Item Name="Port.vi" Type="VI" URL="../System Explorer/Pages/Port.vi"/>
+		<Item Name="Parameter.vi" Type="VI" URL="../System Explorer/Pages/Parameter.vi"/>
 		<Item Name="Ports.vi" Type="VI" URL="../System Explorer/Pages/Ports.vi"/>
 		<Item Name="Protocol.vi" Type="VI" URL="../System Explorer/Pages/Protocol.vi"/>
+		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
+		<Item Name="Word.vi" Type="VI" URL="../System Explorer/Pages/Word.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="Add Database RTM.vi" Type="VI" URL="../System Explorer/RTM/Add Database RTM.vi"/>
@@ -41,5 +45,6 @@
 		<Item Name="Database.ctl" Type="VI" URL="../System Explorer/Types/Database.ctl"/>
 		<Item Name="Path Control.ctl" Type="VI" URL="../System Explorer/Types/Path Control.ctl"/>
 	</Item>
+	<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 	<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 </Library>
