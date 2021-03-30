@@ -10,7 +10,7 @@
 				<String>HardwareLoopback</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.2</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Windows</String>
+						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String>10.2.109.16</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -98,6 +98,12 @@
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
 						<U16>0</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Username">
+						<String>Admin</String>
 					</Property>
 				</Properties>
 				<Errors />
@@ -208,13 +214,13 @@
 								<U16>0</U16>
 							</Property>
 							<Property Name="user.CD.PXI Slot Number">
-								<I32>2</I32>
+								<I32>4</I32>
 							</Property>
 							<Property Name="user.CD.card number">
 								<I32>0</I32>
 							</Property>
 							<Property Name="user.CD.core number">
-								<I32>0</I32>
+								<I32>1</I32>
 							</Property>
 							<Property Name="user.CD.Initialization Method_card number_core number_LastTimeDuplicateReported">
 								<Double>3695839742.2905927</Double>
@@ -261,6 +267,12 @@
 									<Properties>
 										<Property Name="user.CD.Port">
 											<U16>0</U16>
+										</Property>
+										<Property Name="user.CD.Database.Name">
+											<BinaryString />
+										</Property>
+										<Property Name="user.CD.Database.Path">
+											<String />
 										</Property>
 									</Properties>
 									<Errors />
