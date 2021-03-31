@@ -21,8 +21,8 @@
 	<Item Name="Frame" Type="Folder">
 		<Item Name="Add Label.vi" Type="VI" URL="../Frame/Add Label.vi"/>
 		<Item Name="Get Default Word.vi" Type="VI" URL="../Frame/Get Default Word.vi"/>
-		<Item Name="Get Frame Hardware Channel Reference.vi" Type="VI" URL="../Frame/Get Frame Hardware Channel Reference.vi"/>
 		<Item Name="Get Frame Id.vi" Type="VI" URL="../Frame/Get Frame Id.vi"/>
+		<Item Name="Get Frame Port Reference.vi" Type="VI" URL="../Frame/Get Frame Port Reference.vi"/>
 		<Item Name="Get Label Properties.vi" Type="VI" URL="../Frame/Get Label Properties.vi"/>
 		<Item Name="Get Labels on Hardware Channel.vi" Type="VI" URL="../Frame/Get Labels on Hardware Channel.vi"/>
 		<Item Name="Get Parameters in Frame.vi" Type="VI" URL="../Frame/Get Parameters in Frame.vi"/>
@@ -31,7 +31,7 @@
 	</Item>
 	<Item Name="Parameter" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
-		<Item Name="Get Channel Settings.vi" Type="VI" URL="../Channel/Get Channel Settings.vi"/>
+		<Item Name="Get Channel Specification Page Settings.vi" Type="VI" URL="../Channel/Get Channel Specification Page Settings.vi"/>
 		<Item Name="Get Parameter Bit Encoding.vi" Type="VI" URL="../Channel/Get Parameter Bit Encoding.vi"/>
 		<Item Name="Get Parameter Default Value.vi" Type="VI" URL="../Channel/Get Parameter Default Value.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Channel/Get Parameter Definition.vi"/>
@@ -45,8 +45,8 @@
 		<Item Name="Add Port Outgoing Section.vi" Type="VI" URL="../Port/Add Port Outgoing Section.vi"/>
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
 		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
-		<Item Name="Get All Incoming Hardware Channels.vi" Type="VI" URL="../Port/Get All Incoming Hardware Channels.vi"/>
-		<Item Name="Get All Outgoing Hardware Channels.vi" Type="VI" URL="../Port/Get All Outgoing Hardware Channels.vi"/>
+		<Item Name="Get All Incoming Ports.vi" Type="VI" URL="../Port/Get All Incoming Ports.vi"/>
+		<Item Name="Get All Outgoing Ports.vi" Type="VI" URL="../Port/Get All Outgoing Ports.vi"/>
 		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../Channel/Get Parameter Unit.vi"/>
 		<Item Name="Get Port Baud Rate.vi" Type="VI" URL="../Port/Get Port Baud Rate.vi"/>
 		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
