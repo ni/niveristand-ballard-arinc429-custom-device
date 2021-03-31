@@ -8,6 +8,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Create Map from Identifiers to Indexes.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
 			<Item Name="Initialize Rx HW Channels for RT.vi" Type="VI" URL="../Initialize Rx HW Channels for RT.vi"/>
@@ -45,6 +46,5 @@
 		<Item Name="Inline Execution Unit Runtime Information.ctl" Type="VI" URL="../Inline Execution Unit Runtime Information.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
-	<Item Name="Create Map from Port-Label-SDI to Channel Index.vi" Type="VI" URL="../Create Map from Port-Label-SDI to Channel Index.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
