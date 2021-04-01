@@ -9,6 +9,7 @@
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
 			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Create Map from Identifiers to Indexes.vi"/>
+			<Item Name="Create Map from Values Indexes to Channel and Label Indexes.vi" Type="VI" URL="../Create Map from Values Indexes to Channel and Label Indexes.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
 			<Item Name="Initialize Rx HW Channels for RT.vi" Type="VI" URL="../Initialize Rx HW Channels for RT.vi"/>

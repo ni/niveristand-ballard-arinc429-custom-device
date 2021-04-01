@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Shared" Type="Folder">
+			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
@@ -28,6 +29,8 @@
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
 			<Item Name="Label.ctl" Type="VI" URL="../Shared/Label.ctl"/>
+			<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../Shared/Map of Identifiers to Indexes.ctl"/>
+			<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="RT Hardware Channel Settings.ctl" Type="VI" URL="../Shared/RT Hardware Channel Settings.ctl"/>
 			<Item Name="RT Label Settings.ctl" Type="VI" URL="../Shared/RT Label Settings.ctl"/>
@@ -477,7 +480,6 @@
 			</Item>
 			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../Encoding and Decoding/Encoding and Decoding.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../Shared/Map of Identifiers to Indexes.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -754,6 +756,7 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
@@ -769,6 +772,7 @@
 			<Item Name="Label.ctl" Type="VI" URL="../Shared/Label.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../Shared/Map of Identifiers to Indexes.ctl"/>
+			<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -949,6 +953,7 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
@@ -964,6 +969,7 @@
 			<Item Name="Label.ctl" Type="VI" URL="../Shared/Label.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../Shared/Map of Identifiers to Indexes.ctl"/>
+			<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
