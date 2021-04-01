@@ -18,6 +18,7 @@
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
 			<Item Name="Unflatten Compiled Data.vi" Type="VI" URL="../Unflatten Compiled Data.vi"/>
 			<Item Name="Unflatten Inline Execution Units.vi" Type="VI" URL="../Unflatten Inline Execution Units.vi"/>
+			<Item Name="Write Hardware Handles to Execution Units.vi" Type="VI" URL="../Write Hardware Handles to Execution Units.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Communication Bus Template.Async.vi" Type="VI" URL="../Communication Bus Template.Async.vi"/>
