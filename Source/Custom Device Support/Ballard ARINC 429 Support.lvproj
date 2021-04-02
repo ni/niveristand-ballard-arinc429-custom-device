@@ -471,7 +471,6 @@
 			</Item>
 			<Item Name="32-bit Word.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC429-32bit/32-bit Word.lvclass"/>
 			<Item Name="ARINC 429.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC 429.lvclass"/>
-			<Item Name="Ballard ARINC 429 Shared.lvlib" Type="Library" URL="../../Custom Device/Shared/Ballard ARINC 429 Shared.lvlib"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -750,7 +749,6 @@
 			</Item>
 			<Item Name="ARINC 429.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC 429.lvclass"/>
 			<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard ARINC 429 Scripting.lvlib"/>
-			<Item Name="Ballard ARINC 429 Shared.lvlib" Type="Library" URL="../../Custom Device/Shared/Ballard ARINC 429 Shared.lvlib"/>
 			<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -840,8 +838,8 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="NI-PXIe8133-2F134C5C" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">NI-PXIe8133-2F134C5C</Property>
+	<Item Name="RT PXI Target - PharLap" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">RT PXI Target - PharLap</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -946,7 +944,6 @@
 			</Item>
 			<Item Name="ARINC 429.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC 429.lvclass"/>
 			<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard ARINC 429 Scripting.lvlib"/>
-			<Item Name="Ballard ARINC 429 Shared.lvlib" Type="Library" URL="../../Custom Device/Shared/Ballard ARINC 429 Shared.lvlib"/>
 			<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -995,7 +992,6 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B8A73ACB-0124-4CE7-B099-62E1708AE98F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1006,7 +1002,6 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD17B19E-524C-4890-8513-5FB4D7F15B1E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ballard ARINC 429 Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Ballard ARINC 429 Engine.lvlibp</Property>
@@ -1017,10 +1012,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C199F36-AE7A-4F64-A789-3D28C7B225E0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7A73FD22-357C-454A-9C1F-D03B4755F636}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/NI-PXIe8133-2F134C5C/Ballard ARINC 429 Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - PharLap/Ballard ARINC 429 Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -1029,6 +1024,7 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 National Instruments</Property>
