@@ -42,6 +42,9 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Unit" Type="Folder">
+				<Item Name="Execution" Type="Folder">
+					<Item Name="Engine.lvclass" Type="LVClass" URL="../Tests/Unit/Execution/Engine/Engine.lvclass"/>
+				</Item>
 				<Item Name="Scripting" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="HardwareLoopback.nivssdf" Type="Document" URL="../Tests/Unit/Scripting/Assets/HardwareLoopback.nivssdf"/>
@@ -503,7 +506,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
-			<Item Name="Write Hardware Handles to Execution Units.vi" Type="VI" URL="../Engine/Custom Device/Write Hardware Handles to Execution Units.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -794,7 +796,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Transfer Type.ctl" Type="VI" URL="../Shared/Transfer Type.ctl"/>
-			<Item Name="Write Hardware Handles to Execution Units.vi" Type="VI" URL="../Engine/Custom Device/Write Hardware Handles to Execution Units.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
@@ -991,7 +992,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Transfer Type.ctl" Type="VI" URL="../Shared/Transfer Type.ctl"/>
-			<Item Name="Write Hardware Handles to Execution Units.vi" Type="VI" URL="../Engine/Custom Device/Write Hardware Handles to Execution Units.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
@@ -1006,7 +1006,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD17B19E-524C-4890-8513-5FB4D7F15B1E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ballard ARINC 429 Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Ballard ARINC 429 Engine.lvlibp</Property>
