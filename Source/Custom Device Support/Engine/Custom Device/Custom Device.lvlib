@@ -8,6 +8,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Create Map from Identifiers to Indexes.vi"/>
+			<Item Name="Create Map from Values Indexes to Channel and Label Indexes.vi" Type="VI" URL="../Create Map from Values Indexes to Channel and Label Indexes.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
 			<Item Name="Initialize Rx HW Channels for RT.vi" Type="VI" URL="../Initialize Rx HW Channels for RT.vi"/>
@@ -16,14 +18,15 @@
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
 			<Item Name="Unflatten Compiled Data.vi" Type="VI" URL="../Unflatten Compiled Data.vi"/>
 			<Item Name="Unflatten Inline Execution Units.vi" Type="VI" URL="../Unflatten Inline Execution Units.vi"/>
+			<Item Name="Write Hardware Handles to Execution Units.vi" Type="VI" URL="../Write Hardware Handles to Execution Units.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Communication Bus Template.Async.vi" Type="VI" URL="../Communication Bus Template.Async.vi"/>
 			<Item Name="Compute RT Index from Label and SDI.vi" Type="VI" URL="../Compute RT Index from Label and SDI.vi"/>
 			<Item Name="Get RT Label Settings for Message.vi" Type="VI" URL="../Get RT Label Settings for Message.vi"/>
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
-			<Item Name="Parse MSGACT.vi" Type="VI" URL="../Parse MSGACT.vi"/>
-			<Item Name="Parse Record.vi" Type="VI" URL="../Parse Record.vi"/>
+			<Item Name="Parse BTI ARINC 429 Record.vi" Type="VI" URL="../Parse BTI ARINC 429 Record.vi"/>
+			<Item Name="Parse BTI MSGACT.vi" Type="VI" URL="../Parse BTI MSGACT.vi"/>
 			<Item Name="Process Records.vi" Type="VI" URL="../Process Records.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
 			<Item Name="Start Sequential Monitor if Not Started.vi" Type="VI" URL="../Start Sequential Monitor if Not Started.vi"/>

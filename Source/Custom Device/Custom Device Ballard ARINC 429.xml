@@ -61,6 +61,14 @@
 			</Source>
 			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
+		<Dependency>
+			<SupportedTarget>Pharlap</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
+		</Dependency>
 	</Dependencies>
 	<Pages>
 		<Page>
