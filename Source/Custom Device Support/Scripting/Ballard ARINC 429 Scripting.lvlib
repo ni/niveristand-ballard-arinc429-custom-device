@@ -18,24 +18,24 @@
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
 		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
 	</Item>
-	<Item Name="Frame" Type="Folder">
+	<Item Name="Label" Type="Folder">
 		<Item Name="Add Label.vi" Type="VI" URL="../Frame/Add Label.vi"/>
 		<Item Name="Get Default Word.vi" Type="VI" URL="../Frame/Get Default Word.vi"/>
-		<Item Name="Get Frame Id.vi" Type="VI" URL="../Frame/Get Frame Id.vi"/>
 		<Item Name="Get Frame Port Reference.vi" Type="VI" URL="../Frame/Get Frame Port Reference.vi"/>
 		<Item Name="Get Label Properties.vi" Type="VI" URL="../Frame/Get Label Properties.vi"/>
 		<Item Name="Get Labels on Port.vi" Type="VI" URL="../Frame/Get Labels on Port.vi"/>
-		<Item Name="Get Parameters in Frame.vi" Type="VI" URL="../Frame/Get Parameters in Frame.vi"/>
+		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Frame/Get Parameters in Label.vi"/>
 		<Item Name="Set Default Word.vi" Type="VI" URL="../Frame/Set Default Word.vi"/>
 		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
 	</Item>
 	<Item Name="Parameter" Type="Folder">
-		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
+		<Item Name="Add Parameter.vi" Type="VI" URL="../Channel/Add Parameter.vi"/>
 		<Item Name="Get Channel Specification Page Settings.vi" Type="VI" URL="../Channel/Get Channel Specification Page Settings.vi"/>
 		<Item Name="Get Parameter Bit Encoding.vi" Type="VI" URL="../Channel/Get Parameter Bit Encoding.vi"/>
 		<Item Name="Get Parameter Default Value.vi" Type="VI" URL="../Channel/Get Parameter Default Value.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Channel/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameter Scaling.vi" Type="VI" URL="../Channel/Get Parameter Scaling.vi"/>
+		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../Channel/Get Parameter Unit.vi"/>
 		<Item Name="Set Parameter Bit Encoding.vi" Type="VI" URL="../Channel/Set Parameter Bit Encoding.vi"/>
 		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Channel/Set Parameter Definition.vi"/>
 		<Item Name="Set Parameter Scaling.vi" Type="VI" URL="../Channel/Set Parameter Scaling.vi"/>
@@ -47,12 +47,8 @@
 		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
 		<Item Name="Get All Incoming Ports.vi" Type="VI" URL="../Port/Get All Incoming Ports.vi"/>
 		<Item Name="Get All Outgoing Ports.vi" Type="VI" URL="../Port/Get All Outgoing Ports.vi"/>
-		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../Channel/Get Parameter Unit.vi"/>
-		<Item Name="Get Port Baud Rate.vi" Type="VI" URL="../Port/Get Port Baud Rate.vi"/>
 		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
-		<Item Name="Set Port Baud Rate.vi" Type="VI" URL="../Port/Set Port Baud Rate.vi"/>
-		<Item Name="Set Port Database.vi" Type="VI" URL="../Port/Set Port Database.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
