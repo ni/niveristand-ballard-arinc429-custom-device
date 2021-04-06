@@ -51,7 +51,7 @@
 		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
 	</Item>
-	<Item Name="Constants.vi" Type="VI" URL="../../../../../../Users/Public/Documents/National Instruments/NI VeriStand 2020/Custom Devices/Ballard/ARINC 429/Windows/Ballard ARINC 429 Configuration.llb/Constants.vi"/>
+	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 	<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
 </Library>
