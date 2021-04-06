@@ -25,6 +25,7 @@
 		<Item Name="Get Label Properties.vi" Type="VI" URL="../Frame/Get Label Properties.vi"/>
 		<Item Name="Get Labels on Port.vi" Type="VI" URL="../Frame/Get Labels on Port.vi"/>
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Frame/Get Parameters in Label.vi"/>
+		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Frame/Get Timestamp Reference.vi"/>
 		<Item Name="Set Default Word.vi" Type="VI" URL="../Frame/Set Default Word.vi"/>
 		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
 	</Item>
