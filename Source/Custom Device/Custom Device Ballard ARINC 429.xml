@@ -157,6 +157,10 @@
 					</Documentation>
 				</Button>
 			</ButtonList>
+         <ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\ActionVIOnCompile.vi</Path>
