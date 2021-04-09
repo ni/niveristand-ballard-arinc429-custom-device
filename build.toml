@@ -59,14 +59,18 @@ build_spec = 'Engine Release'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Built'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Ballard\ARINC 429'
 control_file = 'control_custom_device'
 package_output_dir = 'Source\Built'
 
+[package.payload_map]
+'Source\\Built\\Ballard' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Ballard'
+'Source\\Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\Scripting'
-install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Ballard\ARINC 429'
 control_file = 'control_scripting'
 package_output_dir = 'Source\Built'
+
+[package.payload_map]
+'Source\\Built\\Scripting' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Ballard\ARINC 429'
+'Source\\Built\\Errors' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
