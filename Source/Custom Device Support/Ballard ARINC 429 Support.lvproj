@@ -40,6 +40,9 @@
 			<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="../Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
 			<Item Name="VS Channels Definition for Label.ctl" Type="VI" URL="../Shared/VS Channels Definition for Label.ctl"/>
 		</Item>
+		<Item Name="Support Files" Type="Folder">
+			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
@@ -67,6 +70,7 @@
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
 		<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard ARINC 429 Scripting.lvlib"/>
 		<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
+		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
@@ -171,7 +175,6 @@
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
@@ -309,6 +312,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/data/NIVeristand_DataServices.dll"/>
@@ -563,9 +567,11 @@
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Support/Windows</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].destName" Type="Str">Errors</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{03F91427-B29F-4893-9305-5BB95AFCDF06}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2F5F9114-60CE-4C34-A47A-BDA65EDA8F7B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Engine.lvlib</Property>
@@ -583,7 +589,10 @@
 				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/ballardARINC429-errors.txt</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>

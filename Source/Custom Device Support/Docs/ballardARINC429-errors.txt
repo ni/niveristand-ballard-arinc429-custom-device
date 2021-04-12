@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-ballard-arinc429-custom-device/
+</nicomment>
+<nierror code="-732250">
+The hardware configuration file path must not be empty.
+</nierror>
+<nierror code="-732251">
+The parameters configuration file path must not be empty.
+</nierror>
+</nidocument>

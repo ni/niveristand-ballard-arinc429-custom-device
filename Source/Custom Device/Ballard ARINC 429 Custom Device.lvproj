@@ -473,6 +473,8 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeriStand_DataServices.dll"/>
+			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../../Custom Device Support/Shared/Parameter Definition.ctl"/>
 			<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 			<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Interfaces/System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
