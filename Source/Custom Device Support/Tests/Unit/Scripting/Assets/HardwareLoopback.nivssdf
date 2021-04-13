@@ -230,7 +230,7 @@
 								<Property Name="user.CD.Win File Path">
 									<String>Physical_Loopback_hw.xml</String>
 								</Property>
-								<Property Name="Dependency_1">
+								<Property Name="user.CD.Hardware Configuration File">
 									<DependentFile Type="Relative" Path="Physical_Loopback_hw.xml">
 										<Version>1.0</Version>
 										<ForceDownload>false</ForceDownload>
