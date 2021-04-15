@@ -11,7 +11,8 @@
 </Property>
 	<Item Name="Ballard ARINC-429 Execution Unit.lvclass" Type="LVClass" URL="../Ballard ARINC-429 Execution Unit/Ballard ARINC-429 Execution Unit.lvclass"/>
 	<Item Name="Ballard ARINC-429 Rx Execution Unit.lvclass" Type="LVClass" URL="../Ballard ARINC-429 Rx Execution Unit/Ballard ARINC-429 Rx Execution Unit.lvclass"/>
+	<Item Name="Ballard ARINC-429 Shared Resources.lvclass" Type="LVClass" URL="../Ballard ARINC-429 Shared Resources/Ballard ARINC-429 Shared Resources.lvclass"/>
 	<Item Name="Ballard ARINC-429 Tx Execution Unit.lvclass" Type="LVClass" URL="../Ballard ARINC-429 Tx Execution Unit/Ballard ARINC-429 Tx Execution Unit.lvclass"/>
 	<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../Execution Unit Factory/Execution Unit Factory.lvclass"/>
-	<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../Execution Unit/Execution Unit.lvclass"/>
+	<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../Shared Resources Factory/Shared Resources Factory.lvclass"/>
 </Library>
