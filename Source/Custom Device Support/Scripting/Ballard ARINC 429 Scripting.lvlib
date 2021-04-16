@@ -55,6 +55,10 @@
 		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
 	</Item>
+	<Item Name="Status" Type="Folder">
+		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
+		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
+	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 	<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
