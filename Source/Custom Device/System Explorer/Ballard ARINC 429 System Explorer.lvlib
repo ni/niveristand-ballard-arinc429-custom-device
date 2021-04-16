@@ -25,4 +25,5 @@
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
+	<Item Name="Compile Shared Resources.vi" Type="VI" URL="../Compile Shared Resources.vi"/>
 </Library>

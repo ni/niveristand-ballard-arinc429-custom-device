@@ -13,12 +13,13 @@
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
 			<Item Name="Initialize Rx HW Channels for RT.vi" Type="VI" URL="../Initialize Rx HW Channels for RT.vi"/>
+			<Item Name="Initialize Shared Resources.vi" Type="VI" URL="../Initialize Shared Resources.vi"/>
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Start Inline Execution Units.vi" Type="VI" URL="../Start Inline Execution Units.vi"/>
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
 			<Item Name="Unflatten Compiled Data.vi" Type="VI" URL="../Unflatten Compiled Data.vi"/>
 			<Item Name="Unflatten Inline Execution Units.vi" Type="VI" URL="../Unflatten Inline Execution Units.vi"/>
-			<Item Name="Write Hardware Handles to Execution Units.vi" Type="VI" URL="../Write Hardware Handles to Execution Units.vi"/>
+			<Item Name="Unflatten Shared Resources.vi" Type="VI" URL="../Unflatten Shared Resources.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Communication Bus Template.Async.vi" Type="VI" URL="../Communication Bus Template.Async.vi"/>
@@ -35,6 +36,7 @@
 		<Item Name="Shut Down" Type="Folder">
 			<Item Name="Close Hardware Session.vi" Type="VI" URL="../Close Hardware Session.vi"/>
 			<Item Name="Finalize Inline Execution Units.vi" Type="VI" URL="../Finalize Inline Execution Units.vi"/>
+			<Item Name="Finalize Shared Resources.vi" Type="VI" URL="../Finalize Shared Resources.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
