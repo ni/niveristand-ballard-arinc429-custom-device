@@ -45,8 +45,14 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
 				<Item Name="Loopback" Type="Folder">
-					<Item Name="P2--P3" Type="Folder">
-						<Item Name="SingleCore (P2--P3).lvclass" Type="LVClass" URL="../Tests/System/Loopback/SingleCore (P2--P3)/SingleCore (P2--P3).lvclass"/>
+					<Item Name="Single Custom Device" Type="Folder">
+						<Item Name="Asssets" Type="Folder">
+							<Item Name="HardwareLoopback.nivssdf" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/HardwareLoopback.nivssdf"/>
+							<Item Name="HardwareLoopback_P2--P3.nivssdf" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/HardwareLoopback_P2--P3.nivssdf"/>
+							<Item Name="Physical_Loopback_hw.xml" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/Physical_Loopback_hw.xml"/>
+							<Item Name="Physical_Loopback_hw_P2--P3.xml" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/Physical_Loopback_hw_P2--P3.xml"/>
+						</Item>
+						<Item Name="SingleCore.lvclass" Type="LVClass" URL="../Tests/System/Loopback/SingleCore (P2--P3)/SingleCore.lvclass"/>
 					</Item>
 				</Item>
 			</Item>
@@ -329,6 +335,10 @@
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -460,6 +470,7 @@
 				<Item Name="Strip Path Extension - String__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - String__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Units__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Units__ogtk__jki_vi_tester.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
