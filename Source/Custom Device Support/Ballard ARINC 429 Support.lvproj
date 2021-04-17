@@ -34,6 +34,7 @@
 			<Item Name="RT Hardware Channel Settings.ctl" Type="VI" URL="../Shared/RT Hardware Channel Settings.ctl"/>
 			<Item Name="RT Label Settings.ctl" Type="VI" URL="../Shared/RT Label Settings.ctl"/>
 			<Item Name="RT Parameters.ctl" Type="VI" URL="../Shared/RT Parameters.ctl"/>
+			<Item Name="Set Status Error Channel Data References.vi" Type="VI" URL="../Shared/Set Status Error Channel Data References.vi"/>
 			<Item Name="Transfer Type.ctl" Type="VI" URL="../Shared/Transfer Type.ctl"/>
 			<Item Name="VS Channel Definition for Parameter.ctl" Type="VI" URL="../Shared/VS Channel Definition for Parameter.ctl"/>
 			<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="../Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
