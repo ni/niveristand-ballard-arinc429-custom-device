@@ -1756,7 +1756,7 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-                        </Section>
+							</Section>
 						</Section>
 					</Section>
 				</Section>
