@@ -25,6 +25,7 @@
 			<Item Name="Communication Bus Template.Async.vi" Type="VI" URL="../Communication Bus Template.Async.vi"/>
 			<Item Name="Compute RT Index from Label and SDI.vi" Type="VI" URL="../Compute RT Index from Label and SDI.vi"/>
 			<Item Name="Get RT Label Settings for Message.vi" Type="VI" URL="../Get RT Label Settings for Message.vi"/>
+			<Item Name="Increment Error Counts.vi" Type="VI" URL="../Increment Error Counts.vi"/>
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
 			<Item Name="Parse BTI ARINC 429 Record.vi" Type="VI" URL="../Parse BTI ARINC 429 Record.vi"/>
 			<Item Name="Parse BTI MSGACT.vi" Type="VI" URL="../Parse BTI MSGACT.vi"/>
