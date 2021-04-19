@@ -10,6 +10,6 @@ The hardware configuration file path must not be empty.
 The parameters configuration file path must not be empty.
 </nierror>
 <nierror code="-732252">
-The parameters XML data is not invalid.
+The parameters XML data is invalid.
 </nierror>
 </nidocument>
