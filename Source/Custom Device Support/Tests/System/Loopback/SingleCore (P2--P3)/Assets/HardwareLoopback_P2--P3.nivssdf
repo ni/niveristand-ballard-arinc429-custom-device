@@ -1696,7 +1696,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Receiving Error - Error Counter" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="11ab6368-5de9-4b55-b9cb-b31d8b9d8e43" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Channel Name="Receiving Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="11ab6368-5de9-4b55-b9cb-b31d8b9d8e43" RowDim="1" ColDim="1" Units="" BitFields="1">
 									<Description>This Channel is incremented as soon as one of the errors (Gap Error, Parity Error, Long Word Error or Bit Timing Error) happens in one of the Channels defined in Rx.
 
 It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
@@ -1706,7 +1706,7 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Gap Error - Error Counter" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="f3125a69-f169-4567-a40e-c6e60a93114e" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Channel Name="Gap Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="f3125a69-f169-4567-a40e-c6e60a93114e" RowDim="1" ColDim="1" Units="" BitFields="1">
 									<Description>This Channel is incremented as soon as Gap Error happens in one of the Channels defined in Rx. A Gap Error is when a gap of less than four bit times preceded the word. 
 
 It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
@@ -1716,7 +1716,7 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Parity Error - Error Counter" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="93840c8b-ca0b-4780-8605-73022f26b31a" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Channel Name="Parity Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="93840c8b-ca0b-4780-8605-73022f26b31a" RowDim="1" ColDim="1" Units="" BitFields="1">
 									<Description>This Channel is incremented as soon as Parity Error happens in one of the Channels defined in Rx. A Parity Error is when a parity error was detected in the word. 
 
 It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
@@ -1726,7 +1726,7 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Long Word Error - Error Counter" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="db631f73-14be-472d-ac31-674e11c3ab3a" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Channel Name="Long Word Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="db631f73-14be-472d-ac31-674e11c3ab3a" RowDim="1" ColDim="1" Units="" BitFields="1">
 									<Description>This Channel is incremented as soon as Long Word Error happens in one of the Channels defined in Rx. A Long Word Error is when a word of more than 32-bits was detected in the word. 
 
 It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
@@ -1736,8 +1736,18 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Bit Timing Error - Error Counter" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b2d6253b-a995-4350-becf-aee3ab6b7e43" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Channel Name="Bit Timing Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b2d6253b-a995-4350-becf-aee3ab6b7e43" RowDim="1" ColDim="1" Units="" BitFields="1">
 									<Description>This Channel is incremented as soon as Bit Timing Error happens in one of the Channels defined in Rx. A Bit Timing Error is when an error occured while decoding the bits of the word: short bits or long bits. 
+
+It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Timeout Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b2d6253b-a995-4350-becf-aee3ab6b7e43" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>This Channel is incremented as soon as Timeout Error happens in one of the Channels defined in Rx. A Timeout Error is when an error occured while decoding the bits of the word: short bits or long bits. 
 
 It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
 									<Properties />
