@@ -44,19 +44,13 @@
 		<Item Name="Read Database.vi" Type="VI" URL="../System Explorer/Read Database.vi"/>
 		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../System Explorer/Update Hardware Configuration File Error.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../System Explorer/Update Parameters Configuration File Error.vi"/>
-		<Item Name="Update Parameters XML Parsing Error.vi" Type="VI" URL="../System Explorer/Update Parameters XML Parsing Error.vi"/>
 		<Item Name="Update System Definition Error.vi" Type="VI" URL="../System Explorer/Update System Definition Error.vi"/>
 		<Item Name="Write Database.vi" Type="VI" URL="../System Explorer/Write Database.vi"/>
-		<Item Name="XML Parse Parameters File.vi" Type="VI" URL="../System Explorer/XML Parse Parameters File.vi"/>
-		<Item Name="XML Read Tag Element.vim" Type="VI" URL="../System Explorer/XML Read Tag Element.vim"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
 		<Item Name="Database.ctl" Type="VI" URL="../System Explorer/Types/Database.ctl"/>
 		<Item Name="Path Control.ctl" Type="VI" URL="../System Explorer/Types/Path Control.ctl"/>
-		<Item Name="XML Label.ctl" Type="VI" URL="../System Explorer/Types/XML Label.ctl"/>
-		<Item Name="XML Parameter.ctl" Type="VI" URL="../System Explorer/Types/XML Parameter.ctl"/>
-		<Item Name="XML Port.ctl" Type="VI" URL="../System Explorer/Types/XML Port.ctl"/>
 	</Item>
 	<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 </Library>
