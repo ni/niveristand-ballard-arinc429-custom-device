@@ -10,7 +10,7 @@
 				<String>HardwareLoopback_P2--P3</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -154,6 +154,9 @@
 								<Property Name="Driver VI Exec Mode">
 									<U32>1</U32>
 								</Property>
+								<Property Name="user.CD.Version">
+									<U32>1</U32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df" Identifier="6d5be80a-3c4e-4137-a4f5-6cf52a192232">
@@ -211,29 +214,11 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Data Sharing Framework\Linux_x64\DSF Engine Linux.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_2">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_3">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Data Sharing Framework\Linux_x64\DSF Engine Linux.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Windows</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
@@ -262,7 +247,7 @@
 								<U16>0</U16>
 							</Property>
 							<Property Name="user.CD.PXI Slot Number">
-								<I32>4</I32>
+								<I32>2</I32>
 							</Property>
 							<Property Name="user.CD.card number">
 								<I32>0</I32>
