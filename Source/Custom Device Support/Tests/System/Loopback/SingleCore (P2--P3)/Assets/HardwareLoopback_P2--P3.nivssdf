@@ -274,7 +274,7 @@
 										<Version>1.0</Version>
 										<ForceDownload>true</ForceDownload>
 										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Physical_Loopback_hw_P2--P3.xml</RTDestination>
-										<SupportedTarget>PharLap</SupportedTarget>
+										<SupportedTarget>All</SupportedTarget>
 										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
 									</DependentFile>
 								</Property>
