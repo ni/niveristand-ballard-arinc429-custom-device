@@ -58,7 +58,7 @@
 						<Boolean>false</Boolean>
 					</Property>
 					<Property Name="Engine Rate">
-						<Double>101</Double>
+						<Double>100</Double>
 					</Property>
 					<Property Name="TL timeout">
 						<Double>120</Double>
@@ -2959,7 +2959,7 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 				</Properties>
 				<Errors />
 			</Alias>
-      </Section>
+		</Section>
 		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee" Identifier="0424d289-99f9-4113-91d4-3e0d180b8b18">
 			<Description />
 			<Properties />
