@@ -10,7 +10,7 @@
 				<String>HardwareLoopback_P2--P3</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.13</String>
+				<String>1.0.0.15</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -58,7 +58,7 @@
 						<Boolean>false</Boolean>
 					</Property>
 					<Property Name="Engine Rate">
-						<Double>100</Double>
+						<Double>101</Double>
 					</Property>
 					<Property Name="TL timeout">
 						<Double>120</Double>
@@ -2887,7 +2887,79 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 				</Properties>
 				<Errors />
 			</Alias>
-		</Section>
+			<Alias Name="Disable_124" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="c402cf2f-f886-4853-a6c8-b7dfbb21bd46">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH24/label 124/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_125" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="866110b9-a14c-46ee-8e16-5a53b134ec15">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH25/label 125/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_126" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="67866d84-1fb2-42ef-9608-72d62c90e144">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH26/label 126/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_127" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="293ce95a-ce02-4096-96d0-1b95af27cd94">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH27/label 127/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_128" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="a73cfcb0-8417-4cf6-8ac7-7412383f6f26">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH28/label 128/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_129" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="db094f1a-9161-4d12-8fbf-c64616d6c66b">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH29/label 129/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_130" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="2296efa0-6fec-433f-bbe1-f4405e259e51">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH30/label 130/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Disable_131" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="d4428144-b505-47a8-b699-d41e1a23d07a">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH31/label 131/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+      </Section>
 		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee" Identifier="0424d289-99f9-4113-91d4-3e0d180b8b18">
 			<Description />
 			<Properties />
