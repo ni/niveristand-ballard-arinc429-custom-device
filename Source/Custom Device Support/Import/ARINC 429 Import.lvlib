@@ -21,5 +21,10 @@
 	<Item Name="Parse Parameter.vi" Type="VI" URL="../Parse Parameter.vi"/>
 	<Item Name="Parse Parameters File.vi" Type="VI" URL="../Parse Parameters File.vi"/>
 	<Item Name="Read Array Of Tag Elements.vi" Type="VI" URL="../Read Array Of Tag Elements.vi"/>
-	<Item Name="Read Tag Element.vim" Type="VI" URL="../Read Tag Element.vim"/>
+	<Item Name="Read Tag Element (Boolean).vi" Type="VI" URL="../Read Tag Element (Boolean).vi"/>
+	<Item Name="Read Tag Element (DBL).vi" Type="VI" URL="../Read Tag Element (DBL).vi"/>
+	<Item Name="Read Tag Element (I32).vi" Type="VI" URL="../Read Tag Element (I32).vi"/>
+	<Item Name="Read Tag Element (String).vi" Type="VI" URL="../Read Tag Element (String).vi"/>
+	<Item Name="Read Tag Element (U16).vi" Type="VI" URL="../Read Tag Element (U16).vi"/>
+	<Item Name="Read Tag Element.vi" Type="VI" URL="../Read Tag Element.vi"/>
 </Library>
