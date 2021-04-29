@@ -24,7 +24,6 @@
 	</Item>
 	<Item Name="Label" Type="Folder">
 		<Item Name="Add Label.vi" Type="VI" URL="../Frame/Add Label.vi"/>
-		<Item Name="Add Labels.vi" Type="VI" URL="../Frame/Add Labels.vi"/>
 		<Item Name="Get Default Word.vi" Type="VI" URL="../Frame/Get Default Word.vi"/>
 		<Item Name="Get Frame Port Reference.vi" Type="VI" URL="../Frame/Get Frame Port Reference.vi"/>
 		<Item Name="Get Label Properties.vi" Type="VI" URL="../Frame/Get Label Properties.vi"/>
@@ -50,15 +49,12 @@
 		<Item Name="Set Parameter Scaling.vi" Type="VI" URL="../Channel/Set Parameter Scaling.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
-		<Item Name="Add Incoming Section.vi" Type="VI" URL="../Port/Add Incoming Section.vi"/>
-		<Item Name="Add Outgoing Section.vi" Type="VI" URL="../Port/Add Outgoing Section.vi"/>
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
 		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
 		<Item Name="Get All Incoming Ports.vi" Type="VI" URL="../Port/Get All Incoming Ports.vi"/>
 		<Item Name="Get All Outgoing Ports.vi" Type="VI" URL="../Port/Get All Outgoing Ports.vi"/>
 		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
-		<Item Name="Set Port Number.vi" Type="VI" URL="../Port/Set Port Number.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
