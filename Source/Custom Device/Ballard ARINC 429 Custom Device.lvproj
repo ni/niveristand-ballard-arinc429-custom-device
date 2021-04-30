@@ -275,7 +275,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
@@ -445,7 +444,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -464,6 +462,7 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -748,7 +747,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -768,12 +766,16 @@
 				<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Custom Device.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Custom Device/Custom Device.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Device Parameters.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Device Parameters.ctl"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -782,6 +784,8 @@
 				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -789,24 +793,37 @@
 				<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Label Settings for RT.vi"/>
 				<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Rx Hardware Channel Data.vi"/>
 				<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Static Channel Reference for Frame.vi"/>
+				<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Status Error Channel Data References.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Tx Hardware Channel Data.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Implementation.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Implementation/Implementation.lvlib"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Initialization Method.ctl"/>
 				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Interfaces/Interfaces.lvlib"/>
 				<Item Name="Label Properties.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Label Properties.ctl"/>
 				<Item Name="Label.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Label.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Map of Identifiers to Indexes.ctl"/>
 				<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parameter Definition.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Parameter Definition.ctl"/>
 				<Item Name="RT Hardware Channel Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Hardware Channel Settings.ctl"/>
 				<Item Name="RT Label Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Label Settings.ctl"/>
 				<Item Name="RT Parameters.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Parameters.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Transfer Type.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Transfer Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -818,10 +835,10 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1000,7 +1017,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -1020,12 +1036,16 @@
 				<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Custom Device.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Custom Device/Custom Device.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Device Parameters.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Device Parameters.ctl"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -1034,6 +1054,8 @@
 				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -1041,24 +1063,37 @@
 				<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Label Settings for RT.vi"/>
 				<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Rx Hardware Channel Data.vi"/>
 				<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Static Channel Reference for Frame.vi"/>
+				<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Status Error Channel Data References.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Tx Hardware Channel Data.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Implementation.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Implementation/Implementation.lvlib"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Initialization Method.ctl"/>
 				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Interfaces/Interfaces.lvlib"/>
 				<Item Name="Label Properties.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Label Properties.ctl"/>
 				<Item Name="Label.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Label.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Map of Identifiers to Indexes.ctl"/>
 				<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parameter Definition.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Parameter Definition.ctl"/>
 				<Item Name="RT Hardware Channel Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Hardware Channel Settings.ctl"/>
 				<Item Name="RT Label Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Label Settings.ctl"/>
 				<Item Name="RT Parameters.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Parameters.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Transfer Type.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Transfer Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -1070,10 +1105,10 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1253,7 +1288,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -1273,12 +1307,16 @@
 				<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Custom Device.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Custom Device/Custom Device.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Device Parameters.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Device Parameters.ctl"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -1287,6 +1325,8 @@
 				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -1294,24 +1334,37 @@
 				<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Label Settings for RT.vi"/>
 				<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Rx Hardware Channel Data.vi"/>
 				<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Static Channel Reference for Frame.vi"/>
+				<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Status Error Channel Data References.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Get Tx Hardware Channel Data.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Implementation.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Implementation/Implementation.lvlib"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Initialization Method.ctl"/>
 				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Interfaces/Interfaces.lvlib"/>
 				<Item Name="Label Properties.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Label Properties.ctl"/>
 				<Item Name="Label.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Label.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Map of Identifiers to Indexes.ctl"/>
 				<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parameter Definition.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Parameter Definition.ctl"/>
 				<Item Name="RT Hardware Channel Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Hardware Channel Settings.ctl"/>
 				<Item Name="RT Label Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Label Settings.ctl"/>
 				<Item Name="RT Parameters.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/RT Parameters.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Transfer Type.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Shared/Transfer Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -1323,10 +1376,10 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
