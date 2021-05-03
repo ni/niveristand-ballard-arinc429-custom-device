@@ -10,8 +10,8 @@
 
 </Property>
 	<Item Name="Dynamically Called" Type="Folder">
-		<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../System Explorer/ActionVIOnLoad.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="../System Explorer/Initialize.vi"/>
+		<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../System Explorer/Dynamically Called/ActionVIOnLoad.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../System Explorer/Dynamically Called/Initialize.vi"/>
 	</Item>
 	<Item Name="Pages" Type="Folder">
 		<Item Name="Channel Specification.vi" Type="VI" URL="../System Explorer/Pages/Channel Specification.vi"/>
@@ -30,20 +30,18 @@
 		<Item Name="Word.vi" Type="VI" URL="../System Explorer/Pages/Word.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
-		<Item Name="Add Database RTM.vi" Type="VI" URL="../System Explorer/RTM/Add Database RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
+		<Item Name="Refresh Database RTM.vi" Type="VI" URL="../System Explorer/RTM/Refresh Database RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../System Explorer/Check If Error Already Exists.vi"/>
-		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
-		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
-		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/On Compile - Group Hardware Channels by Message Type.vi"/>
-		<Item Name="Read Database.vi" Type="VI" URL="../System Explorer/Read Database.vi"/>
-		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../System Explorer/Update Hardware Configuration File Error.vi"/>
-		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../System Explorer/Update Parameters Configuration File Error.vi"/>
-		<Item Name="Update System Definition Error.vi" Type="VI" URL="../System Explorer/Update System Definition Error.vi"/>
-		<Item Name="Write Database.vi" Type="VI" URL="../System Explorer/Write Database.vi"/>
+		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../System Explorer/SubVIs/Check If Error Already Exists.vi"/>
+		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/SubVIs/Load Help File.vi"/>
+		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/SubVIs/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
+		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/SubVIs/On Compile - Group Hardware Channels by Message Type.vi"/>
+		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../System Explorer/SubVIs/Update Hardware Configuration File Error.vi"/>
+		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../System Explorer/SubVIs/Update Parameters Configuration File Error.vi"/>
+		<Item Name="Update System Definition Error.vi" Type="VI" URL="../System Explorer/SubVIs/Update System Definition Error.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
