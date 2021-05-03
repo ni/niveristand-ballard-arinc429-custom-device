@@ -32,22 +32,23 @@
 		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Frame/Get Timestamp Reference.vi"/>
 		<Item Name="Set Default Word.vi" Type="VI" URL="../Frame/Set Default Word.vi"/>
 		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
+		<Item Name="Set Label Properties.vi" Type="VI" URL="../Frame/Set Label Properties.vi"/>
 	</Item>
 	<Item Name="Parameter" Type="Folder">
 		<Item Name="Add Parameter.vi" Type="VI" URL="../Channel/Add Parameter.vi"/>
+		<Item Name="Add Word.vi" Type="VI" URL="../Frame/Add Word.vi"/>
 		<Item Name="Get Channel Specification Page Settings.vi" Type="VI" URL="../Channel/Get Channel Specification Page Settings.vi"/>
 		<Item Name="Get Parameter Bit Encoding.vi" Type="VI" URL="../Channel/Get Parameter Bit Encoding.vi"/>
 		<Item Name="Get Parameter Default Value.vi" Type="VI" URL="../Channel/Get Parameter Default Value.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Channel/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameter Scaling.vi" Type="VI" URL="../Channel/Get Parameter Scaling.vi"/>
 		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../Channel/Get Parameter Unit.vi"/>
+		<Item Name="Include SDI SSM and Parity Parameters.vi" Type="VI" URL="../Channel/Include SDI SSM and Parity Parameters.vi"/>
 		<Item Name="Set Parameter Bit Encoding.vi" Type="VI" URL="../Channel/Set Parameter Bit Encoding.vi"/>
 		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Channel/Set Parameter Definition.vi"/>
 		<Item Name="Set Parameter Scaling.vi" Type="VI" URL="../Channel/Set Parameter Scaling.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
-		<Item Name="Add Port Incoming Section.vi" Type="VI" URL="../Port/Add Port Incoming Section.vi"/>
-		<Item Name="Add Port Outgoing Section.vi" Type="VI" URL="../Port/Add Port Outgoing Section.vi"/>
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
 		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
 		<Item Name="Get All Incoming Ports.vi" Type="VI" URL="../Port/Get All Incoming Ports.vi"/>
@@ -62,4 +63,5 @@
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 	<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
+	<Item Name="Parsed XML To System Definition.vi" Type="VI" URL="../Parsed XML To System Definition.vi"/>
 </Library>
