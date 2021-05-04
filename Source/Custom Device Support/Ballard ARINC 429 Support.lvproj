@@ -74,6 +74,9 @@
 					<Item Name="Encoding and Decoding.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Encoding and Decoding/Encoding and Decoding/Encoding and Decoding.lvclass"/>
 					<Item Name="Shared VIs.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Shared VIs/Shared VIs.lvclass"/>
 				</Item>
+				<Item Name="Import" Type="Folder">
+					<Item Name="Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/Import.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
