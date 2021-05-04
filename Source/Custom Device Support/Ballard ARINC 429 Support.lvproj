@@ -75,6 +75,10 @@
 					<Item Name="Shared VIs.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Shared VIs/Shared VIs.lvclass"/>
 				</Item>
 				<Item Name="Import" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Physical_Loopback_param.xml"/>
+						<Item Name="Physical_Loopback_param_NoDirection.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Physical_Loopback_param_NoDirection.xml"/>
+					</Item>
 					<Item Name="Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/Import.lvclass"/>
 				</Item>
 			</Item>
