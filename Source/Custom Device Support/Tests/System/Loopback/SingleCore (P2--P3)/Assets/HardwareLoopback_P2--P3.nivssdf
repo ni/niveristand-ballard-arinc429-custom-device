@@ -10,7 +10,7 @@
 				<String>HardwareLoopback_P2--P3</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.15</String>
+				<String>1.0.0.16</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -31,10 +31,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>PharLap</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.109.16</String>
+						<String>10.2.109.51</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -263,9 +263,6 @@
 						<Section Name="Databases" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="54f97363-55d2-4026-bffc-0731e8e3871a">
 							<Description />
 							<Properties>
-								<Property Name="user.CD.DBHash">
-									<BinaryString>YTE1ZDM5NTkyZDc1NTViMmQwOTk4ZjRjNTU2MDE2MmE=</BinaryString>
-								</Property>
 								<Property Name="user.CD.Win File Path">
 									<String>Physical_Loopback_hw_P2--P3.xml</String>
 								</Property>
@@ -277,9 +274,6 @@
 										<SupportedTarget>All</SupportedTarget>
 										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
 									</DependentFile>
-								</Property>
-								<Property Name="user.CD.ParametersFileHash">
-									<BinaryString>YTg5YWQyZTAwNWQ2NDI4MzE1YTg3NDFmMmUyOGVmNjI=</BinaryString>
 								</Property>
 								<Property Name="user.CD.Win Parameters File Path">
 									<String>Physical_Loopback_param.xml</String>
