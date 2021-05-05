@@ -235,7 +235,7 @@
 										<Version>1.0</Version>
 										<ForceDownload>false</ForceDownload>
 										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard - Arinc-429\Board_0__Core_0__.xml</RTDestination>
-										<SupportedTarget>PharLap</SupportedTarget>
+										<SupportedTarget>Linux_x64</SupportedTarget>
 										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
 									</DependentFile>
 								</Property>
