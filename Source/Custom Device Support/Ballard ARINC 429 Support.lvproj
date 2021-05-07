@@ -57,6 +57,10 @@
 						<Item Name="SingleCore.lvclass" Type="LVClass" URL="../Tests/System/Loopback/SingleCore (P2--P3)/SingleCore.lvclass"/>
 					</Item>
 				</Item>
+				<Item Name="Import-Script-Deploy" Type="Folder">
+					<Item Name="Assets" Type="Folder"/>
+					<Item Name="Import-Script-Deploy.lvclass" Type="LVClass" URL="../Tests/System/Import-Script-Deploy/Import-Script-Deploy.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
