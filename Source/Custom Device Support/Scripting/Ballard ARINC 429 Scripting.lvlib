@@ -68,6 +68,7 @@
 		<Item Name="Get Default Word.vi" Type="VI" URL="../Word/Get Default Word.vi"/>
 		<Item Name="Set Default Word.vi" Type="VI" URL="../Word/Set Default Word.vi"/>
 	</Item>
+	<Item Name="Add Asynchronous Loop Time Status Channel.vi" Type="VI" URL="../Status/Add Asynchronous Loop Time Status Channel.vi"/>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	<Item Name="Parsed XML To System Definition.vi" Type="VI" URL="../Parsed XML To System Definition.vi"/>
 </Library>
