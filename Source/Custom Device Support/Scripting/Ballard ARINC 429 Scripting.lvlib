@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
+		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
@@ -56,6 +57,10 @@
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Add Asynchronous Loop Time Status Channel.vi" Type="VI" URL="../Status/Add Asynchronous Loop Time Status Channel.vi"/>
+		<Item Name="Add Error Status Channels.vi" Type="VI" URL="../Status/Add Error Status Channels.vi"/>
+		<Item Name="Add Status Section.vi" Type="VI" URL="../Status/Add Status Section.vi"/>
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
 		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
 	</Item>

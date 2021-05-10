@@ -57,6 +57,10 @@
 						<Item Name="SingleCore.lvclass" Type="LVClass" URL="../Tests/System/Loopback/SingleCore (P2--P3)/SingleCore.lvclass"/>
 					</Item>
 				</Item>
+				<Item Name="Import-Script-Deploy" Type="Folder">
+					<Item Name="Assets" Type="Folder"/>
+					<Item Name="Import-Script-Deploy.lvclass" Type="LVClass" URL="../Tests/System/Import-Script-Deploy/Import-Script-Deploy.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
@@ -73,6 +77,13 @@
 				<Item Name="Shared" Type="Folder">
 					<Item Name="Encoding and Decoding.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Encoding and Decoding/Encoding and Decoding/Encoding and Decoding.lvclass"/>
 					<Item Name="Shared VIs.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Shared VIs/Shared VIs.lvclass"/>
+				</Item>
+				<Item Name="Import" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Physical_Loopback_param.xml"/>
+						<Item Name="Physical_Loopback_param_NoDirection.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Physical_Loopback_param_NoDirection.xml"/>
+					</Item>
+					<Item Name="Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/Import.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
