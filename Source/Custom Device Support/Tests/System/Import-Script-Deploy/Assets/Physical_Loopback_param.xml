@@ -94,7 +94,7 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit></unit>
-            <direction>INCOMING</direction>
+				<direction>INCOMING</direction>
 			</parameter>
 		</label>
 	</channel>
