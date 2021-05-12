@@ -118,5 +118,6 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→→→`<unit>`|No|xs:string|0/1|Specifies, for each Parameter, the unit to be used, in NI-VeriStand.|
 |→→→`<defaultValue>`|No<sup>2</sup>|xs:double|0/unbunded|Specifies, for each Parameter, the Default Value to be used for associated NI-VeriStand Channel. For Parameters used in Tx Channels, this XML Element must be present for each Parameter. For Parameters used in Tx Channels, when Parameter `<encoding>` is set to Discrete, each Parameter (each Bit) must have an instance of that `<defaultValue>`.|
 
-1: Either `<labelDecimal>` or `<labelOctal>` must be present for each `<label>` instance.
-2: For Parameters used in Tx Channels, `<defaultValue>` must be present for each Parameter.
+Notes:
+1. Either `<labelDecimal>` or `<labelOctal>` must be present for each `<label>` instance.
+2. For Parameters used in Tx Channels, `<defaultValue>` must be present for each Parameter.
