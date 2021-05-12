@@ -60,6 +60,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add Asynchronous Loop Time Status Channel.vi" Type="VI" URL="../Status/Add Asynchronous Loop Time Status Channel.vi"/>
 		<Item Name="Add Error Status Channels.vi" Type="VI" URL="../Status/Add Error Status Channels.vi"/>
+		<Item Name="Add Required Status Channels.vi" Type="VI" URL="../Status/Add Required Status Channels.vi"/>
 		<Item Name="Add Status Section.vi" Type="VI" URL="../Status/Add Status Section.vi"/>
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
 		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
