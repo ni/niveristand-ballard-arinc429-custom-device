@@ -92,3 +92,31 @@ The code snippet below is an example of Discrete Parameters.
 Notes:
 - The Engine takes 1 Bit, starting the 11th Bit (Bit #10) in the raw ARINC 429 word. No Scaling is applied.
 - This Parameter will have a VeriStand Channel named `Parameter 30` with no units.
+
+## Supported XML Tags
+The following table describes the XML elements, or tags, you can use in a Parameters XML file.
+
+|Element|Required?|Element Type|Min/Max Occurrences|Description|
+|--- |--- |--- |--- |--- |
+|`<channel>`|Yes|complex|1/16|Opening tag for a channel labels definition.|
+|→`<hardwareChannel>`|Yes|xs:int|1|Specifies the Hardware Channel used. Range is: [0:31].|
+|→`<label>`|Yes|complex|1/256|Opening tag for a label definition..|
+|→→`<labelDecimal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (decimal). Range is: [0:255].|
+|→→`<labelOctal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (octal). Range is: [0:377].|
+|→→`<sdi>`|No|xs:string|0/1|Specifies whether these Label settings apply to all SDI variants or a specific one. Supported values: <br/>All (default) - Pastes by creating a new instance of the item.<br/>00 - Pastes only if an item with the same GUID does not already exist.<br/>01 - Pastes only if an item with the same name does not already exist.<br/>10 - Pastes by replacing an item.<br/>11 - Prompts the operator with a dialog before pasting.|
+|→→`<createSDIChannel>`|No|xs:boolean|0/1|Specifies whether a NI-VeriStand Channel should be created for the Label SDI Bits. Default Value (if XML element is absent) is false.|
+|→→`<createSSMChannel>`|No|xs:boolean|0/1|Specifies whether a NI-VeriStand Channel should be created for the Label SSM Bits. Default Value (if XML element is absent) is false.|
+|→→`<createParityChannel>`|No|xs:boolean|0/1|Specifies whether a NI-VeriStand Channel should be created for the Label Parity Bit. This is supported only for Rx Channel, not for Tx. Default Value (if XML element is absent) is false.|
+|→→`<parameter>`|No|complex|1/unbunded|Opening tag for a Parameter definition.|
+|→→→`<encoding>`|Yes|xs:string|1/1|Specifies the Encoding for the Parameter. Supported values:<br/>BNR (default) - Binary Number Representation.<br/>BCD - Binary Coded Decimal. Each decimal digit is represented by a fixed number of bits.<br/>Discrete - Set of individual adjacent Bits.|
+|→→→`<signed>`|No|xs:boolean|0/1|Specifies whether Parameter is signed or not. It applies only to BCD and BNR encoding. If it's a signed BCD Parameter, we consider it negative if SSM Bits are 11. For all other cases, we consider the BCD to be positive.|
+|→→→`<startBit>`|Yes|xs:int|1/1|Specifies what is the Start Bit for the Parameter. It's a 0-based information. For Labels from Rx Channels, range accepted is: [0:31]. For Labels from Tx Channels, valid range is: [8:30] (Label ID (bits [0:7] and Parity Bit (bit 31) are overloaded by board firmware). For Parameters when `<encoding>` is set to BCD, `<startBit>` values supported are: 10, 14, 18, 22, 26.|
+|→→→`<numberOfBits>`|Yes|xs:int|1/1|Specifies what is the Number of Bits for the Parameter. Range accepted is: [0:32].|
+|→→→`<scale>`|No|xs:double|0/1|Specifies the Scale value to be applied to scale from/to raw data. If "NO Scaling" is to be applied, value should be set to 1.0.|
+|→→→`<offset>`|No|xs:double|0/1|Specifies the Offset value to be applied to offset from/to raw data. If "NO Scaling" is to be applied, value should be set to 0.0.|
+|→→→`<name>`|Yes|xs:string|1/32|Specifies, for each Parameter, the name to be used, in NI-VeriStand. When Parameter encoding is set to Discrete, each Parameter (each Bit) must have an instance of that `<name>`.|
+|→→→`<unit>`|No|xs:string|0/1|Specifies, for each Parameter, the unit to be used, in NI-VeriStand.|
+|→→→`<defaultValue>`|No<sup>2</sup>|xs:double|0/unbunded|Specifies, for each Parameter, the Default Value to be used for associated NI-VeriStand Channel. For Parameters used in Tx Channels, this XML Element must be present for each Parameter. For Parameters used in Tx Channels, when Parameter `<encoding>` is set to Discrete, each Parameter (each Bit) must have an instance of that `<defaultValue>`.|
+
+1: Either `<labelDecimal>` or `<labelOctal>` must be present for each `<label>` instance.
+2: For Parameters used in Tx Channels, `<defaultValue>` must be present for each Parameter.
