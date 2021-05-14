@@ -330,14 +330,6 @@
 									<Elem>0</Elem>
 								</DefaultValue>
 							</Channel>
-							<Channel Name="Asynchronous Loop Time" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="942ba263-45ef-460b-ae1a-cee9c30cf127" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
 						</Section>
 						<Section Name="Configuration Files" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="2344697b-05e7-45f3-b1ab-e307e48c5aed">
 							<Description />
