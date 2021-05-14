@@ -1072,30 +1072,6 @@ NOTE: actual  SDI content may differ based on Label Settings.</Description>
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Asynchronous Loop Time" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="7d7b87c4-78f7-416c-af27-2a72a3fe3f50" RowDim="1" ColDim="1" Units="us" BitFields="1">
-									<Description />
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Inline Read Time" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="2601497a-313e-4238-88be-ec9a0f87e449" RowDim="1" ColDim="1" Units="us" BitFields="1">
-									<Description />
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Inline Write Time" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="996434e9-9208-4789-b490-83b1d69250ae" RowDim="1" ColDim="1" Units="us" BitFields="1">
-									<Description />
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
 								<Channel Name="Receiving Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="11ab6368-5de9-4b55-b9cb-b31d8b9d8e43" RowDim="1" ColDim="1" Units="" BitFields="1">
 									<Description>This Channel is incremented as soon as one of the errors (Gap Error, Parity Error, Long Word Error or Bit Timing Error) happens in one of the Channels defined in Rx.
 
