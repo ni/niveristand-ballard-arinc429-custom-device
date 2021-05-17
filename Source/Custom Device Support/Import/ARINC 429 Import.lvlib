@@ -12,6 +12,7 @@
 		<Item Name="Error Test Label Count.vi" Type="VI" URL="../Error Test Label Count.vi"/>
 		<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Error Test Number Of Bits.vi"/>
 		<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Error Test Start Bit Value.vi"/>
+		<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Error Word Bits Checker for All Parameters on Label.vi"/>
 		<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Error Word Bits Checker.vi"/>
 	</Item>
 	<Item Name="Parse subVIs" Type="Folder">
@@ -29,9 +30,6 @@
 		<Item Name="Read Tag Element (U16).vi" Type="VI" URL="../Read Tag Element (U16).vi"/>
 		<Item Name="Read Tag Element.vi" Type="VI" URL="../Read Tag Element.vi"/>
 	</Item>
-	<Item Name="Types" Type="Folder">
-		<Item Name="Bit Mode.ctl" Type="VI" URL="../Bit Mode.ctl"/>
-	</Item>
-	<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Error Word Bits Checker for All Parameters on Label.vi"/>
+	<Item Name="Types" Type="Folder"/>
 	<Item Name="Parse Parameters File.vi" Type="VI" URL="../Parse Parameters File.vi"/>
 </Library>
