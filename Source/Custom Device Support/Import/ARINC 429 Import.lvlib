@@ -32,5 +32,6 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Bit Mode.ctl" Type="VI" URL="../Bit Mode.ctl"/>
 	</Item>
+	<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Error Word Bits Checker for All Parameters on Label.vi"/>
 	<Item Name="Parse Parameters File.vi" Type="VI" URL="../Parse Parameters File.vi"/>
 </Library>
