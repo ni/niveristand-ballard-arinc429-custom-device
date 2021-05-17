@@ -30,6 +30,5 @@
 		<Item Name="Read Tag Element (U16).vi" Type="VI" URL="../Read Tag Element (U16).vi"/>
 		<Item Name="Read Tag Element.vi" Type="VI" URL="../Read Tag Element.vi"/>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
 	<Item Name="Parse Parameters File.vi" Type="VI" URL="../Parse Parameters File.vi"/>
 </Library>
