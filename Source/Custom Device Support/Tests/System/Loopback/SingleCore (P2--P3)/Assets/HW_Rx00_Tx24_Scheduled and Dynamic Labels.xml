@@ -1,0 +1,79 @@
+<bti:core xmlns:bti="http://www.ballardtech.com/DatabusSchemas/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ID="-1" name="CoreName" schemaVersion="1.0">
+	<bti:coreConfiguration>
+		<bti:sequentialLog perChannelStreaming="false"/>
+		<bti:builtInTest/>
+		<bti:pxi/>
+		<bti:sysMon/>
+		<bti:timing/>
+	</bti:coreConfiguration>
+
+<!--*******************************************************************************************-->
+<!-- NOTES																					   -->
+<!-- 1. The ID is a I32 datatype,															   -->
+<!-- 2. For channel429 ID, it's the hardwareChannel number,									   -->
+<!-- 3. For label ID (Rx), it's arbitrary but here are the elements: XXXYYZZ,				   -->
+<!--		XXX: label index (1-256) for considered channel on 3 digits,					   -->
+<!--		YY: channel decimal number (0-31) (hardwareChannel) on 2 digits,				   -->
+<!--		ZZ: OPTIONAL: SDI Variant (00/10/01/11),										   -->
+<!-- 4. For hardwareChannel numbering, for a core with 16 (Rx/Tx) Channels, Rx Channels are	   -->
+<!-- numbered between 0 and 15, Tx Channels are numbered between 16 and 31. Physically, for    -->
+<!-- instance, hardwareChannel 1 and 17 are the same but the direction is different.		   -->
+<!-- 5. For message ID (Tx), it's arbitrary but here are the elements: XXXYYZZZ,			   -->
+<!--		XXX`: label index (1-256) for considered channel on 3 digits,					   -->
+<!--		YY: channel decimal number (0-31) (hardwareChannel) on 2 digits,				   -->
+<!-- 6. For messageBuffer ID (Tx), it's arbitrary but here are the elements: XXXYYZZZ,		   -->
+<!--		XXX`: label index (1-999) for considered channel on 3 digits,					   -->
+<!--		YY: channel decimal number (0-31) (hardwareChannel) on 2 digits,				   -->
+<!--		ZZZ: messageBuffer Index on 3 digits (1-999),									   -->
+<!-- 7. For Rx Channels, it's important to list ALL labels physically present on the Channel   -->
+<!--    and, for each, set "monitor" element to true or false.								   -->
+<!--*******************************************************************************************-->
+
+<!--***************************************	Rx Channels ***************************************-->
+	<bti:channel429 ID="0" name="Channel 0" hardwareChannel="0" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="100" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="200" name="label 24" labelDecimal="24" monitor="true"/>
+				<bti:label ID="300" name="label 07" labelDecimal="07" monitor="true"/>
+				<bti:label ID="400" name="label 08" labelDecimal="08" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+<!--*******************************************************************************************-->
+<!--***************************************	Tx Channels ***************************************-->
+	<bti:channel429 ID="24" name="Channel 24" hardwareChannel="24">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:asyncMessageList asyncBufferMaxSize="10">
+				<bti:messageBuffers>
+					<!--***************************************	Acyclic Label 07d ***************************************-->
+					<bti:messageBuffer ID="124001" name="Acyclic 001">
+						<bti:rawData>12345607</bti:rawData>
+					</bti:messageBuffer>
+					<!--***************************************	Acyclic Label 08d ***************************************-->
+					<bti:messageBuffer ID="224002" name="Acyclic 002">
+						<bti:rawData>12345608</bti:rawData>
+					</bti:messageBuffer>
+				</bti:messageBuffers>
+			</bti:asyncMessageList>
+<!--***************************************	Scheduled Labels ***************************************-->
+			<bti:messages>
+				<bti:message ID="128" name="label 23" messageBufferIDRef="324001" minRate="10" maxRate="10" labelDecimal="23" monitor="false">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="324001" name="MessageBuffer 001">
+							<bti:rawData>12345617</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="228" name="label 24" messageBufferIDRef="424001" minRate="10" maxRate="10" labelDecimal="24" monitor="false">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="424001" name="MessageBuffer 001">
+							<bti:rawData>12345618</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+<!--*******************************************************************************************-->
+</bti:core>
