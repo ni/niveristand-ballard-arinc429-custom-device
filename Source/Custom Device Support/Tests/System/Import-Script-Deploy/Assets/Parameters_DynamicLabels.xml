@@ -26,10 +26,10 @@
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<parameter>
-				<direction>incoming</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -43,7 +43,6 @@
 		<label>
 			<labelDecimal>08</labelDecimal>
 			<parameter>
-				<direction>incoming</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -57,7 +56,6 @@
 		<label>
 			<labelDecimal>23</labelDecimal>
 			<parameter>
-				<direction>incoming</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -71,7 +69,6 @@
 		<label>
 			<labelDecimal>24</labelDecimal>
 			<parameter>
-				<direction>incoming</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -87,11 +84,11 @@
 	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>24</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
-				<direction>outgoing</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -107,7 +104,6 @@
 			<labelDecimal>08</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
-				<direction>outgoing</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -123,7 +119,6 @@
 			<labelDecimal>23</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
-				<direction>outgoing</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -139,7 +134,6 @@
 			<labelDecimal>24</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
-				<direction>outgoing</direction>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
