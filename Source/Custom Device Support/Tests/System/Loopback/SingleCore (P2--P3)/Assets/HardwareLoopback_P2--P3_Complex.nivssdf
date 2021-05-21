@@ -31,10 +31,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>PharLap</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.109.16</String>
+						<String>10.2.109.51</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
