@@ -14,5 +14,6 @@
 	<Item Name="Rx Execution Unit.lvclass" Type="LVClass" URL="../Rx Execution Unit/Rx Execution Unit.lvclass"/>
 	<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../Shared Resources Factory/Shared Resources Factory.lvclass"/>
 	<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../Shared Resources/Shared Resources.lvclass"/>
+	<Item Name="Tx Acyclic Labels Execution Unit.lvclass" Type="LVClass" URL="../Tx Acyclic Labels Execution Unit/Tx Acyclic Labels Execution Unit.lvclass"/>
 	<Item Name="Tx Scheduled Labels Execution Unit.lvclass" Type="LVClass" URL="../Tx Scheduled Labels Execution Unit/Tx Scheduled Labels Execution Unit.lvclass"/>
 </Library>
