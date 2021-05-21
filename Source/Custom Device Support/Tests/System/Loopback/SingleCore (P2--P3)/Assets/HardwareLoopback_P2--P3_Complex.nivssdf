@@ -10,7 +10,7 @@
 				<String>HardwareLoopback_P2--P3_Complex</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.37</String>
+				<String>1.0.0.39</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -271,8 +271,8 @@
 										<Version>1.0</Version>
 										<ForceDownload>true</ForceDownload>
 										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Physical_Loopback_hw_P2--P3_Complex.xml</RTDestination>
-										<SupportedTarget>All</SupportedTarget>
-										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
+										<SupportedTarget>Linux_x64</SupportedTarget>
+										<MD5>ac7774c17d36c3cd9044f4f6a510cf62</MD5>
 									</DependentFile>
 								</Property>
 								<Property Name="user.CD.ParametersFileHash">
