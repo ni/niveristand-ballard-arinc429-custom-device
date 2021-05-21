@@ -58,7 +58,12 @@
 					</Item>
 				</Item>
 				<Item Name="Import-Script-Deploy" Type="Folder">
-					<Item Name="Assets" Type="Folder"/>
+					<Item Name="Assets" Type="Folder">
+						<Item Name="HW_Rx00_Tx24_DynamicLabels.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/HW_Rx00_Tx24_DynamicLabels.xml"/>
+						<Item Name="Parameters_DynamicLabels.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Parameters_DynamicLabels.xml"/>
+						<Item Name="Physical_Loopback_hw.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Physical_Loopback_hw.xml"/>
+						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Physical_Loopback_param.xml"/>
+					</Item>
 					<Item Name="Import-Script-Deploy.lvclass" Type="LVClass" URL="../Tests/System/Import-Script-Deploy/Import-Script-Deploy.lvclass"/>
 				</Item>
 			</Item>
@@ -807,7 +812,6 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
@@ -1013,7 +1017,6 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
