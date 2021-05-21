@@ -19,30 +19,6 @@
 	<CustomDeviceVI>
 		<SourceDistribution>
 			<Source>
-				<SupportedTarget>Windows</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Pharlap</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\PharLap\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Ballard\ARINC 429\Linux_32_ARM\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
@@ -58,14 +34,6 @@
 			<Source>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Pharlap</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine.lvlibp</Path>
 			</Source>
 			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
