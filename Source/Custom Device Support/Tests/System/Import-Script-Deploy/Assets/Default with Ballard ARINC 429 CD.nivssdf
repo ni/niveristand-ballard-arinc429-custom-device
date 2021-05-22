@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2020" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Default" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00" Identifier="f9470bf0-69e3-4dda-9fd3-bed4fc9485bc">
+	<Root Name="Default with Ballard ARINC 429 CD" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00" Identifier="f9470bf0-69e3-4dda-9fd3-bed4fc9485bc">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Default</String>
+				<String>Default with Ballard ARINC 429 CD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.1</String>
+				<String>1.0.0.2</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -202,24 +202,6 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Linux_32_ARM\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\PharLap\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
