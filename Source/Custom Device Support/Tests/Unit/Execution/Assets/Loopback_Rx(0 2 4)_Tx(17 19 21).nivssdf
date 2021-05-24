@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2020" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="new" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00" Identifier="59f1934c-9cb1-44eb-92a2-9d4013cc30c7">
+	<Root Name="Loopback_Rx(0 2 4)_Tx(17 19 21)" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00" Identifier="59f1934c-9cb1-44eb-92a2-9d4013cc30c7">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>new</String>
+				<String>Loopback_Rx(0 2 4)_Tx(17 19 21)</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.11</String>
+				<String>1.0.0.15</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>PharLap</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.109.16</String>
+						<String>10.2.109.51</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -208,24 +208,6 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Data Sharing Framework\Linux_x64\DSF Engine Linux.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
@@ -237,22 +219,13 @@
 							<Property Name="Version">
 								<String>1.0.0</String>
 							</Property>
-							<Property Name="Dependency_1">
+							<Property Name="Dependency_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine.lvlibp">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5>70cad9ddc2fda8eb674c3d99e5b8355e</MD5>
-								</DependentFile>
-							</Property>
-							<Property Name="Dependency_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine.lvlibp">
-									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5>b08497c1d68f5955061d4f4aabc15072</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="user.CD.Initialization Method">
@@ -1134,29 +1107,17 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 								</Channel>
 							</Section>
 						</Section>
-						<Section Name="Databases" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="54f97363-55d2-4026-bffc-0731e8e3871a">
+						<Section Name="Configuration Files" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="54f97363-55d2-4026-bffc-0731e8e3871a">
 							<Description />
 							<Properties>
-								<Property Name="user.CD.DBHash">
-									<BinaryString>YTE1ZDM5NTkyZDc1NTViMmQwOTk4ZjRjNTU2MDE2MmE=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Win File Path">
-									<String>Physical_Loopback_hw.xml</String>
-								</Property>
-								<Property Name="Dependency_1">
-									<DependentFile Type="Relative" Path="Physical_Loopback_hw.xml">
+								<Property Name="user.CD.Hardware Configuration File">
+									<DependentFile Type="Relative" Path="ALL_Physical_Loopback_hw.xml">
 										<Version>1.0</Version>
-										<ForceDownload>false</ForceDownload>
-										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard - Arinc-429\Board_0__Core_0__.xml</RTDestination>
-										<SupportedTarget>PharLap</SupportedTarget>
-										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
+										<ForceDownload>true</ForceDownload>
+										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\ALL_Physical_Loopback_hw.xml</RTDestination>
+										<SupportedTarget>Linux_x64</SupportedTarget>
+										<MD5>901b9567f6f85413117745122585dd22</MD5>
 									</DependentFile>
-								</Property>
-								<Property Name="user.CD.ParametersFileHash">
-									<BinaryString>YTg5YWQyZTAwNWQ2NDI4MzE1YTg3NDFmMmUyOGVmNjI=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Win Parameters File Path">
-									<String>Physical_Loopback_param.xml</String>
 								</Property>
 							</Properties>
 							<Errors />

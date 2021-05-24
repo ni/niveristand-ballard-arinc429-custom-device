@@ -46,6 +46,48 @@
 		<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 		<Item Name="Custom Device Ballard ARINC 429.xml" Type="Document" URL="../Custom Device Ballard ARINC 429.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Array__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Root Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Root Path Array__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
+				<Item Name="Temporary Filename__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Filename__ogtk.vi"/>
+				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
@@ -58,6 +100,10 @@
 				<Item Name="Build Path - Traditional__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - Traditional__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="CHM Generator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
@@ -97,6 +143,7 @@
 				<Item Name="Convert EOLs (String)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs (String)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
@@ -222,11 +269,16 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
@@ -361,6 +413,7 @@
 				<Item Name="Strip Path Extension - String__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - String__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Units__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Units__ogtk__jki_vi_tester.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -382,22 +435,29 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/Custom Device Support/System Explorer/Implementation/System Explorer/Dynamically Called/ActionVIOnLoad.vi"/>
-			<Item Name="AssertConnectorPanesMatchExpected.vi" Type="VI" URL="../../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/AssertConnectorPanesMatchExpected.vi"/>
-			<Item Name="AssertSourceSeparatedFromCompiledCode.vi" Type="VI" URL="../../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/AssertSourceSeparatedFromCompiledCode.vi"/>
+			<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Custom Device/Asynchronous Execution Unit Compiled Information.ctl"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/RTM/Export Configuration RTM.vi"/>
-			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/RTM/Import Configuration RTM.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/Initialize.vi"/>
+			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Custom Device/Compiled.Settings.ctl"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Implementation/Execution Unit Factory/Execution Unit Factory.lvclass"/>
+			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Interfaces/Execution Unit Factory/Execution Unit Factory.lvclass"/>
+			<Item Name="Execution Unit Information.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Interfaces/Controls/Execution Unit Information.ctl"/>
+			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
+			<Item Name="Inline Execution Unit Compiled Information.ctl" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Custom Device/Inline Execution Unit Compiled Information.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
@@ -406,16 +466,18 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
-			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
-			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Implementation/Shared Resources Factory/Shared Resources Factory.lvclass"/>
-			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Interfaces/Shared Resources Factory/Shared Resources Factory.lvclass"/>
-			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Custom Device Support/Engine/Interfaces/Shared Resources/Shared Resources.lvclass"/>
-			<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Implementation/System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
-			<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 System Explorer.lvlibp/System Explorer/Interfaces/System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
+			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Custom Device/RT Driver VI.vi"/>
+			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Implementation/Shared Resources Factory/Shared Resources Factory.lvclass"/>
+			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Interfaces/Shared Resources Factory/Shared Resources Factory.lvclass"/>
+			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Interfaces/Shared Resources/Shared Resources.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -617,389 +679,6 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="RT PXI Target - PharLap" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target - PharLap</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
-		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
-		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
-		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
-		<Property Name="host.TargetOSID" Type="UInt">15</Property>
-		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
-		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Faults" Type="Str"></Property>
-		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
-		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
-		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
-		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
-		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
-		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
-		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.vi.access" Type="Str">+*</Property>
-		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
-		<Property Name="target.WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
-		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
-		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
-		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
-		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
-		<Item Name="Ballard ARINC 429 Shared.lvlib" Type="Library" URL="../Shared/Ballard ARINC 429 Shared.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
-				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
-		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Engine Debug" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{96478BC8-B5EE-4CC6-BB6D-6022C2E809BE}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/ARINC 429</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F695DE45-75F7-4EEF-8A23-F09E00E4906D}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Ballard ARINC 429 Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Ballard ARINC 429 Engine Pharlap.llb</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3C75360-6443-4331-92D8-60C4EC795698}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - PharLap/Ballard ARINC 429 Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-			</Item>
-			<Item Name="Engine Release" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{1C5E1E67-9451-441D-846C-27770C0D4D34}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/ARINC 429</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Ballard ARINC 429 Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Ballard ARINC 429 Engine Pharlap.llb</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E01D1FEA-CC17-4227-A8B3-32CB015D7A74}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - PharLap/Ballard ARINC 429 Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - PharLap/Ballard ARINC 429 Shared.lvlib/Shared</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - PharLap/NI VeriStand APIs</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-			</Item>
-		</Item>
-	</Item>
-	<Item Name="RT CompactRIO Target - Linux ARM" Type="RT CompactRIO">
-		<Property Name="alias.name" Type="Str">RT CompactRIO Target - Linux ARM</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76D6;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">76D6</Property>
-		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
-		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
-		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
-		<Property Name="host.TargetOSID" Type="UInt">8</Property>
-		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
-		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Faults" Type="Str"></Property>
-		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
-		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
-		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
-		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
-		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
-		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
-		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.vi.access" Type="Str">+*</Property>
-		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
-		<Property Name="target.WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
-		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
-		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
-		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
-		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-		</Item>
-		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
-		<Item Name="Ballard ARINC 429 Shared.lvlib" Type="Library" URL="../Shared/Ballard ARINC 429 Shared.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
-				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
-		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Engine Debug" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{57E1B5DE-63DE-4053-BD98-174A912F0592}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/ARINC 429</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{3D902CDC-8910-43F8-A5F8-B975F153263F}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">Linux_32_ARM/Ballard ARINC 429 Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">Linux_32_ARM/Ballard ARINC 429 Engine LinuxARM.llb</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C1D46815-B3FC-4BE4-ACB2-00D8B04BE76D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Ballard ARINC 429 Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-			</Item>
-			<Item Name="Engine Release" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{8BD177DF-882F-4506-BE35-A5DF5F673C18}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/ARINC 429</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F7A753CB-5AA6-49B3-83A7-C0336FA31893}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">Linux_32_ARM/Ballard ARINC 429 Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">Linux_32_ARM/Ballard ARINC 429 Engine LinuxARM.llb</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C1D46815-B3FC-4BE4-ACB2-00D8B04BE76D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Ballard ARINC 429 Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/NI VeriStand APIs</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Ballard ARINC 429 Shared.lvlib/Shared</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-			</Item>
-		</Item>
-	</Item>
 	<Item Name="RT CompactRIO Target - Linux x64" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target - Linux x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
@@ -1097,7 +776,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
+			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Git/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Engine/Custom Device/RT Driver VI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">

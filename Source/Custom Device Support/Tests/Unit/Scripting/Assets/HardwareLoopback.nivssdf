@@ -10,7 +10,7 @@
 				<String>HardwareLoopback</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.2</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -193,11 +193,11 @@
 								<U32>1</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard - Arinc-429\Pharlap\Ballard - Arinc-429 Engine.llb\Ballard - Arinc-429 RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.9.2</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard - Arinc-429\Ballard - Arinc-429 Engine.llb\Ballard - Arinc-429 RT Driver VI.vi</RTDestination>
-									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>

@@ -10,7 +10,7 @@
 				<String>HardwareLoopback_P2--P3_Complex</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.37</String>
+				<String>1.0.0.41</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -31,10 +31,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>PharLap</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.109.16</String>
+						<String>10.2.109.51</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -210,15 +210,6 @@
 									<MD5 />
 								</DependentFile>
 							</Property>
-							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
 							<Property Name="Version">
 								<String>1.9.2</String>
 							</Property>
@@ -229,15 +220,6 @@
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5>70cad9ddc2fda8eb674c3d99e5b8355e</MD5>
-								</DependentFile>
-							</Property>
-							<Property Name="Dependency_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine.lvlibp">
-									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5>b08497c1d68f5955061d4f4aabc15072</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="user.CD.Initialization Method">
@@ -271,8 +253,8 @@
 										<Version>1.0</Version>
 										<ForceDownload>true</ForceDownload>
 										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Physical_Loopback_hw_P2--P3_Complex.xml</RTDestination>
-										<SupportedTarget>All</SupportedTarget>
-										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
+										<SupportedTarget>Linux_x64</SupportedTarget>
+										<MD5>ac7774c17d36c3cd9044f4f6a510cf62</MD5>
 									</DependentFile>
 								</Property>
 								<Property Name="user.CD.ParametersFileHash">
