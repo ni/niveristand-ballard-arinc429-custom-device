@@ -10,7 +10,7 @@
 				<String>Default with Ballard ARINC 429 CD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.2</String>
+				<String>1.0.0.3</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -220,15 +220,6 @@
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5>182591c5d290af6eca58ad804f564854</MD5>
-								</DependentFile>
-							</Property>
-							<Property Name="Dependency_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Pharlap\Ballard ARINC 429 Engine.lvlibp">
-									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5>140c5738a4a4ba92a287ed41363c56c2</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="user.CD.Initialization Method">
