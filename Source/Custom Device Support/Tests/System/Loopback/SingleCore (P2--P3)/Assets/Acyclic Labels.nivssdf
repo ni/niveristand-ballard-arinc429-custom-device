@@ -10,7 +10,7 @@
 				<String>Acyclic Labels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -758,7 +758,7 @@
 									<Boolean>true</Boolean>
 								</Property>
 								<Property Name="user.CD.Win Parameters File Path">
-									<String>C:\Git\niveristand-ballard-arinc429-custom-device\Source\Custom Device Support\Tests\System\Import-Script-Deploy\Assets\Parameters_DynamicLabels.xml</String>
+									<String>C:\Git\niveristand-ballard-arinc429-custom-device\Source\Custom Device Support\Tests\System\Loopback\SingleCore (P2--P3)\Assets\Parameters_DynamicLabels.xml</String>
 								</Property>
 								<Property Name="user.CD.Hardware Configuration File">
 									<DependentFile Type="Relative" Path="HW_Rx00_Tx24_DynamicLabels.xml">
