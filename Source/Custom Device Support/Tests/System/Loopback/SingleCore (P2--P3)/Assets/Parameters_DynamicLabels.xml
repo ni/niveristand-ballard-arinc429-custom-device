@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<!-- 			Notes														   -->
+<!-- "hardwareChannel" is 0-Based, range accepted is: 0-31					   -->
+<!-- "labelDecimal" is 0-Based, range is 0-255								   -->
+<!-- "encoding": accepted values: BNR, BCD or Discrete						   -->
+<!-- "startBit" is 0-Based, range accepted is: 0-31	for Rx Labels, 8-31 for Tx -->
+<!-- "numberOfBits": range accepted is: 1-32								   -->
+<!-- For all Parameters from Tx Channels, a "defaultValue" must be present. So,-->
+<!-- for BNR and BCD, it means one "defaultValue" per Parameter, for Discrete  -->
+<!-- it means one "defaultValue" instance per bit of the Parameter. 		   -->
+<!--             															   -->
+<!-- For Discrete encoding Parameter, for defaultValue, 0 value is considered  -->
+<!-- "false", any value different from 0 is considered "true".				   -->
+<!--             															   -->
+<!-- For BCD "encoding", if signed is true, we assume that sign information is -->
+<!-- stored in SSM Bits with following table: 00: positive , 11: negative.	   -->
+<!-- For "Discrete" encoding type, there should be one name element per        -->
+<!-- numberOfBits of the Parameter.											   -->
+<!-- For BCD encoding, "numberOfBits" includes only sum of bits used to encode -->
+<!-- digits, bits used to encode sign are excluded from that count. 		   -->
+<!-- For BCD encoding, "startBit" values supported are: 10, 14, 18, 22, 26.	   -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+
+	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
+	<channel>
+		<hardwareChannel>0</hardwareChannel>
+		<label>
+			<labelDecimal>07</labelDecimal>
+			<parameter>
+				<direction>incoming</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>07_Parameter 0</name>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+		<label>
+			<labelDecimal>08</labelDecimal>
+			<parameter>
+				<direction>incoming</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>08_Parameter 0</name>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+		<label>
+			<labelDecimal>23</labelDecimal>
+			<parameter>
+				<direction>incoming</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>23_Parameter 0</name>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+		<label>
+			<labelDecimal>24</labelDecimal>
+			<parameter>
+				<direction>incoming</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>24_Parameter 0</name>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+	</channel>
+
+	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
+	<channel>
+		<hardwareChannel>24</hardwareChannel>
+		<label>
+			<labelDecimal>07</labelDecimal>
+			<transferType>1</transferType>
+			<parameter>
+				<direction>outgoing</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>07_Parameter 0</name>
+				<unit>psi</unit>
+				<defaultValue>50.0</defaultValue>
+			</parameter>
+		</label>
+		<label>
+			<labelDecimal>08</labelDecimal>
+			<transferType>1</transferType>
+			<parameter>
+				<direction>outgoing</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>08_Parameter 0</name>
+				<unit>psi</unit>
+				<defaultValue>51.0</defaultValue>
+			</parameter>
+		</label>
+		<label>
+			<labelDecimal>23</labelDecimal>
+			<transferType>1</transferType>
+			<parameter>
+				<direction>outgoing</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>23_Parameter 0</name>
+				<unit>psi</unit>
+				<defaultValue>52.0</defaultValue>
+			</parameter>
+		</label>
+		<label>
+			<labelDecimal>24</labelDecimal>
+			<transferType>1</transferType>
+			<parameter>
+				<direction>outgoing</direction>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<scale>1.0</scale>
+				<offset>0.0</offset>
+				<name>24_Parameter 0</name>
+				<unit>psi</unit>
+				<defaultValue>53.0</defaultValue>
+			</parameter>
+		</label>
+	</channel>
+</parameters>
+
