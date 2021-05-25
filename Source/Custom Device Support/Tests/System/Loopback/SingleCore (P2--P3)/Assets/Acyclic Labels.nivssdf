@@ -10,7 +10,7 @@
 				<String>Acyclic Labels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.9</String>
+				<String>1.0.0.12</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -1840,6 +1840,42 @@
 				<Properties>
 					<Property Name="Referenced Channel">
 						<DependentNode Path="Targets/Controller/Custom Devices/Ballard ARINC 429/Ports/Outgoing/CH24/label 24/Word/24_Parameter 0" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Trigger_07" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="e42c890b-4e4b-4f25-a219-37f62ab93fb3">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard ARINC 429/Ports/Outgoing/CH24/label 7/Trigger" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Trigger_08" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="d8dc22e4-206c-4904-87d1-a8c8d55fecc9">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard ARINC 429/Ports/Outgoing/CH24/label 8/Trigger" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Trigger_23" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="9ebd55cb-dca3-4efe-a164-6ad4e36b9ebf">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard ARINC 429/Ports/Outgoing/CH24/label 23/Trigger" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Trigger_24" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="14f5c1ed-50ca-4122-bd46-73db5a3b9728">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard ARINC 429/Ports/Outgoing/CH24/label 24/Trigger" />
 					</Property>
 				</Properties>
 				<Errors />
