@@ -64,7 +64,7 @@
 	</channel>
 	<channel>
 		<hardwareChannel>4</hardwareChannel>
-		<direction>INcoming</direction>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -139,7 +139,7 @@
 	</channel>
 	<channel>
 		<hardwareChannel>21</hardwareChannel>
-		<direction>OUTgoing</direction>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<parameter>
