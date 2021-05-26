@@ -16,9 +16,6 @@
 		<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Error Word Bits Checker.vi"/>
 	</Item>
 	<Item Name="Parse subVIs" Type="Folder">
-		<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Conditionally Add Parity Parameter.vi"/>
-		<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Conditionally Add SDI Parameter.vi"/>
-		<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Conditionally Add SSM Parameter.vi"/>
 		<Item Name="Parse Label.vi" Type="VI" URL="../Parse Label.vi"/>
 		<Item Name="Parse Parameter.vi" Type="VI" URL="../Parse Parameter.vi"/>
 	</Item>
