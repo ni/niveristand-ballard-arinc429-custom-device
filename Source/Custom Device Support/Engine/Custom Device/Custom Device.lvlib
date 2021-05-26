@@ -22,8 +22,8 @@
 			<Item Name="Unflatten Shared Resources.vi" Type="VI" URL="../Unflatten Shared Resources.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="Communication Bus Template.Async.vi" Type="VI" URL="../Communication Bus Template.Async.vi"/>
 			<Item Name="Compute RT Index from Label and SDI.vi" Type="VI" URL="../Compute RT Index from Label and SDI.vi"/>
+			<Item Name="Execute.Async.vi" Type="VI" URL="../Execute.Async.vi"/>
 			<Item Name="Get RT Label Settings for Message.vi" Type="VI" URL="../Get RT Label Settings for Message.vi"/>
 			<Item Name="Increment Error Counts.vi" Type="VI" URL="../Increment Error Counts.vi"/>
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
