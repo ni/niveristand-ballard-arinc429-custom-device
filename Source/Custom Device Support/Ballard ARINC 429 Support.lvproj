@@ -13,6 +13,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Shared" Type="Folder">
+			<Item Name="Error Test" Type="Folder">
+				<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
+				<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Shared/Error Test Number Of Bits.vi"/>
+				<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
+				<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
+				<Item Name="Error Test Channel Number.vi" Type="VI" URL="../Shared/Error Test Channel Number.vi"/>
+				<Item Name="Error Test Label Count.vi" Type="VI" URL="../Shared/Error Test Label Count.vi"/>
+			</Item>
 			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
@@ -40,6 +48,9 @@
 			<Item Name="VS Channel Definition for Parameter.ctl" Type="VI" URL="../Shared/VS Channel Definition for Parameter.ctl"/>
 			<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="../Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
 			<Item Name="VS Channels Definition for Label.ctl" Type="VI" URL="../Shared/VS Channels Definition for Label.ctl"/>
+			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
+			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
+			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>
@@ -812,6 +823,9 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
+			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
+			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
@@ -821,6 +835,12 @@
 			</Item>
 			<Item Name="Encode Parameter and Update Word (32-bit).vi" Type="VI" URL="../Shared/Encode Parameter and Update Word (32-bit).vi"/>
 			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../Encoding and Decoding/Encoding and Decoding.lvlib"/>
+			<Item Name="Error Test Channel Number.vi" Type="VI" URL="../Shared/Error Test Channel Number.vi"/>
+			<Item Name="Error Test Label Count.vi" Type="VI" URL="../Shared/Error Test Label Count.vi"/>
+			<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Shared/Error Test Number Of Bits.vi"/>
+			<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
+			<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
+			<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
 			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>

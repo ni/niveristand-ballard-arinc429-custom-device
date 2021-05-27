@@ -43,7 +43,6 @@
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Parameter/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameter Scaling.vi" Type="VI" URL="../Parameter/Get Parameter Scaling.vi"/>
 		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../Parameter/Get Parameter Unit.vi"/>
-		<Item Name="Include SDI SSM and Parity Parameters.vi" Type="VI" URL="../Parameter/Include SDI SSM and Parity Parameters.vi"/>
 		<Item Name="Set Parameter Bit Encoding.vi" Type="VI" URL="../Parameter/Set Parameter Bit Encoding.vi"/>
 		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Parameter/Set Parameter Definition.vi"/>
 		<Item Name="Set Parameter Scaling.vi" Type="VI" URL="../Parameter/Set Parameter Scaling.vi"/>
