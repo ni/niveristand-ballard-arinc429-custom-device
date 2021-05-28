@@ -32,6 +32,7 @@
 			<Item Name="Process Records.vi" Type="VI" URL="../Process Records.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
 			<Item Name="Start Sequential Monitor if Not Started.vi" Type="VI" URL="../Start Sequential Monitor if Not Started.vi"/>
+			<Item Name="Write Error to System Log.vi" Type="VI" URL="../Write Error to System Log.vi"/>
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
