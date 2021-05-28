@@ -21,13 +21,13 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<hr width="100%" noshade>
 		</noscript>
 		<h1>Configuration Files</h1>
-		<h2>Subsection 1</h2>
-		Subsection 1 information</br>
+		<h2>Hardware Configuration File</h2>
+		The hardware configuration file is required to configure the avionics communications hardware. The schema is specific to Astronics Ballard devices. More information about the schema is installed by the driver API (C:\Program Files (x86)\Astronics Ballard Technology LabVIEW Driver\Help\index.html). Additionally, tools such as BTIXMLEdit or database import utilities can be used to generate the hardware configuration file. The hardware configuration file is required and will be deployed to the real-time target in order to deploy the system definition.</br>
 		
-		<h2>Subsection 2</h2>
-		Subsection 2 information</br>
-		<p>
-			<strong>Control:</strong> Description 
-		</p>
+		<h2>Parameter Configuration File</h2>
+		The parameter configuration file is used to configure a Ballard ARINC 429 custom device to encode and decode parameter data in labels on channels. With respect to labels on each channel and channels configured on the device core, the parameter configuration file must agree with the hardware configuration file. The schema for this file is specific to ARINC 429. More information on the parameter configuration file schema can be found in the github repository (https://github.com/ni/niveristand-ballard-arinc429-custom-device/blob/main/Docs/Parameters%20XML%20File/ARINC429_Parameters_XML_Schema.xsd). The parameter configuration file is required for Ballard ARINC 429 system definitions created in System Explorer.</br>
+		<p><strong>Hardware</strong>: specifies the path to the hardware configuration file</p>
+		<p><strong>Parameters</strong>: specifies the path to the parameters configuration file</p>
+		<p><strong>Refresh</strong>: invokes the refresh dialog which can be used to view changes to configuration when importing a new parameters configuration file or when the parameters configuration file has changed on disk</p>
 	</body>
 </html> 
