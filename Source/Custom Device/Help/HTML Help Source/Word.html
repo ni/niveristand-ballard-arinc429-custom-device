@@ -14,6 +14,15 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
 		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+		<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 8px;
+		}
+		</style>
 	</head>
 	<body>
 		<noscript>
@@ -22,7 +31,40 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</noscript>
 		<h1>Word</h1>
 		<h2>ARINC 429 Message</h2>
-		Messages are value(s) encoded into a 32-bit word as defined in the ARINC 429 protocol. One or more parameters may be encoded into a word which is also known as a label.</br></br>
+		<p>Each message includes one or more parameter values encoded into a 32-bit word as defined in the ARINC 429 protocol. A typical 32-bit word is formatted according to the table below.</p>
+		<table>
+			<tr>
+				<th>Field Name</th>
+				<th>Start Bit Index</th>
+				<th>Field Length</br>(Number of Bits)</th>
+			</tr>
+			<tr>
+				<td>Label</td>
+				<td>0</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>SDI</td>
+				<td>8</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Data</td>
+				<td>10</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>SSM</td>
+				<td>29</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Parity</td>
+				<td>31</td>
+				<td>1</td>
+			</tr>
+		</table></br>
+		<p>Note: multiple parameters may be encoded within the data field. Parameters should not overlap with each other nor with reserved bits for Label, SDI, SSM, or Parity.</p>
 		<p><strong>Name</strong>: specifies the name of the section in the system definition</p>
 		<p><strong>Description</strong>: describes the section</p>
 	</body>
