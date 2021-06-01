@@ -54,8 +54,7 @@
 		<Item Name="Get All Outgoing Ports.vi" Type="VI" URL="../Port/Get All Outgoing Ports.vi"/>
 		<Item Name="Get Labels on Port.vi" Type="VI" URL="../Port/Get Labels on Port.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
-		<Item Name="Remove All Ports.vi" Type="VI" URL="../Port/Remove All Ports.vi"/>
-		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
+		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
