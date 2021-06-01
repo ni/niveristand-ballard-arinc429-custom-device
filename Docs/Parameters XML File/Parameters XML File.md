@@ -40,6 +40,7 @@ The code snippet below is an example of BCD Parameters.
 	<hardwareChannel>26</hardwareChannel>
 	<label>
 		<labelDecimal>28</labelDecimal>
+		<transferType>0</transferType>
 		<parameter>
 			<encoding>BCD</encoding>
 			<signed>true</signed>
@@ -80,6 +81,7 @@ The code snippet below is an example of Discrete Parameters.
 ```xml
 <label>
 	<labelDecimal>23</labelDecimal>
+	<transferType>0</transferType>
 	<parameter>
 		<encoding>Discrete</encoding>
 		<startBit>10</startBit>
@@ -104,6 +106,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→→`<labelDecimal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (decimal). Range is: [0:255].|
 |→→`<labelOctal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (octal). Range is: [0:377].|
 |→→`<sdi>`|No|xs:string|0/1|Specifies whether these Label settings apply to all SDI variants or a specific one. Supported values: <br/>All (default) - Pastes by creating a new instance of the item.<br/>00 - Pastes only if an item with the same GUID does not already exist.<br/>01 - Pastes only if an item with the same name does not already exist.<br/>10 - Pastes by replacing an item.<br/>11 - Prompts the operator with a dialog before pasting.|
+|→→`<transferType>`|No|xs:int|0/1|Specifies the transfer type for a Tx message. Use 0 for a scheduled label; use 1 for an acyclic label. Default Value (if XML element is absent) is 0 (Scheduled).|
 |→→`<createSDIChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label SDI Bits. Default Value (if XML element is absent) is false.|
 |→→`<createSSMChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label SSM Bits. Default Value (if XML element is absent) is false.|
 |→→`<createParityChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label Parity Bit. This is supported only for Rx Channel, not for Tx. Default Value (if XML element is absent) is false.|
