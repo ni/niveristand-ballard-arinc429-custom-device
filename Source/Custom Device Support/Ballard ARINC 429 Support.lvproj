@@ -107,7 +107,6 @@
 			<Item Name="Copy PPLs to Includes.vi" Type="VI" URL="../Utility/Copy PPLs to Includes.vi"/>
 			<Item Name="Copy PPLs to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy PPLs to NI VeriStand dir.vi"/>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
-			<Item Name="Create Listbox Symbols for Refresh.vi" Type="VI" URL="../Utility/Create Listbox Symbols for Refresh.vi"/>
 		</Item>
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
 		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
@@ -574,6 +573,7 @@
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
+			<Item Name="Create Listbox Symbols for Refresh.vi" Type="VI" URL="../Utility/Create Listbox Symbols for Refresh.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
