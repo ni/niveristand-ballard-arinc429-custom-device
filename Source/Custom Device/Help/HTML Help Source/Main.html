@@ -21,21 +21,36 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<hr width="100%" noshade>
 		</noscript>
 		<h1>Ballard ARINC 429</h1>
-		<p>The <strong>Ballard ARINC 429 Custom Device</strong> is an addon that configures Astronics Ballard hardware designed for avionics communications using the ARINC 429 protocol. This addon configures exactly one core of a Ballard device. You may use multiple Ballard ARINC 429 addons in your VeriStand project.</p>
+		<p>The <strong>Ballard ARINC 429 Custom Device</strong> configures Astronics Ballard hardware designed for avionics communications using the ARINC 429 protocol. This addon configures only one core of a Ballard device. You may use multiple Ballard ARINC 429 addons in your VeriStand project.</p>
 		<h2>What do you want to do?</h2>
-		<h3>View / Edit Hardware Configuration</h3>
-		<p class="Body">Configure the hardware device on this page.</p>
-		<h3>Import Hardware and Parameter Configurations</h3>
-		<p class="Body">Import hardware and parameter configuration files in the <strong>Configuration Files</strong> section.</p>
-		<h3>View Hardware Channel, Label, and Parameter Configurations</h3>
-		<p class="Body">View configurations by selecting a hardware channel, a label, or a named parameter in the system tree.</p>
-		<br>
+		<p>Depending on your goal, complete the following task.</p>
+		<table>
+		<tr>
+			<th>Goal</th>
+			<th>Task</th>
+		</tr>
+		<tr>
+			<td>View/Edit Hardware Configuration</td>
+			<td>Configure the hardware device on this page.</td>
+		</tr>
+		<tr>
+			<td>Import Hardware and Parameter Configurations</td>
+			<td>Import hardware and parameter configuration files in the <strong>Configuration Files</strong> section.</td>
+		</tr>
+		<tr>
+			<td>View Hardware Channel, Label, and Parameter Configurations</td>
+			<td>Select a hardware channel, a label, or a named parameter in the system tree.</td>
+		</tr>
+		</table>
 		<h2>Device Configuration</h2>
-		<p><strong>Name</strong>: specifies the name of this custom device</p>
-		<p><strong>Description</strong>: describes this instance of the custom device to serve as documentation</p>
-		<p><strong>Initialization Method</strong>: specifies whether to reference the hardware device by PXI Slot Number or Card Number</p>
-		<p><strong>PXI Slot Number</strong>: specifies the PXI Slot Number of the hardware device</p>
-		<p><strong>Card Number</strong>: specifies the card identifier as enumerated by BTITST32 application</p>
-		<p><strong>Core Number</strong>: specifies the hardware device core to use for communication</p>
+		<p>The device has the following parameters.
+			<ul>
+				<li><strong>Name</strong>—Specifies the custom device name.</li>
+				<li><strong>Description</strong>—Documents this instance of the custom device.</li>
+				<li><strong>Initialization Method</strong>—Specifies whether to reference the hardware device by PXI Slot Number or Card Number.</li>
+				<li><strong>PXI Slot Number</strong>—Specifies the PXI Slot Number of the hardware device.</li>
+				<li><strong>Card Number</strong>—Specifies the card identifier as enumerated by BTITST32 application.</li>
+				<li><strong>Core Number</strong>—Specifies the hardware device core to use for communication.</li>
+			</ul></p>
 	</body>
-</html> 
+</html>
