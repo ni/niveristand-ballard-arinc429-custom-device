@@ -29,6 +29,20 @@
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
 		<Item Name="Word.vi" Type="VI" URL="../System Explorer/Pages/Word.vi"/>
 	</Item>
+	<Item Name="Refresh" Type="Folder">
+		<Item Name="Add New Or Old Label.vi" Type="VI" URL="../System Explorer/Refresh/Add New Or Old Label.vi"/>
+		<Item Name="Add New Or Old Parameter.vi" Type="VI" URL="../System Explorer/Refresh/Add New Or Old Parameter.vi"/>
+		<Item Name="Add New Or Old Port.vi" Type="VI" URL="../System Explorer/Refresh/Add New Or Old Port.vi"/>
+		<Item Name="Build Refresh Listbox Data.vi" Type="VI" URL="../System Explorer/Refresh/Build Refresh Listbox Data.vi"/>
+		<Item Name="Compare Labels.vi" Type="VI" URL="../System Explorer/Refresh/Compare Labels.vi"/>
+		<Item Name="Compare Parameters.vi" Type="VI" URL="../System Explorer/Refresh/Compare Parameters.vi"/>
+		<Item Name="Compare Ports.vi" Type="VI" URL="../System Explorer/Refresh/Compare Ports.vi"/>
+		<Item Name="Create Listbox Row.vi" Type="VI" URL="../System Explorer/Refresh/Create Listbox Row.vi"/>
+		<Item Name="Parameter Cluster To String Cluster.vi" Type="VI" URL="../System Explorer/Refresh/Parameter Cluster To String Cluster.vi"/>
+		<Item Name="Refresh Configuration File Dialog.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Configuration File Dialog.vi"/>
+		<Item Name="Refresh Constants.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Constants.vi"/>
+		<Item Name="Refresh Listbox Changes.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Listbox Changes.vi"/>
+	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
@@ -46,7 +60,10 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
 		<Item Name="Database.ctl" Type="VI" URL="../System Explorer/Types/Database.ctl"/>
+		<Item Name="Parameter Strings.ctl" Type="VI" URL="../System Explorer/Types/Parameter Strings.ctl"/>
 		<Item Name="Path Control.ctl" Type="VI" URL="../System Explorer/Types/Path Control.ctl"/>
+		<Item Name="Refresh Listbox.ctl" Type="VI" URL="../System Explorer/Types/Refresh Listbox.ctl"/>
+		<Item Name="Refresh Symbols.ctl" Type="VI" URL="../System Explorer/Types/Refresh Symbols.ctl"/>
 	</Item>
 	<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 </Library>
