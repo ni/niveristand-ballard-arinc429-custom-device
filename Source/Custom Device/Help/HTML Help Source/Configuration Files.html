@@ -14,6 +14,15 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
 		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+		<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 8px;
+		}
+		</style>
 	</head>
 	<body>
 		<noscript>
@@ -23,32 +32,32 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h1>Configuration Files</h1>
 		<p>Two configuration files are required to run the Ballard ARINC 429 custom device; the hardware configuration file and the parameter configuration file. The following table describes these files.</p>
 		<table>
-  	<tr>
-    	<th>File Name</th>
-    	<th>Description</th>
+	<tr>
+		<th>File Name</th>
+		<th>Description</th>
   	</tr>
-  	<tr>
-    	<td>Hardware Configuration File</td>
-    	<td>
+	<tr>
+		<td>Hardware Configuration File</td>
+		<td>
 				<p>Configures the avionics communications hardware and to deploy the system definition to a real-time target. The schema is specific to Astronics Ballard devices.</p>
 				<p>Use tools such as BTIXMLEdit or database import utilities to generate the hardware configuration file.</p>
 				<p>Schema information is installed by the driver API at the following location: <tt>C:\Program Files (x86)\Astronics Ballard Technology LabVIEW Driver\Help\index.html.</tt></p>
 			</td>
-  	</tr>
+	</tr>
 		<tr>
-    	<td>Parameter Configuration File</td>
-    	<td>
+		<td>Parameter Configuration File</td>
+		<td>
 				<p>Configures the custom device to encode and decode parameters. The file is required for Ballard ARINC 429 system definitions created in <strong>System Explorer</strong>.</p>
 				<p>The parameter configuration file must agree with the hardware configuration file. This includes matching labels on each channel and channels configured on the device core.</p>
-				<p>The following file schema is specific to ARINC 429.
-					<ul>
-						<li><strong>Hardware</strong>—Specifies the path to the hardware configuration file.</li>
-						<li><strong>Parameters</strong>—Specifies the path to the parameters configuration file.</li>
-						<li><strong>Refresh</strong>—Invokes the <strong>Refresh</strong> dialog box. Use this dialog box to view changes to a configuration when importing a new parameters configuration file or when the parameters configuration file has changed on disk.</li>
-					</ul></p>
-				<p>For more information on the parameter configuration file schema, refer to the <a href="https://github.com/ni/niveristand-ballard-arinc429-custom-device/blob/main/Docs/Parameters%20XML%20File/ARINC429_Parameters_XML_Schema.xsd">Ballard ARINC 429 Custom Device GitHUB repository</a>.</p>
+				<p>For more information on the parameter configuration file schema, refer to the <a href="https://github.com/ni/niveristand-ballard-arinc429-custom-device/blob/main/Docs/Parameters%20XML%20File/ARINC429_Parameters_XML_Schema.xsd" target="_blank">Ballard ARINC 429 Custom Device GitHUB repository</a>.</p>
 			</td>
-  	</tr>
-		</table>
+	</tr>
+		</table></br>
+		<p>This section has the following configuration settings:
+			<ul>
+				<li><strong>Hardware</strong>&#8212;Specifies the path to the hardware configuration file.</li>
+				<li><strong>Parameters</strong>&#8212;Specifies the path to the parameters configuration file.</li>
+				<li><strong>Refresh</strong>&#8212;Invokes the <strong>Refresh</strong> dialog box. Use this dialog box to view changes to a configuration when importing a new parameters configuration file or when the parameters configuration file has changed on disk.</li>
+			</ul></p>
 	</body>
 </html>
