@@ -42,6 +42,7 @@
 		<Item Name="Refresh Configuration File Dialog.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Configuration File Dialog.vi"/>
 		<Item Name="Refresh Constants.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Constants.vi"/>
 		<Item Name="Refresh Listbox Changes.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Listbox Changes.vi"/>
+		<Item Name="Turn On Change Flag Upstream.vi" Type="VI" URL="../System Explorer/Refresh/Turn On Change Flag Upstream.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
