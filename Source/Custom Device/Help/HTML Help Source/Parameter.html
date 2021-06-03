@@ -21,13 +21,19 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<hr width="100%" noshade>
 		</noscript>
 		<h1>Parameter</h1>
-		<h2>Subsection 1</h2>
-		Subsection 1 information</br>
-		
-		<h2>Subsection 2</h2>
-		Subsection 2 information</br>
-		<p>
-			<strong>Control:</strong> Description 
-		</p>
+		<p>Specifies how a value is encoded within the ARINC 429 32-bit word.</p>
+		<p>This section has the following configuration settings:
+			<ul>
+				<li><strong>Name</strong>&#8212;Specifies the name of the section in the system definition.</li>
+				<li><strong>Description</strong>&#8212;Describes the section.</li>
+				<li><strong>Encoding Type</strong>&#8212;Returns the encoding format. Possible values are <tt>BNR</tt>, <tt>BCD</tt>, and <tt>Discrete</tt></strong>.</li>
+				<li><strong>Default Value (Scaled)</strong>&#8212;Returns the default value which is the value that will be transmitted until the parameter value is updated.</li>
+				<li><strong>Start Bit</strong>&#8212;Returns the index of the first bit of the encoded parameter.</li>
+				<li><strong>Number of Bits</strong>&#8212;Returns the number of bits allocated to the parameter within the 32-bit word.</li>
+				<li><strong>Signed?</strong>&#8212;Returns whether the parameter value is signed which indicates whether the value range includes negative values.</li>
+				<li><strong>Scale Factor</strong>&#8212;Returns the multiplier used to convert unscaled/encoded integer values to scaled/decoded floating point values.</li>
+				<li><strong>Scale Offset</strong>&#8212;Returns the offset used to convert unscaled/encoded integer values to scaled/decoded floating point values.</li>
+				<li><strong>Units</strong>&#8212;Returns the unit label of the scaled parameter value.</li>
+			</ul></p>
 	</body>
-</html> 
+</html>
