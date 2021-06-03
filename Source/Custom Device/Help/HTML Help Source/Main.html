@@ -9,25 +9,57 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 	<head>
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-		<title>Main</title>
+		<title>Ballard ARINC 429</title>
 		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
 		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+		<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 8px;
+		}
+		</style>
 	</head>
 	<body>
 		<noscript>
 			<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 			<hr width="100%" noshade>
 		</noscript>
-		<h1>Main</h1>
-		<h2>Subsection 1</h2>
-		Subsection 1 information</br>
-		
-		<h2>Subsection 2</h2>
-		Subsection 2 information</br>
-		<p>
-			<strong>Control:</strong> Description 
-		</p>
+		<h1>Ballard ARINC 429</h1>
+		<p>The <strong>Ballard ARINC 429 Custom Device</strong> configures Astronics Ballard hardware designed for avionics communications using the ARINC 429 protocol. This addon configures only one core of a Ballard device. You may use multiple Ballard ARINC 429 addons in your VeriStand project.</p>
+		<h2>What do you want to do?</h2>
+		<p>Depending on your goal, complete the following task.</p>
+		<table>
+		<tr>
+			<th>Goal</th>
+			<th>Task</th>
+		</tr>
+		<tr>
+			<td>View/Edit Hardware Configuration</td>
+			<td>Configure the hardware device on this page.</td>
+		</tr>
+		<tr>
+			<td>Import Hardware and Parameter Configurations</td>
+			<td>Import hardware and parameter configuration files in the <strong>Configuration Files</strong> section.</td>
+		</tr>
+		<tr>
+			<td>View Hardware Channel, Label, and Parameter Configurations</td>
+			<td>Select a hardware channel, a label, or a named parameter in the system tree.</td>
+		</tr>
+		</table></br>
+		<h2>Device Configuration</h2>
+		<p>This device has the following configuration settings:
+			<ul>
+				<li><strong>Name</strong>&#8212;Specifies the custom device name.</li>
+				<li><strong>Description</strong>&#8212;Documents this instance of the custom device.</li>
+				<li><strong>Initialization Method</strong>&#8212;Specifies whether to reference the hardware device by PXI Slot Number or Card Number.</li>
+				<li><strong>PXI Slot Number</strong>&#8212;Specifies the PXI Slot Number of the hardware device.</li>
+				<li><strong>Card Number</strong>&#8212;Specifies the card identifier as enumerated by BTITST32 application.</li>
+				<li><strong>Core Number</strong>&#8212;Specifies the hardware device core to use for communication.</li>
+			</ul></p>
 	</body>
-</html> 
+</html>
