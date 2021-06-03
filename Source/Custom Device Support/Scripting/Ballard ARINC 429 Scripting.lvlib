@@ -22,14 +22,20 @@
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
+		<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
+		<Item Name="Find.vi" Type="VI" URL="../Find.vi"/>
+		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
+		<Item Name="Remove.vi" Type="VI" URL="../Remove.vi"/>
+		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
 		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
 	</Item>
 	<Item Name="Label" Type="Folder">
+		<Item Name="Add Label with Parameters.vi" Type="VI" URL="../Label/Add Label with Parameters.vi"/>
 		<Item Name="Add Label.vi" Type="VI" URL="../Label/Add Label.vi"/>
 		<Item Name="Get Label Properties.vi" Type="VI" URL="../Label/Get Label Properties.vi"/>
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
@@ -53,6 +59,7 @@
 		<Item Name="Get All Incoming Ports.vi" Type="VI" URL="../Port/Get All Incoming Ports.vi"/>
 		<Item Name="Get All Outgoing Ports.vi" Type="VI" URL="../Port/Get All Outgoing Ports.vi"/>
 		<Item Name="Get Labels on Port.vi" Type="VI" URL="../Port/Get Labels on Port.vi"/>
+		<Item Name="Get Port Direction.vi" Type="VI" URL="../Port/Get Port Direction.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
 	</Item>
