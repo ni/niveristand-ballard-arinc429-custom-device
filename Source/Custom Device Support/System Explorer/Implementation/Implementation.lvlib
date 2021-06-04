@@ -48,7 +48,6 @@
 	<Item Name="RTM" Type="Folder">
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
-		<Item Name="Refresh Configuration File RTM.vi" Type="VI" URL="../System Explorer/RTM/Refresh Configuration File RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../System Explorer/Check If Error Already Exists.vi"/>
