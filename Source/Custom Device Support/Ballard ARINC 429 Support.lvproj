@@ -641,7 +641,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Support/Windows/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{883448D9-F52E-4B84-8F85-EF6DA0C736E9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DBABCADD-56F5-4478-A018-F970A71BB26D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Engine.lvlib</Property>
