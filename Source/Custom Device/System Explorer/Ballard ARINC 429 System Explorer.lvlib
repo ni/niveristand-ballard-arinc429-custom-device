@@ -15,8 +15,6 @@
 			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Page Wrapper.vi" Type="VI" URL="../Page Wrapper.vi"/>
-			<Item Name="RunTimeMenu Custom Population.vi" Type="VI" URL="../RunTimeMenu Custom Population.vi"/>
-			<Item Name="RunTimeMenu Wrapper.vi" Type="VI" URL="../RunTimeMenu Wrapper.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Asynchronous Execution Units.vi" Type="VI" URL="../Compile Asynchronous Execution Units.vi"/>
