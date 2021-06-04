@@ -24,7 +24,6 @@
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
-		<Item Name="Find.vi" Type="VI" URL="../Find.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
 		<Item Name="Remove.vi" Type="VI" URL="../Remove.vi"/>
