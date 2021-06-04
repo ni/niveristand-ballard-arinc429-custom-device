@@ -54,8 +54,8 @@
 			</Name>
 			<GUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</GUID>
 			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ArincGrey.png</Path>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Glyphs\ArincGrey.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>

@@ -38,10 +38,12 @@
 		<Item Name="Compare Parameters.vi" Type="VI" URL="../System Explorer/Refresh/Compare Parameters.vi"/>
 		<Item Name="Compare Ports.vi" Type="VI" URL="../System Explorer/Refresh/Compare Ports.vi"/>
 		<Item Name="Create Listbox Row.vi" Type="VI" URL="../System Explorer/Refresh/Create Listbox Row.vi"/>
+		<Item Name="Get Port Direction.vi" Type="VI" URL="../System Explorer/Refresh/Get Port Direction.vi"/>
 		<Item Name="Parameter Cluster To String Cluster.vi" Type="VI" URL="../System Explorer/Refresh/Parameter Cluster To String Cluster.vi"/>
 		<Item Name="Refresh Configuration File Dialog.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Configuration File Dialog.vi"/>
 		<Item Name="Refresh Constants.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Constants.vi"/>
 		<Item Name="Refresh Listbox Changes.vi" Type="VI" URL="../System Explorer/Refresh/Refresh Listbox Changes.vi"/>
+		<Item Name="Turn On Change Flag Upstream.vi" Type="VI" URL="../System Explorer/Refresh/Turn On Change Flag Upstream.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>

@@ -108,7 +108,7 @@
       <direction>outgoing</direction>
 		<label>
 			<labelDecimal>134</labelDecimal>
-         <TransferType>0</TransferType>
+         <transferType>0</transferType>
          <parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -127,7 +127,7 @@
       <direction>outgoing</direction>
 		<label>
 			<labelDecimal>135</labelDecimal>
-         <TransferType>0</TransferType>
+         <transferType>0</transferType>
          <parameter>
 				<encoding>BCD</encoding>
 				<signed>true</signed>
@@ -146,7 +146,7 @@
       <direction>outgoing</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
-         <TransferType>0</TransferType>
+         <transferType>0</transferType>
          <parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
