@@ -13,8 +13,13 @@
 		<Item Name="Get Channel Specification Page Settings.vi" Type="VI" URL="../Channel/Get Channel Specification Page Settings.vi"/>
 	</Item>
 	<Item Name="Configuration Files" Type="Folder">
+		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
+		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
+		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
+		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
+		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
@@ -28,6 +33,25 @@
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
 		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
 	</Item>
+	<Item Name="Label" Type="Folder">
+		<Item Name="Add Label with Parameters.vi" Type="VI" URL="../Label/Add Label with Parameters.vi"/>
+		<Item Name="Add Label.vi" Type="VI" URL="../Label/Add Label.vi"/>
+		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
+		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Label/Get Timestamp Reference.vi"/>
+	</Item>
+	<Item Name="Parameter" Type="Folder">
+		<Item Name="Add Parameter.vi" Type="VI" URL="../Parameter/Add Parameter.vi"/>
+	</Item>
+	<Item Name="Port" Type="Folder">
+		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
+		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
+		<Item Name="Get All Incoming Ports.vi" Type="VI" URL="../Port/Get All Incoming Ports.vi"/>
+		<Item Name="Get All Outgoing Ports.vi" Type="VI" URL="../Port/Get All Outgoing Ports.vi"/>
+		<Item Name="Get Labels on Port.vi" Type="VI" URL="../Port/Get Labels on Port.vi"/>
+		<Item Name="Get Port Direction.vi" Type="VI" URL="../Port/Get Port Direction.vi"/>
+		<Item Name="Ports To System Definition.vi" Type="VI" URL="../Port/Ports To System Definition.vi"/>
+		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
+	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add Error Status Channels.vi" Type="VI" URL="../Status/Add Error Status Channels.vi"/>
@@ -35,6 +59,9 @@
 		<Item Name="Add Status Section.vi" Type="VI" URL="../Status/Add Status Section.vi"/>
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
 		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
+	</Item>
+	<Item Name="Word" Type="Folder">
+		<Item Name="Add Word.vi" Type="VI" URL="../Word/Add Word.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>

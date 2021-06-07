@@ -118,10 +118,10 @@
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
 		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
-		<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard ARINC 429 Scripting.lvlib"/>
+		<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard/Ballard ARINC 429 Scripting.lvlib"/>
 		<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-		<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429 Scripting.lvlib"/>
+		<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
@@ -832,10 +832,10 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
-			<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429 Scripting.lvlib"/>
+			<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 			<Item Name="ARINC 429.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC 429.lvclass"/>
 			<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
-			<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard ARINC 429 Scripting.lvlib"/>
+			<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard/Ballard ARINC 429 Scripting.lvlib"/>
 			<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
