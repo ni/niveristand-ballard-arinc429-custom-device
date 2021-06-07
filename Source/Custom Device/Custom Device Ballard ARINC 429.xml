@@ -54,8 +54,8 @@
 			</Name>
 			<GUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</GUID>
 			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ArincGrey.png</Path>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Glyphs\ArincGrey.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -164,24 +164,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -197,24 +179,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -231,24 +195,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -265,24 +211,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -298,24 +226,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -331,24 +241,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -364,24 +256,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -397,24 +271,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
       <Page>
 			<Name>
@@ -430,24 +286,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
       <Page>
 			<Name>
@@ -463,24 +301,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
       <Page>
 			<Name>
@@ -496,24 +316,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
       <Page>
 			<Name>
@@ -529,24 +331,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>A16A8A53-04B1-4B55-B2E1-FE453D21ACF7</GUID>
-					<Type>Custom</Type>
-					<Name>
-						<eng />
-						<loc />
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
-					</Item2Launch>
-					<CustomPopulation>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
-					</CustomPopulation>
-				</MenuItem>
-			</RunTimeMenu>
 		</Page>
       <Page>
 			<Name>
