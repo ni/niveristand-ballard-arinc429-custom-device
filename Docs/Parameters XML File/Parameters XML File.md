@@ -38,6 +38,7 @@ The code snippet below is an example of BCD Parameters.
 ```xml
 <channel>
 	<hardwareChannel>26</hardwareChannel>
+	<direction>outgoing</direction>
 	<label>
 		<labelDecimal>28</labelDecimal>
 		<transferType>0</transferType>
