@@ -18,6 +18,14 @@
 							</xs:restriction>
 						 </xs:simpleType>
 					</xs:element>
+					<xs:element name="direction"  maxOccurs="1" minOccurs="1">
+						 <xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="incoming" />
+								<xs:enumeration value="outgoing" />
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
 					<xs:element name="label" maxOccurs="256" minOccurs="1">
 						<xs:complexType>
 							<xs:sequence>
