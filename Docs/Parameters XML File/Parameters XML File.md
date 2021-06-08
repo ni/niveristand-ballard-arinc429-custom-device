@@ -38,6 +38,7 @@ The code snippet below is an example of BCD Parameters.
 ```xml
 <channel>
 	<hardwareChannel>26</hardwareChannel>
+	<direction>outgoing</direction>
 	<label>
 		<labelDecimal>28</labelDecimal>
 		<transferType>0</transferType>
@@ -102,6 +103,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |--- |--- |--- |--- |--- |
 |`<channel>`|Yes|complex|1/16|Opening tag for a channel labels definition.|
 |→`<hardwareChannel>`|Yes|xs:int|1|Specifies the Hardware Channel used. Range is: [0:31].|
+|→`<direction>`|Yes|xs:string|1|Specifies whether the channel is incoming (Rx) or outgoing (Tx).|
 |→`<label>`|Yes|complex|1/256|Opening tag for a label definition..|
 |→→`<labelDecimal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (decimal). Range is: [0:255].|
 |→→`<labelOctal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (octal). Range is: [0:377].|
