@@ -38,9 +38,11 @@
 		<Item Name="Add Label.vi" Type="VI" URL="../Label/Add Label.vi"/>
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
 		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Label/Get Timestamp Reference.vi"/>
+		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 	</Item>
 	<Item Name="Parameter" Type="Folder">
 		<Item Name="Add Parameter.vi" Type="VI" URL="../Parameter/Add Parameter.vi"/>
+		<Item Name="Remove Parameter.vi" Type="VI" URL="../Parameter/Remove Parameter.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
@@ -50,6 +52,7 @@
 		<Item Name="Get Labels on Port.vi" Type="VI" URL="../Port/Get Labels on Port.vi"/>
 		<Item Name="Get Port Direction.vi" Type="VI" URL="../Port/Get Port Direction.vi"/>
 		<Item Name="Ports To System Definition.vi" Type="VI" URL="../Port/Ports To System Definition.vi"/>
+		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
