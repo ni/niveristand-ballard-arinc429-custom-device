@@ -12,4 +12,7 @@ The parameters configuration file path must not be empty.
 <nierror code="-732252">
 The parameters XML data is invalid.
 </nierror>
+<nierror code="-732253">
+The hardware configuration file is empty. Use BTIXMLEdit or another utility to generate a valid hardware configuration file and add this configuration file to the system definition.
+</nierror>
 </nidocument>
