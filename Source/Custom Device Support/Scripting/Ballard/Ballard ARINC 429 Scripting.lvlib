@@ -14,6 +14,7 @@
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
+		<Item Name="Import Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Import Parameters Configuration File.vi"/>
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
