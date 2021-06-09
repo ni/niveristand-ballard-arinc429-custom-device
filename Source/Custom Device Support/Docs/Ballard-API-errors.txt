@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-ballard-arinc429-custom-device/
+</nicomment>
+<nierror code="403000">
+The card or core failed to initialize.
+</nierror>
+<nierror code="403001">
+BTI driver library error. A low-level driver API call failed. Refer to the specific error source for more information.
+</nierror>
+<nierror code="403002">
+BTI LabVIEW library error. Refer to the specific error source for the underlying LabVIEW API VI name and the internal BTI Driver error code.
+</nierror>
+<nierror code="403003">
+Error while parsing the hardware configuration file. During configuration, this error is returned if the configuration file cannot be found and parsed.
+</nierror>
+<nierror code="403004">
+The target hardware is not keyed for use with LabVIEW. Only hardware that has been keyed for LabVIEW use is supported by the BTI LabVIEW instrument driver and by the Ballard ARINC 429 custom device.
+</nierror>
+<nierror code="403005">
+When Read was called, no records were available from hardware.
+</nierror>
+</nidocument>
