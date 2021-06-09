@@ -36,6 +36,8 @@
 	<Item Name="Label" Type="Folder">
 		<Item Name="Add Label with Parameters.vi" Type="VI" URL="../Label/Add Label with Parameters.vi"/>
 		<Item Name="Add Label.vi" Type="VI" URL="../Label/Add Label.vi"/>
+		<Item Name="Find Label by Name.vi" Type="VI" URL="../Label/Find Label by Name.vi"/>
+		<Item Name="Find Label.vi" Type="VI" URL="../Label/Find Label.vi"/>
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
 		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Label/Get Timestamp Reference.vi"/>
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
