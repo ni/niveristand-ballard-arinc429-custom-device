@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="Parse subVIs" Type="Folder">
+		<Item Name="Label Name From Number And SDI.vi" Type="VI" URL="../Label Name From Number And SDI.vi"/>
 		<Item Name="Parse Labels in Channel.vi" Type="VI" URL="../Parse Labels in Channel.vi"/>
 		<Item Name="Parse Parameter.vi" Type="VI" URL="../Parse Parameter.vi"/>
 	</Item>

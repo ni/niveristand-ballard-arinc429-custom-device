@@ -14,12 +14,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Error Test" Type="Folder">
-				<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
-				<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Shared/Error Test Number Of Bits.vi"/>
-				<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
-				<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Error Test Channel Number.vi" Type="VI" URL="../Shared/Error Test Channel Number.vi"/>
 				<Item Name="Error Test Label Count.vi" Type="VI" URL="../Shared/Error Test Label Count.vi"/>
+				<Item Name="Error Test Label Name.vi" Type="VI" URL="../Shared/Error Test Label Name.vi"/>
+				<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Shared/Error Test Number Of Bits.vi"/>
+				<Item Name="Error Test Parameter Name.vi" Type="VI" URL="../Shared/Error Test Parameter Name.vi"/>
+				<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
+				<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
+				<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
 			</Item>
 			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
 			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
@@ -578,7 +581,6 @@
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
-			<Item Name="Create Listbox Symbols for Refresh.vi" Type="VI" URL="../Utility/Create Listbox Symbols for Refresh.vi"/>
 			<Item Name="SDI.ctl" Type="VI" URL="../Shared/SDI.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -814,7 +816,6 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -869,7 +870,9 @@
 			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../Encoding and Decoding/Encoding and Decoding.lvlib"/>
 			<Item Name="Error Test Channel Number.vi" Type="VI" URL="../Shared/Error Test Channel Number.vi"/>
 			<Item Name="Error Test Label Count.vi" Type="VI" URL="../Shared/Error Test Label Count.vi"/>
+			<Item Name="Error Test Label Name.vi" Type="VI" URL="../Shared/Error Test Label Name.vi"/>
 			<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Shared/Error Test Number Of Bits.vi"/>
+			<Item Name="Error Test Parameter Name.vi" Type="VI" URL="../Shared/Error Test Parameter Name.vi"/>
 			<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
 			<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
 			<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>

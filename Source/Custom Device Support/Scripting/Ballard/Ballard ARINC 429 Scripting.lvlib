@@ -17,9 +17,11 @@
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
+		<Item Name="Get Parameters File MD5 Checksum.vi" Type="VI" URL="../Configuration Files/Get Parameters File MD5 Checksum.vi"/>
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
+		<Item Name="Set Parameters File MD5 Checksum.vi" Type="VI" URL="../Configuration Files/Set Parameters File MD5 Checksum.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
@@ -38,9 +40,11 @@
 		<Item Name="Add Label.vi" Type="VI" URL="../Label/Add Label.vi"/>
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
 		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Label/Get Timestamp Reference.vi"/>
+		<Item Name="System Definition To Labels.vi" Type="VI" URL="../Label/System Definition To Labels.vi"/>
 	</Item>
 	<Item Name="Parameter" Type="Folder">
 		<Item Name="Add Parameter.vi" Type="VI" URL="../Parameter/Add Parameter.vi"/>
+		<Item Name="System Definition To Parameters.vi" Type="VI" URL="../Parameter/System Definition To Parameters.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
@@ -51,6 +55,7 @@
 		<Item Name="Get Port Direction.vi" Type="VI" URL="../Port/Get Port Direction.vi"/>
 		<Item Name="Ports To System Definition.vi" Type="VI" URL="../Port/Ports To System Definition.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
+		<Item Name="System Definition To Ports.vi" Type="VI" URL="../Port/System Definition To Ports.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
