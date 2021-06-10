@@ -50,13 +50,9 @@
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../System Explorer/Check If Error Already Exists.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
 		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/On Compile - Group Hardware Channels by Message Type.vi"/>
-		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../System Explorer/Update Hardware Configuration File Error.vi"/>
-		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../System Explorer/Update Parameters Configuration File Error.vi"/>
-		<Item Name="Update System Definition Error.vi" Type="VI" URL="../System Explorer/Update System Definition Error.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
@@ -66,5 +62,6 @@
 		<Item Name="Refresh Listbox.ctl" Type="VI" URL="../System Explorer/Types/Refresh Listbox.ctl"/>
 		<Item Name="Refresh Symbols.ctl" Type="VI" URL="../System Explorer/Types/Refresh Symbols.ctl"/>
 	</Item>
+	<Item Name="Set Parameters File Needed Property.vi" Type="VI" URL="../../../Scripting/Ballard/Configuration Files/Set Parameters File Needed Property.vi"/>
 	<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 </Library>
