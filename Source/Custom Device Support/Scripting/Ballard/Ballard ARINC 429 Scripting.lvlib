@@ -20,11 +20,11 @@
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
-		<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
+		<Item Name="Add Custom Device.vi" Type="VI" URL="../Add Custom Device.vi"/>
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
-		<Item Name="Remove.vi" Type="VI" URL="../Remove.vi"/>
+		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
