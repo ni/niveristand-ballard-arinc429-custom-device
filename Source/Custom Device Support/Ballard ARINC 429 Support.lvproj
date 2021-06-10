@@ -54,12 +54,14 @@
 			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
+			<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../Shared/Verify File Exists and Not Empty.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>
+			<Item Name="Ballard-API-errors.txt" Type="Document" URL="../Docs/Ballard-API-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
@@ -646,7 +648,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Support/Windows/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DBABCADD-56F5-4478-A018-F970A71BB26D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B7AD81B-DFF1-4191-A237-60CE02A8B1C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Engine.lvlib</Property>
@@ -674,7 +676,10 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support Files/Ballard-API-errors.txt</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
@@ -708,7 +713,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{150D783B-2A6A-4F4A-A384-EFFE24C6142B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B7AD81B-DFF1-4191-A237-60CE02A8B1C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Scripting.lvlib</Property>
@@ -911,6 +916,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Transfer Type.ctl" Type="VI" URL="../Shared/Transfer Type.ctl"/>
+			<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../Shared/Verify File Exists and Not Empty.vi"/>
 			<Item Name="VS Channel Definition for Parameter.ctl" Type="VI" URL="../Shared/VS Channel Definition for Parameter.ctl"/>
 			<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="../Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
 			<Item Name="VS Channels Definition for Label.ctl" Type="VI" URL="../Shared/VS Channels Definition for Label.ctl"/>
