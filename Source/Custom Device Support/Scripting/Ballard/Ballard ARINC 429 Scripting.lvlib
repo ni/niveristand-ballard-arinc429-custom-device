@@ -19,6 +19,7 @@
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
+		<Item Name="Set Parameters File Needed Property.vi" Type="VI" URL="../Configuration Files/Set Parameters File Needed Property.vi"/>
 		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Hardware Configuration File Error.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
 		<Item Name="Update System Definition Error.vi" Type="VI" URL="../Configuration Files/Update System Definition Error.vi"/>
