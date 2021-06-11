@@ -8,12 +8,22 @@ path = 'Source\Custom Device Support\Ballard ARINC 429 Support.lvproj'
 [projects.cd]
 path = 'Source\Custom Device\Ballard ARINC 429 Custom Device.lvproj'
 
+[projects.scripting_examples]
+path = 'Source\Scripting Examples\Scripting Examples.lvproj'
+
 [[build.steps]]
 name = 'Scripting API'
 type = 'lvBuildSpec'
 project = '{support}'
 target = 'My Computer'
 build_spec = 'Scripting API'
+
+[[build.steps]]
+name = 'Scripting Examples'
+type = 'lvBuildSpec'
+project = '{scripting_examples}'
+target = 'My Computer'
+build_spec = 'Examples'
 
 [[build.steps]]
 name = 'System Explorer PPL'
@@ -73,4 +83,5 @@ package_output_dir = 'Source\Built'
 
 [package.payload_map]
 'Source\\Built\\Scripting' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Ballard\ARINC 429'
+'Source\\Built\\Scripting Examples' = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Ballard\ARINC 429'
 'Source\\Built\\Errors' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
