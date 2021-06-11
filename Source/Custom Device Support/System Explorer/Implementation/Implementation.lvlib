@@ -62,6 +62,5 @@
 		<Item Name="Refresh Listbox.ctl" Type="VI" URL="../System Explorer/Types/Refresh Listbox.ctl"/>
 		<Item Name="Refresh Symbols.ctl" Type="VI" URL="../System Explorer/Types/Refresh Symbols.ctl"/>
 	</Item>
-	<Item Name="Set Parameters File Needed Property.vi" Type="VI" URL="../../../Scripting/Ballard/Configuration Files/Set Parameters File Needed Property.vi"/>
 	<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
 </Library>
