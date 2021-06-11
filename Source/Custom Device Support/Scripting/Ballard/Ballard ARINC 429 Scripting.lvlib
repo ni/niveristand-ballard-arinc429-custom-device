@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
+		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../Configuration Files/Check If Error Already Exists.vi"/>
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
@@ -18,6 +19,10 @@
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
+		<Item Name="Set Parameters File Needed Property.vi" Type="VI" URL="../Configuration Files/Set Parameters File Needed Property.vi"/>
+		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Hardware Configuration File Error.vi"/>
+		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
+		<Item Name="Update System Definition Error.vi" Type="VI" URL="../Configuration Files/Update System Definition Error.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Add Custom Device.vi"/>
