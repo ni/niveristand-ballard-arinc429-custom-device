@@ -79,8 +79,13 @@
 						<Item Name="Parameters_DynamicLabels.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Parameters_DynamicLabels.xml"/>
 						<Item Name="Physical_Loopback_hw.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Physical_Loopback_hw.xml"/>
 						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Physical_Loopback_param.xml"/>
+						<Item Name="Default with Ballard ARINC 429 CD.nivssdf" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Default with Ballard ARINC 429 CD.nivssdf"/>
 					</Item>
 					<Item Name="Import-Script-Deploy.lvclass" Type="LVClass" URL="../Tests/System/Import-Script-Deploy/Import-Script-Deploy.lvclass"/>
+				</Item>
+				<Item Name="Examples" Type="Folder">
+					<Item Name="Assets" Type="Folder"/>
+					<Item Name="Examples.lvclass" Type="LVClass" URL="../Tests/System/Examples/Examples.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
