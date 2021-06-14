@@ -53,9 +53,11 @@
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
 		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/On Compile - Group Hardware Channels by Message Type.vi"/>
+		<Item Name="Parameters File Handler.vi" Type="VI" URL="../System Explorer/Parameters File Handler.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
+		<Item Name="Configuration Files Page Data.ctl" Type="VI" URL="../System Explorer/Types/Configuration Files Page Data.ctl"/>
 		<Item Name="Database.ctl" Type="VI" URL="../System Explorer/Types/Database.ctl"/>
 		<Item Name="Parameter Strings.ctl" Type="VI" URL="../System Explorer/Types/Parameter Strings.ctl"/>
 		<Item Name="Path Control.ctl" Type="VI" URL="../System Explorer/Types/Path Control.ctl"/>

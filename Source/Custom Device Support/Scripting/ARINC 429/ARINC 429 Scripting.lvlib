@@ -17,6 +17,7 @@
 		<Item Name="Get Parameter Bit Encoding.vi" Type="VI" URL="../Parameter/Get Parameter Bit Encoding.vi"/>
 		<Item Name="Get Parameter Default Value.vi" Type="VI" URL="../Parameter/Get Parameter Default Value.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Parameter/Get Parameter Definition.vi"/>
+		<Item Name="Get Parameter Name.vi" Type="VI" URL="../Parameter/Get Parameter Name.vi"/>
 		<Item Name="Get Parameter Scaling.vi" Type="VI" URL="../Parameter/Get Parameter Scaling.vi"/>
 		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../Parameter/Get Parameter Unit.vi"/>
 		<Item Name="Set Parameter Bit Encoding.vi" Type="VI" URL="../Parameter/Set Parameter Bit Encoding.vi"/>

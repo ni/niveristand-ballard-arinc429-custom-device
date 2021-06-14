@@ -9,16 +9,21 @@
 	<Property Name="NI_IconEditor" Type="Str">50 48 48 48 56 48 49 49 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 47 1 100 0 0 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 189 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 102 255 204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 7 86 73 32 73 99 111 110 100 1 0 0 0 0 0 6 115 99 114 105 112 116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 1 1
 
 </Property>
+	<Item Name="Channel" Type="Folder">
+		<Item Name="Get Channel Specification Page Settings.vi" Type="VI" URL="../Channel/Get Channel Specification Page Settings.vi"/>
+	</Item>
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
 		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../Configuration Files/Check If Error Already Exists.vi"/>
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
+		<Item Name="Get Parameters File MD5 Checksum.vi" Type="VI" URL="../Configuration Files/Get Parameters File MD5 Checksum.vi"/>
 		<Item Name="Import Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Import Parameters Configuration File.vi"/>
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
 		<Item Name="Set Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File Path.vi"/>
+		<Item Name="Set Parameters File MD5 Checksum.vi" Type="VI" URL="../Configuration Files/Set Parameters File MD5 Checksum.vi"/>
 		<Item Name="Set Parameters File Needed Property.vi" Type="VI" URL="../Configuration Files/Set Parameters File Needed Property.vi"/>
 		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Hardware Configuration File Error.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
@@ -46,12 +51,13 @@
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
 		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Label/Get Timestamp Reference.vi"/>
 		<Item Name="Get Word Section.vi" Type="VI" URL="../Label/Get Word Section.vi"/>
+		<Item Name="Port To Labels.vi" Type="VI" URL="../Label/Port To Labels.vi"/>
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 	</Item>
 	<Item Name="Parameter" Type="Folder">
 		<Item Name="Add Parameter.vi" Type="VI" URL="../Parameter/Add Parameter.vi"/>
 		<Item Name="Find Parameter by Name.vi" Type="VI" URL="../Parameter/Find Parameter by Name.vi"/>
-		<Item Name="Get Channel Specification Page Settings.vi" Type="VI" URL="../Channel/Get Channel Specification Page Settings.vi"/>
+		<Item Name="Label To Parameters.vi" Type="VI" URL="../Parameter/Label To Parameters.vi"/>
 		<Item Name="Remove Parameter.vi" Type="VI" URL="../Parameter/Remove Parameter.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
@@ -65,6 +71,7 @@
 		<Item Name="Ports To System Definition.vi" Type="VI" URL="../Port/Ports To System Definition.vi"/>
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
+		<Item Name="System Definition To Ports.vi" Type="VI" URL="../Port/System Definition To Ports.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
