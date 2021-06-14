@@ -52,6 +52,7 @@
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
 			<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../Shared/Verify File Exists and Not Empty.vi"/>
+			<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
@@ -82,10 +83,6 @@
 						<Item Name="Default with Ballard ARINC 429 CD.nivssdf" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Default with Ballard ARINC 429 CD.nivssdf"/>
 					</Item>
 					<Item Name="Import-Script-Deploy.lvclass" Type="LVClass" URL="../Tests/System/Import-Script-Deploy/Import-Script-Deploy.lvclass"/>
-				</Item>
-				<Item Name="Examples" Type="Folder">
-					<Item Name="Assets" Type="Folder"/>
-					<Item Name="Examples.lvclass" Type="LVClass" URL="../Tests/System/Examples/Examples.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
@@ -127,7 +124,6 @@
 			<Item Name="Post-Build Action Scripting.vi" Type="VI" URL="../Utility/Post-Build Action Scripting.vi"/>
 		</Item>
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
-		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
 		<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard/Ballard ARINC 429 Scripting.lvlib"/>
 		<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
