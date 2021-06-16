@@ -548,7 +548,6 @@
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 			</Item>
-			<Item Name="32-bit Word.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC429-32bit/32-bit Word.lvclass"/>
 			<Item Name="ARINC 429.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC 429.lvclass"/>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -720,7 +719,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{13AC5070-A5A3-4D7D-9039-7671E9773F74}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F06F8266-E985-4BFD-9799-059A348F6595}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Scripting.lvlib</Property>
@@ -746,7 +745,11 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ARINC 429 Import.lvlib/Parse Parameters File.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Shared/Get MD5 For File.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
