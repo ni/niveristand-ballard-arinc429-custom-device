@@ -15,4 +15,7 @@ The parameters XML data is invalid.
 <nierror code="-732253">
 The hardware configuration file is empty. Use BTIXMLEdit or another utility to generate a valid hardware configuration file and add this configuration file to the system definition.
 </nierror>
+<nierror code="-732254">
+The parameters configuration file has changed on disk. Use the Refresh button in the Configuration Files section to apply changes.
+</nierror>
 </nidocument>
