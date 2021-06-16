@@ -55,6 +55,7 @@
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
 			<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../Shared/Verify File Exists and Not Empty.vi"/>
+			<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
@@ -82,6 +83,7 @@
 						<Item Name="Parameters_DynamicLabels.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Parameters_DynamicLabels.xml"/>
 						<Item Name="Physical_Loopback_hw.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Physical_Loopback_hw.xml"/>
 						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Physical_Loopback_param.xml"/>
+						<Item Name="Default with Ballard ARINC 429 CD.nivssdf" Type="Document" URL="../Tests/System/Import-Script-Deploy/Assets/Default with Ballard ARINC 429 CD.nivssdf"/>
 					</Item>
 					<Item Name="Import-Script-Deploy.lvclass" Type="LVClass" URL="../Tests/System/Import-Script-Deploy/Import-Script-Deploy.lvclass"/>
 				</Item>
@@ -122,9 +124,9 @@
 			<Item Name="Copy PPLs to Includes.vi" Type="VI" URL="../Utility/Copy PPLs to Includes.vi"/>
 			<Item Name="Copy PPLs to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy PPLs to NI VeriStand dir.vi"/>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
+			<Item Name="Post-Build Action Scripting.vi" Type="VI" URL="../Utility/Post-Build Action Scripting.vi"/>
 		</Item>
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
-		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
 		<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard/Ballard ARINC 429 Scripting.lvlib"/>
 		<Item Name="Ballard ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard ARINC 429 System Explorer.lvlib"/>
@@ -704,6 +706,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action Scripting.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1D3FDF35-3D7E-4DFE-8975-7292B1555A92}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -713,7 +716,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B7AD81B-DFF1-4191-A237-60CE02A8B1C5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{13AC5070-A5A3-4D7D-9039-7671E9773F74}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Scripting.lvlib</Property>
@@ -735,7 +738,11 @@
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ARINC 429 Import.lvlib/Parse Parameters File.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
