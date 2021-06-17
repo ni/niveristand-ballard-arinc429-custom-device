@@ -589,7 +589,6 @@
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="32-bit Word.lvclass" Type="LVClass" URL="../../Protocol/Implementations/ARINC429/ARINC429-32bit/32-bit Word.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
