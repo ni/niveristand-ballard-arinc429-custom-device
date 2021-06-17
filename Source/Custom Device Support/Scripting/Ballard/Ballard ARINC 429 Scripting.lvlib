@@ -19,6 +19,7 @@
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
 		<Item Name="Get Parameters File MD5 Checksum.vi" Type="VI" URL="../Configuration Files/Get Parameters File MD5 Checksum.vi"/>
+		<Item Name="Get Parameters File Needed Property.vi" Type="VI" URL="../Configuration Files/Get Parameters File Needed Property.vi"/>
 		<Item Name="Import Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Import Parameters Configuration File.vi"/>
 		<Item Name="Refresh Configuration File.vi" Type="VI" URL="../Configuration Files/Refresh Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File Path.vi"/>
