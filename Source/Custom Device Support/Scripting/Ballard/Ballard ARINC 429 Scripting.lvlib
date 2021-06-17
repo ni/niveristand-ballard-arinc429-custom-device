@@ -27,6 +27,7 @@
 		<Item Name="Set Parameters File Needed Property.vi" Type="VI" URL="../Configuration Files/Set Parameters File Needed Property.vi"/>
 		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Hardware Configuration File Error.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
+		<Item Name="Update Parameters Configuration File MD5 Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File MD5 Error.vi"/>
 		<Item Name="Update System Definition Error.vi" Type="VI" URL="../Configuration Files/Update System Definition Error.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
