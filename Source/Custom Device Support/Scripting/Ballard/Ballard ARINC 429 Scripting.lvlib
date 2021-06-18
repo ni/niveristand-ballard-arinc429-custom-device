@@ -33,9 +33,13 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Add Custom Device.vi"/>
+		<Item Name="Export Custom Device.vi" Type="VI" URL="../Export Custom Device.vi"/>
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
+		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Import Custom Device (In Place).vi"/>
+		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Import Custom Device (New).vi"/>
+		<Item Name="Import Custom Device.vi" Type="VI" URL="../Import Custom Device.vi"/>
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Initialize Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
