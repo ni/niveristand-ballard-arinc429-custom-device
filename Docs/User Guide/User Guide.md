@@ -15,10 +15,10 @@ A simple Hardware XML file is included for getting started with the custom devic
 ## Configure the Custom Device
 
 This guide shows two options for configuring the custom device:
-- Importing a Parameters file
-- Scripting the configuration
+- Importing a Parameters file in System Explorer
+- Scripting the custom device configuration
 
-### Importing a Parameters file 
+### Importing a Parameters file in System Explorer
 The Parameters file is genereated from an XML schema for configuring the custom device. It must match the Hardware XML file's configuration for the Ballard hardware. More information about the Parameters file XML schema can be found in `Docs/Parameters XML File/Parameters XML File.md`.
 
 This example uses simple example Parameters and Hardware files found in the `Assets` directory:
@@ -79,11 +79,23 @@ Transmit channel 16 will loop back without external wiring to receive channel 0.
    2. Parameters file: `niveristand-ballard-arinc429-custom-device\Docs\User Guide\Assets\Parameters.xml`
 ![System Explorer Configuration Files](Screenshots/System_Explorer_configuration_files_configured.PNG)
 
-
-
 Note: After configuring the custom device, all of the configuration under `Ports` is read-only except for the `Description` field on each page.
 
 ![System Explorer Parameter](Screenshots/System_Explorer_parameter_configured.PNG)
+
+#### Scripting the Custom Device Configuration
+
+The Ballard ARINC 429 custom device includes a LabVIEW scripting API to configure the custom device programmatically. This allows users to parse an existing ARINC 429 database into a working custom device configuration without the need to create a Parameters file. It also allows importing a Parameters file programmaticaly instead of through System Explorer.
+
+To use the scripting API, the optional scripting package must be installed:
+`ni-ballard-arinc-429-veristand-20xx-labview-support`
+
+The scripting API includes two example files inside a LabVIEW example project found at the following directory: `C:\Program Files (x86)\National Instruments\LabVIEW 20xx\examples\NI VeriStand Custom Devices\Ballard\ARINC 429\Support`. It contains two example VIs:
+
+- `Import Parameters Configuration to New Ballard ARINC 429 Custom Device.vi` - Demonstrates using the Ballard ARINC 429 scripting API to configure the custom device by importing a parameters configuration file.
+- `Build New Ballard ARINC 429 Custom Device.vi` - Demonstrates using the Ballard ARINC 429 scripting API to configure the custom device by building from configuration clusters.
+
+![Scripting Examples Project](Screenshots/Scripting_examples_project.PNG)
 
 ### Deploy the System Definition
 
