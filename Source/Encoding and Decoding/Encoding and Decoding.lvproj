@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Support Files" Type="Folder">
+			<Item Name="EncodingAndDecoding-errors.txt" Type="Document" URL="../Docs/EncodingAndDecoding-errors.txt"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="BCD.lvclass" Type="LVClass" URL="../Tests/BCD/BCD.lvclass"/>
 			<Item Name="BNR.lvclass" Type="LVClass" URL="../Tests/BNR/BNR.lvclass"/>
