@@ -367,14 +367,6 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="label 134 Timestamp" TypeGUID="3b6787ca-0ab3-48b7-849a-2ad8b01a43ed" Identifier="c5044a28-a998-4fef-95da-c8cbc99e70ba" RowDim="1" ColDim="1" Units="s" BitFields="5">
-											<Description>This is the Timestamp Channel (s) for label 134. It's the time (s) when it was last received.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
 									</Section>
 								</Section>
 								<Section Name="CH2" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="1c283a7e-80db-4d23-87be-caf825eebb43">
@@ -488,14 +480,6 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="label 135 Timestamp" TypeGUID="3b6787ca-0ab3-48b7-849a-2ad8b01a43ed" Identifier="72505e43-0441-47c1-be29-096198ade5fb" RowDim="1" ColDim="1" Units="s" BitFields="5">
-											<Description>This is the Timestamp Channel (s) for label 135. It's the time (s) when it was last received.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
 									</Section>
 								</Section>
 								<Section Name="CH4" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="c5923a5a-c086-4ef1-a6c4-7737401f0349">
@@ -675,14 +659,6 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="label 136 Timestamp" TypeGUID="3b6787ca-0ab3-48b7-849a-2ad8b01a43ed" Identifier="c21bf10f-d5f1-4bad-a25b-cf049a990041" RowDim="1" ColDim="1" Units="s" BitFields="5">
-											<Description>This is the Timestamp Channel (s) for label 136. It's the time (s) when it was last received.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
 									</Section>
 								</Section>
 							</Section>
