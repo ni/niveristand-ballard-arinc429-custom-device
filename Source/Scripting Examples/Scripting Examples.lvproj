@@ -18,18 +18,14 @@
 			<Item Name="HW_Rx00_Tx24_Scheduled and Dynamic Labels.xml" Type="Document" URL="../Support/HW_Rx00_Tx24_Scheduled and Dynamic Labels.xml"/>
 			<Item Name="Parameters in Scheduled and Dynamic Labels.xml" Type="Document" URL="../Support/Parameters in Scheduled and Dynamic Labels.xml"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Tests" Type="Folder">
-				<Item Name="Examples.lvclass" Type="LVClass" URL="../Tests/Examples.lvclass"/>
-				<Item Name="targets.ini" Type="Document" URL="../Tests/targets.ini"/>
-			</Item>
-		</Item>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 		<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard/ARINC 429/Custom Device Support/Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 		<Item Name="Ballard ARINC 429 Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard/ARINC 429/Custom Device Support/Scripting/Ballard/Ballard ARINC 429 Scripting.lvlib"/>
 		<Item Name="Ballard ARINC 429 Scripting Examples.lvlib" Type="Library" URL="../Ballard ARINC 429 Scripting Examples.lvlib"/>
 		<Item Name="Build New Ballard ARINC 429 Custom Device.vi" Type="VI" URL="../Build New Ballard ARINC 429 Custom Device.vi"/>
 		<Item Name="Import Parameters Configuration to New Ballard ARINC 429 Custom Device.vi" Type="VI" URL="../Import Parameters Configuration to New Ballard ARINC 429 Custom Device.vi"/>
+		<Item Name="Examples.lvclass" Type="LVClass" URL="../Tests/Examples.lvclass"/>
+		<Item Name="targets.ini" Type="Document" URL="../Tests/targets.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
@@ -501,7 +497,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Support</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{44800938-20EC-44B3-96ED-13A92C9C3C75}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3FCD692F-A0D5-41FE-897F-2EF77B79C3BD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -526,13 +522,14 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Import Parameters Configuration to New Ballard ARINC 429 Custom Device.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Examples.lvclass</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/targets.ini</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>

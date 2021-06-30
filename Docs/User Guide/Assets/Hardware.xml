@@ -1,0 +1,43 @@
+<bti:core xmlns:bti="http://www.ballardtech.com/DatabusSchemas/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ID="-1" name="CoreName" schemaVersion="1.0">
+	<bti:coreConfiguration>
+		<bti:sequentialLog perChannelStreaming="false"/>
+		<bti:builtInTest/>
+		<bti:pxi/>
+		<bti:sysMon/>
+		<bti:timing/>
+	</bti:coreConfiguration>
+<!--***************************************	Rx Channels ***************************************-->
+	<bti:channel429 ID="0" name="Channel 0" hardwareChannel="0" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="100" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="200" name="label 07" labelDecimal="07" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+<!--*******************************************************************************************-->
+<!--***************************************	Tx Channels ***************************************-->
+	<bti:channel429 ID="16" name="Channel 16" hardwareChannel="16">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:asyncMessageList asyncBufferMaxSize="10">
+				<bti:messageBuffers>
+					<!--***************************************	Acyclic Label 07d ***************************************-->
+					<bti:messageBuffer ID="124001" name="Acyclic 001">
+						<bti:rawData>12345607</bti:rawData>
+					</bti:messageBuffer>
+				</bti:messageBuffers>
+			</bti:asyncMessageList>
+<!--***************************************	Scheduled Labels ***************************************-->
+			<bti:messages>
+				<bti:message ID="128" name="label 23" messageBufferIDRef="324001" minRate="10" maxRate="10" labelDecimal="23" monitor="false">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="324001" name="MessageBuffer 001">
+							<bti:rawData>12345617</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+<!--*******************************************************************************************-->
+</bti:core>
