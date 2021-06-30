@@ -21,8 +21,8 @@ The custom device supports the following functionality:
 
 ## Getting Started Documentation
 
-- [User Guide](Docs\User%20Guide\User%20Guide.md)
-- [Parameters XML File Schema](Docs\Parameters%20XML%20File\Parameters%20XML%20File.md)
+- [User Guide](Docs/User%20Guide/User%20Guide.md)
+- [Parameters XML File Schema](Docs/Parameters%20XML%20File/Parameters%20XML%20File.md)
 
 ## LabVIEW Source Code Version
 
