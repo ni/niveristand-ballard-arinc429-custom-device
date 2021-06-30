@@ -27,6 +27,19 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<ul>
 				<li><strong>Name</strong>&#8212;Specifies the name of the section in the system definition.</li>
 				<li><strong>Description</strong>&#8212;Describes the section.</li>
+			</ul>
+		</p>
+		<p>This section contains the following channels:
+			<ul>
+				<li><strong>Receiving Error Count</strong>&#8212;Count of words where an error occurred receiving the word. The specific error types are the following:</li>
+			<ul>
+					<li><strong>Bit Timing Error Count</strong>&#8212;Count of errors that occurred while decoding the bits of the word (short bits or long bits).</li>
+					<li><strong>Gap Error Count</strong>&#8212;Count of when a gap of less than four bit times preceded the word.</li>
+					<li><strong>Long Word Error Count</strong>&#8212;Count of words with more than 32-bits detected.</li>
+					<li><strong>Parity Error Count</strong>&#8212;Count of words where a parity error was detected.</li>
+					<li><strong>Timeout Error Count</strong>&#8212;Count of instances when the decoder timed out while receiving a word (short word).</li>
+				</ul>
+			</ul>
 		</p>
 	</body>
 </html>
