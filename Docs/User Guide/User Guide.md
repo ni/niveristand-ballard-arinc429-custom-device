@@ -19,7 +19,7 @@ This guide shows two options for configuring the custom device:
 - Scripting the custom device configuration
 
 ### Importing a Parameters file in System Explorer
-The Parameters file is genereated from an XML schema for configuring the custom device. It must match the Hardware XML file's configuration for the Ballard hardware. More information about the Parameters file XML schema can be found in `Docs/Parameters XML File/Parameters XML File.md`.
+The Parameters file is generated from an XML schema for configuring the custom device. It must match the Hardware XML file's configuration for the Ballard hardware. More information about the Parameters file XML schema can be found in `Docs/Parameters XML File/Parameters XML File.md`.
 
 This example uses simple example Parameters and Hardware files found in the `Assets` directory:
 - `Assets/Parameters.xml`
@@ -85,7 +85,7 @@ Note: After configuring the custom device, all of the configuration under `Ports
 
 #### Scripting the Custom Device Configuration
 
-The Ballard ARINC 429 custom device includes a LabVIEW scripting API to configure the custom device programmatically. This allows users to parse an existing ARINC 429 database into a working custom device configuration without the need to create a Parameters file. It also allows importing a Parameters file programmaticaly instead of through System Explorer.
+The Ballard ARINC 429 custom device includes a LabVIEW scripting API to configure the custom device programmatically. This allows users to parse an existing ARINC 429 database into a working custom device configuration without the need to create a Parameters file. It also allows importing a Parameters file programmatically instead of through System Explorer.
 
 To use the scripting API, the optional scripting package must be installed:
 `ni-ballard-arinc-429-veristand-20xx-labview-support`
