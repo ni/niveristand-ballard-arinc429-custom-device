@@ -324,6 +324,23 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Status Channel</eng>
+				<loc>Status Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Receive Time</eng>
 				<loc>Receive Time</loc>
 			</Name>
