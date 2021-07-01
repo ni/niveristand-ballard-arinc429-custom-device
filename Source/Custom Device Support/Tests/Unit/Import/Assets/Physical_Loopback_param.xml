@@ -30,6 +30,7 @@
 		<direction>incoming</direction>
 		<label>
 			<labelDecimal>134</labelDecimal>
+			<createTimestampChannel>true</createTimestampChannel>
 			<createSSMChannel>true</createSSMChannel>
 			<createParityChannel>true</createParityChannel>
 			<parameter>
