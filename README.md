@@ -1,6 +1,6 @@
 # Ballard ARINC 429 Custom Device
 
-The **Ballard ARINC 429 Custom Device** allows users to use [Ballard ARINC 429 PXI Modules](http://www.ni.com/en-ca/shop/select/pxi-arinc-429-interface-module) with VeriStand VeriStand. The custom device targets one **core** of a Ballard ARINC 429 PXI module. To target multiple modules or multiple cores on the same module, you must use multiple instances of the custom device.
+The **Ballard ARINC 429 Custom Device** allows users to use [Ballard ARINC 429 PXI Modules](http://www.ni.com/en-ca/shop/select/pxi-arinc-429-interface-module) with VeriStand. The custom device targets one **core** of a Ballard ARINC 429 PXI module. To target multiple modules or multiple cores on the same module, you must use multiple instances of the custom device.
 
 The custom device supports the following functionality:
 - Import configuration files via scripting and System Explorer
