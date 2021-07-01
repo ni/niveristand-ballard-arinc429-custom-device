@@ -18,4 +18,7 @@ The hardware configuration file is empty. Use BTIXMLEdit or another utility to g
 <nierror code="-732254">
 The parameters configuration file has changed on disk. Use the Refresh button in the Configuration Files section to apply changes.
 </nierror>
+<nierror code="-732255">
+The direction of the label must match the direction of the port.
+</nierror>
 </nidocument>
