@@ -10,7 +10,7 @@
 				<String>HardwareLoopback_P2--P3</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.19</String>
+				<String>1.0.0.20</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -257,9 +257,6 @@
 										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
 									</DependentFile>
 								</Property>
-								<Property Name="user.CD.Win Parameters File Path">
-									<String>Physical_Loopback_param.xml</String>
-								</Property>
 							</Properties>
 							<Errors />
 						</Section>
@@ -349,6 +346,14 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
+										<Channel Name="Timestamp" TypeGUID="3b6787ca-0ab3-48b7-849a-2ad8b01a43ed" Identifier="c21bf10f-d5f1-4bad-a25b-cf049a990041" RowDim="1" ColDim="1" Units="s" BitFields="5">
+											<Description>This is the Timestamp Channel for the label. The timestamp is the time the label was last received.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
 									</Section>
 								</Section>
 								<Section Name="CH1" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="31522798-f82c-4157-93fd-e81189dfc5b0">
@@ -2907,6 +2912,15 @@ It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defi
 				<Properties>
 					<Property Name="Referenced Channel">
 						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Outputs - Tx/CH31/label 131/Disable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Timestamp" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31" Identifier="70838b35-0984-47ed-82b3-82bddd1bb283">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Ballard - Arinc-429/Ports/Inputs - Rx/CH0/label 124/Timestamp" />
 					</Property>
 				</Properties>
 				<Errors />

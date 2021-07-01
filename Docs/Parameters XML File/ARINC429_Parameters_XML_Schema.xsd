@@ -68,6 +68,10 @@
 										</xs:restriction>
 						 			</xs:simpleType>
 								</xs:element>
+								<xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false"/>
+									<xs:annotation>
+										<xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
+									</xs:annotation>
 								<xs:element type="xs:boolean" name="createSDIChannel" maxOccurs="1" minOccurs="0" default="false"/>
 									<xs:annotation>
 										<xs:documentation>Automatic creation of read-only VeriStand channel for SDI is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
