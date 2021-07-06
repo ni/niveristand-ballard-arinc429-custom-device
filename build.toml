@@ -82,6 +82,6 @@ control_file = 'control_scripting'
 package_output_dir = 'Source\Built'
 
 [package.payload_map]
-'Source\\Built\\Scripting' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Ballard\ARINC 429'
-'Source\\Built\\Scripting Examples' = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Ballard\ARINC 429'
+'Source\\Built\\Scripting' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Ballard ARINC 429'
+'Source\\Built\\Scripting Examples' = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Ballard ARINC 429'
 'Source\\Built\\Errors' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
