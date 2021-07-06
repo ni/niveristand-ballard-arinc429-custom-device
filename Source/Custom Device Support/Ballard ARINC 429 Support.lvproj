@@ -66,7 +66,7 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="Loopback" Type="Folder">
 					<Item Name="Single Custom Device" Type="Folder">
-						<Item Name="Asssets" Type="Folder">
+						<Item Name="Assets" Type="Folder">
 							<Item Name="HardwareLoopback_P2--P3.nivssdf" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/HardwareLoopback_P2--P3.nivssdf"/>
 							<Item Name="HardwareLoopback_P2--P3_Complex.nivssdf" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/HardwareLoopback_P2--P3_Complex.nivssdf"/>
 							<Item Name="Physical_Loopback_hw_P2--P3.xml" Type="Document" URL="../Tests/System/Loopback/SingleCore (P2--P3)/Assets/Physical_Loopback_hw_P2--P3.xml"/>
