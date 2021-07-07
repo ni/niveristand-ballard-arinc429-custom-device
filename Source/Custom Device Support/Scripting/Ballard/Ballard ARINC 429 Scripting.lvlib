@@ -50,8 +50,9 @@
 	</Item>
 	<Item Name="Label" Type="Folder">
 		<Item Name="Add Label with Parameters.vi" Type="VI" URL="../Label/Add Label with Parameters.vi"/>
-		<Item Name="Add Label.vi" Type="VI" URL="../Label/Add Label.vi"/>
+		<Item Name="Add Rx Label.vi" Type="VI" URL="../Label/Add Rx Label.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Label/Add Timestamp Channel.vi"/>
+		<Item Name="Add Tx Label.vi" Type="VI" URL="../Label/Add Tx Label.vi"/>
 		<Item Name="Add Word.vi" Type="VI" URL="../Word/Add Word.vi"/>
 		<Item Name="Find Label by Name.vi" Type="VI" URL="../Label/Find Label by Name.vi"/>
 		<Item Name="Find Label.vi" Type="VI" URL="../Label/Find Label.vi"/>
