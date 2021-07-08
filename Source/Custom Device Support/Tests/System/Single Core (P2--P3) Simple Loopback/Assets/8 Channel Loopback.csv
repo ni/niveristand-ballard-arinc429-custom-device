@@ -1,0 +1,17 @@
+﻿ID,Core Number,Hardware Channel Number,Hardware Channel Name,Hardware Channel Speed,Label Octal,Min Rate (mS),Max Rate (mS),SDI,SSM,Create SDI,Create SSM,Create Parity,Parameter Name,Start Bit,Number of Bits,Parameter Type,Scale,Offset,Units,Default Value,Direction
+0,0,0,CH0,100,174,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+1,0,1,CH1,100,175,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+2,0,2,CH2,100,176,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+3,0,3,CH3,100,177,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+4,0,4,CH4,100,200,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+5,0,5,CH5,100,201,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+6,0,6,CH6,100,202,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+7,0,7,CH7,100,203,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Rx,10,19,scaled,1,0,psi,,incoming
+8,0,24,CH24,100,174,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+9,0,25,CH25,100,175,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+10,0,26,CH26,100,176,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+11,0,27,CH27,100,177,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+12,0,28,CH28,100,200,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+13,0,29,CH29,100,201,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+14,0,30,CH30,100,202,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
+15,0,31,CH31,100,203,80,120,4,4,FALSE,FALSE,FALSE,Altitude_Tx,10,19,scaled,1,0,psi,0,outgoing
