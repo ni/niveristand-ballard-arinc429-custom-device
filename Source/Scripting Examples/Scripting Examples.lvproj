@@ -483,19 +483,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Examples</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
-				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
-				<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{59459AC1-4623-4D6A-B847-A9FDF84FB15C}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -504,7 +505,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Support</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3FCD692F-A0D5-41FE-897F-2EF77B79C3BD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4DB6748-EDC5-4E04-897E-E2CF0E39C054}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>

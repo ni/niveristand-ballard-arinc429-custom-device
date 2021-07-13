@@ -1,0 +1,164 @@
+<bti:core xmlns:bti="http://www.ballardtech.com/DatabusSchemas/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ID="0" name="Core_0" schemaVersion="1.0">
+	<bti:coreConfiguration>
+		<bti:sequentialLog perChannelStreaming="false"/>
+		<bti:builtInTest/>
+		<bti:pxi/>
+		<bti:sysMon/>
+		<bti:timing/>
+	</bti:coreConfiguration>
+
+
+<!--***************************************	Rx Channels ***************************************-->
+	<bti:channel429 ID="1" name="CH0" hardwareChannel="0" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="2" name="label 124" labelDecimal="124" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="3" name="CH1" hardwareChannel="1" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="4" name="label 125" labelDecimal="125" monitor="true"/>
+				<bti:label ID="5" name="label 127" labelDecimal="127" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="6" name="CH3" hardwareChannel="3" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="7" name="label 127" labelDecimal="127" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="8" name="CH4" hardwareChannel="4" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="9" name="label 128" labelDecimal="128" monitor="true"/>
+				<bti:label ID="10" name="label 199" labelDecimal="199" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="11" name="CH5" hardwareChannel="5" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="12" name="label 129" labelDecimal="129" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="13" name="CH6" hardwareChannel="6" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="14" name="label 130" labelDecimal="130" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="15" name="CH7" hardwareChannel="7" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="16" name="label 131" labelDecimal="131" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+
+<!--***************************************	Tx Channels ***************************************-->
+	<bti:channel429 ID="17" name="CH24" hardwareChannel="24">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="18" name="label 124" messageBufferIDRef="19" minRate="80" maxRate="120" labelDecimal="124">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="19" name="MessageBuffer_label 124">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="20" name="CH25" hardwareChannel="25">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="21" name="label 125" messageBufferIDRef="22" minRate="80" maxRate="120" labelDecimal="125">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="22" name="MessageBuffer_label 125">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="23" name="label 127" messageBufferIDRef="24" minRate="80" maxRate="120" labelDecimal="127">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="24" name="MessageBuffer_label 127">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="25" name="CH27" hardwareChannel="27">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="26" name="label 127" messageBufferIDRef="27" minRate="80" maxRate="120" labelDecimal="127">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="27" name="MessageBuffer_label 127">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="28" name="CH28" hardwareChannel="28">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="29" name="label 128" messageBufferIDRef="30" minRate="80" maxRate="120" labelDecimal="128">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="30" name="MessageBuffer_label 128">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="31" name="CH29" hardwareChannel="29">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="32" name="label 129" messageBufferIDRef="33" minRate="80" maxRate="120" labelDecimal="129">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="33" name="MessageBuffer_label 129">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="34" name="CH30" hardwareChannel="30">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="35" name="label 130" messageBufferIDRef="36" minRate="80" maxRate="120" labelDecimal="130">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="36" name="MessageBuffer_label 130">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="37" name="CH31" hardwareChannel="31">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="38" name="label 131" messageBufferIDRef="39" minRate="80" maxRate="120" labelDecimal="131">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="39" name="MessageBuffer_label 131">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+
+</bti:core>
