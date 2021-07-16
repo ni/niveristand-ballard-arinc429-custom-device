@@ -1,11 +1,11 @@
-# Contributing to niveristand-communications-bus-template
+# Contributing to niveristand-ballard-arinc429-custom-device
 
-Contributions to niveristand-communications-bus-template are welcome from all!
+Contributions to niveristand-ballard-arinc429-custom-device are welcome from all!
 
-niveristand-communications-bus-template is managed via [git](https://git-scm.com), with the canonical upstream
-repository hosted on [GitHub](https://github.com/ni/niveristand-communications-bus-template/).
+niveristand-ballard-arinc429-custom-device is managed via [git](https://git-scm.com), with the canonical upstream
+repository hosted on [GitHub](https://github.com/ni/niveristand-ballard-arinc429-custom-device/).
 
-niveristand-communications-bus-template follows a pull-request model for development.  If you wish to
+niveristand-ballard-arinc429-custom-device follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -46,5 +46,5 @@ copy the output files to the directory required by VeriStand.
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/niveristand-communications-bus-template/blob/master/LICENSE)
-for details about how niveristand-communications-bus-template is licensed.
+See [LICENSE](https://github.com/ni/niveristand-ballard-arinc429-custom-device/blob/master/LICENSE)
+for details about how niveristand-ballard-arinc429-custom-device is licensed.
