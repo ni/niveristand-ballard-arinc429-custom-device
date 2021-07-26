@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::Ballard ARINC 429</eng>
-		<loc>National Instruments::Ballard ARINC 429</loc>
+		<eng>NI::Ballard ARINC 429</eng>
+		<loc>NI::Ballard ARINC 429</loc>
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
