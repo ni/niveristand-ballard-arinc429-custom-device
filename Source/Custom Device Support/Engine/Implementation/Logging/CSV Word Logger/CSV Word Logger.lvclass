@@ -38,6 +38,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 	</Item>
+	<Item Name="Format Word for CSV.vi" Type="VI" URL="../Format Word for CSV.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#Q!%!!!!#!!Q`````Q!;1%!!!@````]!!1R4&gt;(*J&lt;G=A18*S98E!!"&gt;!"1!1;'&amp;S:(&gt;B=G5A9WBB&lt;GZF&lt;!!!#U!&amp;!!6M97*F&lt;!!*1!5!!V.%31!;1&amp;!!!Q!$!!1!"1RN:8.T97&gt;F)'FO:G]!!!^!"Q!*:'&amp;U93"X&lt;X*E!"&amp;!#A!+&gt;'FN:3"T&gt;'&amp;N=!!!&lt;A$RX5R.*!!!!!1?1G&amp;M&lt;'&amp;S:#""5EF/1S!U-DEA27ZH;7ZF,GRW&lt;'FC&amp;%FN='RF&lt;76O&gt;'&amp;U;7^O,GRW&lt;'FC%F&gt;P=G1A4'^H:WFO:SZM&gt;GRJ9AB8&lt;X*E,G.U&lt;!!71&amp;!!!Q!'!!=!#!28&lt;X*E!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!#1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074274816</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Open Log File.vi" Type="VI" URL="../Open Log File.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(Z!=!!?!!"A(E*B&lt;'RB=G1A16**4E-A.$)Z)%6O:WFO:3ZM&gt;GRJ9B2*&lt;8"M:7VF&lt;H2B&gt;'FP&lt;CZM&gt;GRJ9B*8&lt;X*E)%RP:W&gt;J&lt;G=O&lt;(:M;7)81V.7)&amp;&gt;P=G1A4'^H:W6S,GRW9WRB=X-!!".$5V9A6W^S:#"-&lt;W&gt;H:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!S`````Q21982I!!"_1(!!(A!!9"Z#97RM98*E)%&amp;335Z$)$1S/3"&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)537VQ&lt;'6N:7ZU982J&lt;WYO&lt;(:M;7)36W^S:#"-&lt;W&gt;H;7ZH,GRW&lt;'FC&amp;U.46C"8&lt;X*E)%RP:W&gt;F=CZM&gt;G.M98.T!!!31V.7)&amp;&gt;P=G1A4'^H:W6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
