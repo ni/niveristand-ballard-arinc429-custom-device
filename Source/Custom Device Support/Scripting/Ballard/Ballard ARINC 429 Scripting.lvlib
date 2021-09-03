@@ -63,6 +63,14 @@
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 		<Item Name="Remove Timestamp Channel.vi" Type="VI" URL="../Label/Remove Timestamp Channel.vi"/>
 	</Item>
+	<Item Name="Logging" Type="Folder">
+		<Item Name="Add Logging Section.vi" Type="VI" URL="../Logging/Add Logging Section.vi"/>
+		<Item Name="Find Logging Section.vi" Type="VI" URL="../Logging/Find Logging Section.vi"/>
+		<Item Name="Get Logging Directory.vi" Type="VI" URL="../Logging/Get Logging Directory.vi"/>
+		<Item Name="Get Logging Enabled.vi" Type="VI" URL="../Logging/Get Logging Enabled.vi"/>
+		<Item Name="Set Logging Directory.vi" Type="VI" URL="../Logging/Set Logging Directory.vi"/>
+		<Item Name="Set Logging Enabled.vi" Type="VI" URL="../Logging/Set Logging Enabled.vi"/>
+	</Item>
 	<Item Name="Parameter" Type="Folder">
 		<Item Name="Add Parameter.vi" Type="VI" URL="../Parameter/Add Parameter.vi"/>
 		<Item Name="Find Parameter by Name.vi" Type="VI" URL="../Parameter/Find Parameter by Name.vi"/>
