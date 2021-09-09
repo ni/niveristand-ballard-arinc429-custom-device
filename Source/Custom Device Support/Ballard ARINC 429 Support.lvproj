@@ -91,6 +91,7 @@
 				<Item Name="Shared" Type="Folder">
 					<Item Name="Encoding and Decoding.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Encoding and Decoding/Encoding and Decoding/Encoding and Decoding.lvclass"/>
 					<Item Name="Shared VIs.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Shared VIs/Shared VIs.lvclass"/>
+					<Item Name="Build Linux Log File Path.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/test Build Linux Log File Path/Build Linux Log File Path.lvclass"/>
 				</Item>
 				<Item Name="Import" Type="Folder">
 					<Item Name="Assets" Type="Folder">
