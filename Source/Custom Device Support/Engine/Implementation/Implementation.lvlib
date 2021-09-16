@@ -16,4 +16,5 @@
 	<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../Shared Resources/Shared Resources.lvclass"/>
 	<Item Name="Tx Acyclic Labels Execution Unit.lvclass" Type="LVClass" URL="../Tx Acyclic Labels Execution Unit/Tx Acyclic Labels Execution Unit.lvclass"/>
 	<Item Name="Tx Scheduled Labels Execution Unit.lvclass" Type="LVClass" URL="../Tx Scheduled Labels Execution Unit/Tx Scheduled Labels Execution Unit.lvclass"/>
+	<Item Name="Word Logging.lvlib" Type="Library" URL="../Logging/Word Logging.lvlib"/>
 </Library>
