@@ -66,11 +66,8 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
-				<Item Name="Shared Sub VIs" Type="Folder">
-					<Item Name="Script Empty System Definition.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Empty System Definition.vi"/>
+				<Item Name="Shared" Type="Folder">
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
-					<Item Name="Write Tx Values and Read Rx Values Until Equal.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Write Tx Values and Read Rx Values Until Equal.vi"/>
-					<Item Name="Read Rx Values Until Equal.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Read Rx Values Until Equal.vi"/>
 				</Item>
 				<Item Name="Single Core Simple Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Simple Loopback/Single Core Simple Loopback.lvclass"/>
 				<Item Name="Single Core Complex Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Complex Loopback/Single Core Complex Loopback.lvclass"/>
