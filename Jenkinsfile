@@ -4,5 +4,5 @@
 
 List<String> lvVersions = ['2020']
 
-//diffPipeline(lvVersions[0])
+diffPipeline(lvVersions[0])
 ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)
