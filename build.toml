@@ -57,14 +57,14 @@ build_spec = 'Engine Release'
 name = 'Linux x64 Engine PPL'
 type = 'lvBuildSpec'
 project = '{support}'
-target = 'RT CompactRIO Target - Linux x64'
+target = 'Linux x64'
 build_spec = 'Engine'
 
 [[build.steps]]
 name = 'Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{cd}'
-target = 'RT CompactRIO Target - Linux x64'
+target = 'Linux x64'
 build_spec = 'Engine Release'
 
 [[package]]
