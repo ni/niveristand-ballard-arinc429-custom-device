@@ -56,9 +56,11 @@
 		<Item Name="Check For MD5 Change.vi" Type="VI" URL="../System Explorer/Check For MD5 Change.vi"/>
 		<Item Name="Compare Parameters With Refresh Dialog.vi" Type="VI" URL="../System Explorer/Compare Parameters With Refresh Dialog.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
+		<Item Name="Mutate System Definition.vi" Type="VI" URL="../System Explorer/Mutate System Definition.vi"/>
 		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
 		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/On Compile - Group Hardware Channels by Message Type.vi"/>
 		<Item Name="Parameters File Handler.vi" Type="VI" URL="../System Explorer/Parameters File Handler.vi"/>
+		<Item Name="Update Custom Device Version in System Definition.vi" Type="VI" URL="../System Explorer/Update Custom Device Version in System Definition.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
