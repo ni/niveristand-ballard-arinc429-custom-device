@@ -116,6 +116,7 @@
 			<Item Name="Labels.mnu" Type="Document" URL="../Scripting/Palettes/Labels.mnu"/>
 			<Item Name="Parameters.mnu" Type="Document" URL="../Scripting/Palettes/Parameters.mnu"/>
 			<Item Name="Ports.mnu" Type="Document" URL="../Scripting/Palettes/Ports.mnu"/>
+			<Item Name="Logging.mnu" Type="Document" URL="../Scripting/Palettes/Logging.mnu"/>
 		</Item>
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
