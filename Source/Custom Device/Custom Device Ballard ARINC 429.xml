@@ -5,7 +5,7 @@
 		<eng>NI::Ballard ARINC 429</eng>
 		<loc>NI::Ballard ARINC 429</loc>
 	</AddMenu>
-	<Version>1.0.0</Version>
+	<Version>1.1.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>123EAA23-BADA-4DDC-980E-A4FC910D5182</MainPageGUID>
