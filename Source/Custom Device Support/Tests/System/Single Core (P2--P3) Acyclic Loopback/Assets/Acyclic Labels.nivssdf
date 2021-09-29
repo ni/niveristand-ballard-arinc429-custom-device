@@ -10,13 +10,16 @@
 				<String>Acyclic Labels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
 				<Double>3703688985.1263628</Double>
+			</Property>
+			<Property Name="ChannelDiagrams">
+				<BinaryString>77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxTb3VyY2VGaWxlIENoZWNrc3VtPSI5ODAzQzc0QTAzNkMzREZGN0IwMzk0OTVDMkMyQTdDMjBDMTIxMjZBM0FBMTEyRUNDREQ2OTJGOTQ4MTJEQzFCRUZEN0EzNkIyMDZEQkVEQUFGMkNEMkQ0RTIwQUM3ODExMURBNDgxQjhEMjMxNjFERkYzRTdDODM5M0E0NjM3MSIgVGltZXN0YW1wPSIxRDdCNTVBMDJEMEM1OUUiIHhtbG5zPSJodHRwOi8vd3d3Lm5pLmNvbS9QbGF0Zm9ybUZyYW1ld29yayI+DQoJPFNvdXJjZU1vZGVsRmVhdHVyZVNldD4NCgkJPFBhcnNhYmxlTmFtZXNwYWNlIEFzc2VtYmx5RmlsZVZlcnNpb249IjguMy4wLjQ5Nzg4IiBGZWF0dXJlU2V0TmFtZT0iRWRpdG9yIiBOYW1lPSJodHRwOi8vd3d3Lm5pLmNvbS9QbGF0Zm9ybUZyYW1ld29yayIgT2xkZXN0Q29tcGF0aWJsZVZlcnNpb249IjguMS4wLjQ5MTUyIiBWZXJzaW9uPSI4LjEuMC40OTE1MiIgLz4NCgkJPFBhcnNhYmxlTmFtZXNwYWNlIEFzc2VtYmx5RmlsZVZlcnNpb249IjguMy4wLjQ5Nzg4IiBGZWF0dXJlU2V0TmFtZT0iVmVyaVN0YW5kIENvcmUgQ29tcG9uZW50cyIgTmFtZT0iaHR0cDovL3d3dy5uaS5jb20vVmVyaVN0YW5kIiBPbGRlc3RDb21wYXRpYmxlVmVyc2lvbj0iOC4yLjAuNDkxNTIiIFZlcnNpb249IjguMi4wLjQ5MTUyIiAvPg0KCQk8QXBwbGljYXRpb25WZXJzaW9uSW5mbyBCdWlsZD0iOC4zLjAuNDk3ODgiIE5hbWU9IlZlcmlTdGFuZCIgVmVyc2lvbj0iOC4zLjAuNDk3ODgiIC8+DQoJPC9Tb3VyY2VNb2RlbEZlYXR1cmVTZXQ+DQoJPFN5c3RlbURlZmluaXRpb24geG1sbnM9Imh0dHA6Ly93d3cubmkuY29tL1ZlcmlTdGFuZCI+DQoJCTxCYXNlTm9kZVRvQ29udGVudFRhYmxlMj4NCgkJCTxwLlRhYmxlPiZsdDs/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi04Ij8mZ3Q7DQombHQ7ZGljdGlvbmFyeSZndDsNCgkmbHQ7aXRlbSZndDsNCgkJJmx0O2tleSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7MWZhODllYmUtZDNhMC00ZDYwLWJkZGMtNzgyZmNhOTQ1Y2YzJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsva2V5Jmd0Ow0KCQkmbHQ7dmFsdWUmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzQxOTM5Y2Y3M2QzZjRmZjM5MjY2MDY2ZGJjNGE4YWEyJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsvdmFsdWUmZ3Q7DQoJJmx0Oy9pdGVtJmd0Ow0KJmx0Oy9kaWN0aW9uYXJ5Jmd0OzwvcC5UYWJsZT4NCgkJPC9CYXNlTm9kZVRvQ29udGVudFRhYmxlMj4NCgk8L1N5c3RlbURlZmluaXRpb24+DQoJPEVudm95TWFuYWdlckZpbGUgSWQ9ImRlZjUwMjcyOWQ5ZDQ2NDk5NGZiYmE4YjVhOGJiOWE3IiB4bWxucz0iaHR0cDovL3d3dy5uaS5jb20vUGxhdGZvcm1GcmFtZXdvcmsiPg0KCQk8RW52b3lNYW5hZ2VyUm9vdEVudm95IElkPSJlODVmZDRlYmRkYmE0N2IwODU1YTFiNDMxYmNiMTNjNiIgTW9kZWxEZWZpbml0aW9uVHlwZT0iRW52b3lNYW5hZ2VyUm9vdEVudm95IiBOYW1lPSJSb290RW52b3kiIC8+DQoJCTxOYW1lU2NvcGluZ0Vudm95IEF1dG9tYXRpY2FsbHlSZXNvbHZlVXA9IlRydWUiIElkPSIxZjhkNjliZWUxN2U0ODc2OGZkYjcxZmRhNmViNTgzOSIgTmFtZT0iQWN5Y2xpYyBMYWJlbHMubml2c3NkZiIgTmFtZVRyYWNrc0ZpbGVOYW1lPSJUcnVlIj4NCgkJCTxFbWJlZGRlZERlZmluaXRpb25SZWZlcmVuY2UgSWQ9ImI5ODkwZmYxNTMwOTQ1M2VhMjAxZmJiNjgzZWU0MDYyIiBNb2RlbERlZmluaXRpb25UeXBlPSJ7aHR0cDovL3d3dy5uaS5jb20vVmVyaVN0YW5kfVRhcmdldERlZmluaXRpb24iIE5hbWU9IkNvbnRyb2xsZXIiPg0KCQkJCTxUYXJnZXREZWZpbml0aW9uIElQQWRkcmVzcz0iMTAuMi4xMDkuNTEiIElkPSI5Y2Y5MTM2OTBiYWQ0ZWQ4YWFkMWU4NzVjMGVlMzdiMSIgT3BlcmF0aW5nU3lzdGVtPSJMaW51eF94NjQiIFRhcmdldE5hbWU9IkNvbnRyb2xsZXIiIHhtbG5zPSJodHRwOi8vd3d3Lm5pLmNvbS9WZXJpU3RhbmQiPg0KCQkJCQk8QmFzZU5vZGVXcmFwcGVyIEJhc2VOb2RlSWRlbnRpZmllcj0iezFmYTg5ZWJlLWQzYTAtNGQ2MC1iZGRjLTc4MmZjYTk0NWNmM30iIElkPSI0MTkzOWNmNzNkM2Y0ZmYzOTI2NjA2NmRiYzRhOGFhMiIgTm9kZVBhdGg9IlRhcmdldHMvQ29udHJvbGxlciIgLz4NCgkJCQkJPENoYW5uZWxNYXBwaW5nRGlhZ3JhbSBJZD0iZDhmMDgwZDUyZWRjNDEyOGFiNTU0MDZjMjYxOGM4M2QiPg0KCQkJCQkJPEJhc2VOb2RlVG9Db250ZW50VGFibGUyPg0KCQkJCQkJCTxwLlRhYmxlPiZsdDs/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi04Ij8mZ3Q7DQombHQ7ZGljdGlvbmFyeSZndDsNCgkmbHQ7aXRlbSZndDsNCgkJJmx0O2tleSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7OGI0OTFlMWItMTVkMS00NmU3LWE5MWUtYzk4Mjk2MDc3YTkxJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsva2V5Jmd0Ow0KCQkmbHQ7dmFsdWUmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzY2NDM1OGMxMjJkZjQ1MWQ4ODE2NGJjM2VkZDk3OGE0Jmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsvdmFsdWUmZ3Q7DQoJJmx0Oy9pdGVtJmd0Ow0KCSZsdDtpdGVtJmd0Ow0KCQkmbHQ7a2V5Jmd0Ow0KCQkJJmx0O3N0cmluZyZndDtlMjVkYzcyOC04NDM3LTQ1NTctOGM3OC1hZmYwZmMyZmY1Y2MmbHQ7L3N0cmluZyZndDsNCgkJJmx0Oy9rZXkmZ3Q7DQoJCSZsdDt2YWx1ZSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7YTFmYWUxMzFlNjY2NDI1MTg1NDU0NmE1MjNiZmFhY2UmbHQ7L3N0cmluZyZndDsNCgkJJmx0Oy92YWx1ZSZndDsNCgkmbHQ7L2l0ZW0mZ3Q7DQoJJmx0O2l0ZW0mZ3Q7DQoJCSZsdDtrZXkmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0O2FhMGRmNmU5LWI1NjEtNGI2OS1iMTMxLTY0YTMxYTk4NzMzNiZsdDsvc3RyaW5nJmd0Ow0KCQkmbHQ7L2tleSZndDsNCgkJJmx0O3ZhbHVlJmd0Ow0KCQkJJmx0O3N0cmluZyZndDs3NTAwZTZhYTFlZmM0ZmFiOTcyODhlZThjMTgyYTNkMCZsdDsvc3RyaW5nJmd0Ow0KCQkmbHQ7L3ZhbHVlJmd0Ow0KCSZsdDsvaXRlbSZndDsNCgkmbHQ7aXRlbSZndDsNCgkJJmx0O2tleSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7ZjhjMmEwYTgtNDQ2OS00MjcxLWE1NDgtMDZhMWM5N2RmN2RkJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsva2V5Jmd0Ow0KCQkmbHQ7dmFsdWUmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzkzZThlYWZmOTg3NDQ4Zjc4MGYyZmEzY2MxODg5OWU3Jmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsvdmFsdWUmZ3Q7DQoJJmx0Oy9pdGVtJmd0Ow0KJmx0Oy9kaWN0aW9uYXJ5Jmd0OzwvcC5UYWJsZT4NCgkJCQkJCTwvQmFzZU5vZGVUb0NvbnRlbnRUYWJsZTI+DQoJCQkJCQk8VXNlckNoYW5uZWxzTWFwcGluZ05vZGUgQm91bmRzPSIwIDU1IDE3MiA1MCIgSWQ9Ijc0ZGNkNzc2MTg2YjQxMWZhOGUyZGMyYWRhNDJhNmUxIiBOYW1lPSJVc2VyIENoYW5uZWxzIiBUZW1wbGF0ZT0iTGlzdCIgVHlwZUd1aWQ9IjAzRDNCNkI3LTE0ODUtMTNBNi01NjdCRTFFMUUwREY5OTlBIj4NCgkJCQkJCQk8QmFzZU5vZGVXcmFwcGVyIEJhc2VOb2RlSWRlbnRpZmllcj0ie2UyNWRjNzI4LTg0MzctNDU1Ny04Yzc4LWFmZjBmYzJmZjVjY30iIElkPSJhMWZhZTEzMWU2NjY0MjUxODU0NTQ2YTUyM2JmYWFjZSIgTm9kZVBhdGg9IlRhcmdldHMvQ29udHJvbGxlci9Vc2VyIENoYW5uZWxzIiAvPg0KCQkJCQkJPC9Vc2VyQ2hhbm5lbHNNYXBwaW5nTm9kZT4NCgkJCQkJCTxCYXNpY01hcHBpbmdEaWFncmFtTm9kZSBCb3VuZHM9IjAgMTEwIDE5MSA1MCIgSWQ9IjIxZWE4M2E1N2FjMjQwMzdhMGQyM2NiYTYwZThlOWVlIiBOYW1lPSJTeXN0ZW0gQ2hhbm5lbHMiIFRlbXBsYXRlPSJMaXN0IiBUeXBlR3VpZD0iMDNEM0I3NTMtMTQ4NS0xM0E2LTU2QjEwRUQwODIwQ0Y0MTAiPg0KCQkJCQkJCTxCYXNlTm9kZVdyYXBwZXIgQmFzZU5vZGVJZGVudGlmaWVyPSJ7YWEwZGY2ZTktYjU2MS00YjY5LWIxMzEtNjRhMzFhOTg3MzM2fSIgSWQ9Ijc1MDBlNmFhMWVmYzRmYWI5NzI4OGVlOGMxODJhM2QwIiBOb2RlUGF0aD0iVGFyZ2V0cy9Db250cm9sbGVyL1N5c3RlbSBDaGFubmVscyIgLz4NCgkJCQkJCTwvQmFzaWNNYXBwaW5nRGlhZ3JhbU5vZGU+DQoJCQkJCQk8QWxpYXNNYXBwaW5nTm9kZSBCb3VuZHM9IjAgMTY1IDEyMyA1MCIgSWQ9IjFjZDA5OTljMzdhMjQzNzNhZGFjOGQ2ZTcwZDU0OWZmIiBOYW1lPSJBbGlhc2VzIiBUZW1wbGF0ZT0iTGlzdCIgVHlwZUd1aWQ9ImUxMWY0NTE5LTA5ZTYtNGZiMC05OWRmLTI5NjdjNDMxM2Q2NyI+DQoJCQkJCQkJPEJhc2VOb2RlV3JhcHBlciBCYXNlTm9kZUlkZW50aWZpZXI9IntmOGMyYTBhOC00NDY5LTQyNzEtYTU0OC0wNmExYzk3ZGY3ZGR9IiBJZD0iOTNlOGVhZmY5ODc0NDhmNzgwZjJmYTNjYzE4ODk5ZTciIE5vZGVQYXRoPSJBbGlhc2VzIiAvPg0KCQkJCQkJPC9BbGlhc01hcHBpbmdOb2RlPg0KCQkJCQkJPEN1c3RvbURldmljZSBCb3VuZHM9IjAgMCAyMDEgNTAiIElkPSJkODVmNTgxZDIyY2I0MWMwYWNlYTczNTQ0MTFhYWM3NyIgTmFtZT0iQmFsbGFyZCBBUklOQyA0MjkiIFRlbXBsYXRlPSJMaXN0IiBUeXBlR3VpZD0iMTIzRUFBMjMtQkFEQS00RERDLTk4MEUtQTRGQzkxMEQ1MTgyIj4NCgkJCQkJCQk8QmFzZU5vZGVXcmFwcGVyIEJhc2VOb2RlSWRlbnRpZmllcj0iezhiNDkxZTFiLTE1ZDEtNDZlNy1hOTFlLWM5ODI5NjA3N2E5MX0iIElkPSI2NjQzNThjMTIyZGY0NTFkODgxNjRiYzNlZGQ5NzhhNCIgTm9kZVBhdGg9IlRhcmdldHMvQ29udHJvbGxlci9DdXN0b20gRGV2aWNlcy9CYWxsYXJkIEFSSU5DIDQyOSIgLz4NCgkJCQkJCTwvQ3VzdG9tRGV2aWNlPg0KCQkJCQk8L0NoYW5uZWxNYXBwaW5nRGlhZ3JhbT4NCgkJCQk8L1RhcmdldERlZmluaXRpb24+DQoJCQk8L0VtYmVkZGVkRGVmaW5pdGlvblJlZmVyZW5jZT4NCgkJPC9OYW1lU2NvcGluZ0Vudm95Pg0KCTwvRW52b3lNYW5hZ2VyRmlsZT4NCjwvU291cmNlRmlsZT4=</BinaryString>
 			</Property>
 		</Properties>
 		<Errors />
@@ -151,6 +154,9 @@
 								<Property Name="Driver VI Exec Mode">
 									<U32>1</U32>
 								</Property>
+								<Property Name="user.CD.Version">
+									<U32>1</U32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df" Identifier="ffe950df-f30b-483d-aaed-df98b927efa3">
@@ -189,7 +195,7 @@
 					<Description />
 					<Properties />
 					<Errors />
-					<Section Name="Ballard ARINC 429" TypeGUID="123EAA23-BADA-4DDC-980E-A4FC910D5182" Identifier="e4f2b592-6c5d-45d4-9708-e08253f1775c">
+					<Section Name="Ballard ARINC 429" TypeGUID="123EAA23-BADA-4DDC-980E-A4FC910D5182" Identifier="8b491e1b-15d1-46e7-a91e-c98296077a91">
 						<Description />
 						<Properties>
 							<Property Name="CD Status">
@@ -200,15 +206,24 @@
 							</Property>
 							<Property Name="Driver VI Path_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
+									<Version>1.1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
 							<Property Name="Version">
-								<String>1.0.0</String>
+								<String>1.1.0</String>
 							</Property>
 							<Property Name="Dependency_1">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine.lvlibp">
@@ -216,7 +231,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>182591c5d290af6eca58ad804f564854</MD5>
+									<MD5>d4710748cd3cf38c9d578decd4192857</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="user.CD.Initialization Method">
@@ -233,15 +248,102 @@
 							</Property>
 						</Properties>
 						<Errors />
-						<Section Name="Ports" TypeGUID="879B7DAF-C156-4E60-80C7-980946E79B26" Identifier="3f580924-9ae5-468f-9892-ac8aaa955d39">
+						<Section Name="Status" TypeGUID="d3f909f4-31dd-4b46-b0c0-188c355fd2ae" Identifier="25f23e0e-c780-4e7a-82f2-08398b4028e5">
 							<Description />
 							<Properties />
 							<Errors />
-							<Section Name="Incoming" TypeGUID="3098426F-4C09-481E-8916-57E537FEC0AE" Identifier="2c476d75-ab7f-440e-8e8a-883631dcb25b">
+							<Channel Name="Receiving Error Count" TypeGUID="1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C" Identifier="4a66db20-a851-46da-8e57-610af7f77b87" RowDim="1" ColDim="1" Units="" BitFields="1">
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="CH0" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="d1efa223-44ba-4e6d-8130-9e5d9af0e3df">
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Gap Error Count" TypeGUID="1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C" Identifier="7da39ec4-3928-4ec9-91d6-db71e4f7e0c9" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Parity Error Count" TypeGUID="1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C" Identifier="cb6d1021-113b-4e73-92d5-8aea534d4780" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Long Word Error Count" TypeGUID="1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C" Identifier="295e426f-9926-4340-a237-0298d7066eea" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Bit Timing Error Count" TypeGUID="1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C" Identifier="4675aac3-1ecb-4f62-b189-06d23ffa1804" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Timeout Error Count" TypeGUID="1A3D2EC3-00EB-4E3B-8BBC-7636AE28E61C" Identifier="9264b68d-5450-4e9e-88be-df28b1c87134" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Configuration Files" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="276a1f63-725e-4cba-bd87-65c2d15eed43">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.Parameters File Needed">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Hardware Configuration File">
+									<DependentFile Type="Relative" Path="HW_Rx00_Tx24_DynamicLabels.xml">
+										<Version>1.0</Version>
+										<ForceDownload>true</ForceDownload>
+										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\HW_Rx00_Tx24_DynamicLabels.xml</RTDestination>
+										<SupportedTarget>Linux_x64</SupportedTarget>
+										<MD5>bd14d291e8698429df60772d203c9be0</MD5>
+									</DependentFile>
+								</Property>
+								<Property Name="user.CD.Win Parameters File Path">
+									<DependentFile Type="Relative" Path="Parameters_DynamicLabels.xml">
+										<Version />
+										<RTDestination />
+										<SupportedTarget />
+										<MD5>5b2e6b4a81e22f2472461d7824f5561a</MD5>
+									</DependentFile>
+								</Property>
+								<Property Name="user.CD.MD5.Checksum">
+									<BinaryString>NWIyZTZiNGE4MWUyMmYyNDcyNDYxZDc4MjRmNTU2MWE=</BinaryString>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Logging" TypeGUID="37D94606-AAC1-462F-818F-827988D7AD1C" Identifier="1463f09c-d4be-40d3-9023-60e3d6fbf9aa">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="Ports" TypeGUID="879B7DAF-C156-4E60-80C7-980946E79B26" Identifier="80aee304-aae2-427d-8913-97fd7ff4b5fe">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Incoming" TypeGUID="3098426F-4C09-481E-8916-57E537FEC0AE" Identifier="6b88b7e7-ccde-4b4c-aef9-08494bc27387">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="CH0" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="c8a185d9-923a-4926-a099-5e569b2fccae">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Port">
@@ -249,7 +351,7 @@
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="label 7" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="a0691bca-17c5-4877-8681-dddd1ff7acd5">
+									<Section Name="label 7" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="3f2f0161-8e44-4508-9115-058789c97d84">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -261,16 +363,13 @@
 											<Property Name="user.CD.SDI_Enabled">
 												<Boolean>false</Boolean>
 											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="4d800515-9ddc-42f8-9197-3e20819fa61e">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="b48c3da7-6d92-4d15-b443-c5c5600ae939">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="07_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b74faa34-3c7f-480c-ae6b-427531a1d2af" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+											<Channel Name="07_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="811c8d46-25f5-4044-9d4a-b9757d0004db" RowDim="1" ColDim="1" Units="psi" BitFields="1">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -299,7 +398,7 @@
 											</Channel>
 										</Section>
 									</Section>
-									<Section Name="label 8" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="6792e8be-1243-4a4b-b315-5287f051f299">
+									<Section Name="label 8" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="200b00de-9e46-4a2d-acf9-01264df7ff27">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -311,16 +410,13 @@
 											<Property Name="user.CD.SDI_Enabled">
 												<Boolean>false</Boolean>
 											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="556971f1-e06e-434c-9d07-6a38cd126cb9">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="d1325e7d-7320-4446-8bce-414b712fe769">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="08_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="627b7bad-77e8-4305-9cbf-dc8bea9cd10f" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+											<Channel Name="08_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="0334ed1c-45c5-493f-966e-99d77d7197af" RowDim="1" ColDim="1" Units="psi" BitFields="1">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -349,7 +445,7 @@
 											</Channel>
 										</Section>
 									</Section>
-									<Section Name="label 23" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="f7979ef3-9758-40ac-bcf9-69caecc284e2">
+									<Section Name="label 23" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="6b689f29-bd78-4f81-9afb-cfb01ba0bf82">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -361,16 +457,13 @@
 											<Property Name="user.CD.SDI_Enabled">
 												<Boolean>false</Boolean>
 											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="4a2e19ff-f6ab-4d22-ad43-cdfe617bea0c">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="9a7e79a8-4f15-493a-8e82-72f372c0a2e1">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="23_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="a0a23b0a-4bf3-466b-938f-e20f24a095dd" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+											<Channel Name="23_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="19a6e7bb-e6bf-4693-ac24-89276d36d8fc" RowDim="1" ColDim="1" Units="psi" BitFields="1">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -399,7 +492,7 @@
 											</Channel>
 										</Section>
 									</Section>
-									<Section Name="label 24" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="eab0ef5f-7cbc-43f5-8854-f935b105dce6">
+									<Section Name="label 24" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="3006c669-ec8a-444b-a361-7ba80ecffc69">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -411,16 +504,13 @@
 											<Property Name="user.CD.SDI_Enabled">
 												<Boolean>false</Boolean>
 											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="c8bafdc7-cfbd-479a-afc2-bf2932cff058">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="b7370328-c708-4db4-a21a-a9484dcb8417">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="24_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="ba79f8a4-e47d-4776-a23a-51c320e76a90" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+											<Channel Name="24_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="da3f2354-fb38-40a2-9012-9c575b29cabe" RowDim="1" ColDim="1" Units="psi" BitFields="1">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -451,11 +541,11 @@
 									</Section>
 								</Section>
 							</Section>
-							<Section Name="Outgoing" TypeGUID="7D7F8E01-8E02-4E6A-8E22-BF1B7D107645" Identifier="80230f2d-aee7-4035-984b-aae5b94a2ed0">
+							<Section Name="Outgoing" TypeGUID="7D7F8E01-8E02-4E6A-8E22-BF1B7D107645" Identifier="61d08b31-783b-47cf-b1c3-90b2439519be">
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="CH24" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="37c3f81e-b2d7-46b5-9d95-897b32e13df1">
+								<Section Name="CH24" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="059bb279-d006-4a4a-a70f-c310bd8f9c43">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Port">
@@ -463,7 +553,7 @@
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="label 7" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="d8b362e9-3d7c-4d68-9010-dd4b6197543c">
+									<Section Name="label 7" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="ee762780-2497-44ed-8522-0a4a635b966e">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -480,11 +570,11 @@
 											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="9fec1d62-aba6-4ed6-87a6-704d37417b7b">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="a868f568-583d-4f8b-99ad-938d90f4674f">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="07_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="238235ee-e54c-458c-a13c-48ea854938c3" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+											<Channel Name="07_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="c8e73054-b884-49cc-a6cb-113400fc653f" RowDim="1" ColDim="1" Units="psi" BitFields="3">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -512,7 +602,7 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="4507b195-6910-42fc-9ffa-26bc1b454e04" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="d870d070-5365-4722-afef-6f7cd2e5763e" RowDim="1" ColDim="1" Units="" BitFields="3">
 											<Description />
 											<Properties />
 											<Errors />
@@ -521,7 +611,7 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-									<Section Name="label 8" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="2e28cc6e-9d12-4260-acdb-8e7d3a6ac7df">
+									<Section Name="label 8" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="752681b7-e45e-473d-8922-949c3d86eb78">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -538,11 +628,11 @@
 											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="c0c9a39d-cd74-4b3c-ae62-fef70f2e2afe">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="8256128c-efa8-441b-9e65-01f00fe3887b">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="08_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="954411d7-c7b5-4017-ab3e-9555395ef22e" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+											<Channel Name="08_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="662c2b41-4c9c-4381-aac7-ffca49d841b7" RowDim="1" ColDim="1" Units="psi" BitFields="3">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -570,7 +660,7 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="bc9a944a-353e-4369-bd3c-51081e984807" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="6446871e-c3c1-419b-8b2e-cf71cf42ffb9" RowDim="1" ColDim="1" Units="" BitFields="3">
 											<Description />
 											<Properties />
 											<Errors />
@@ -579,7 +669,7 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-									<Section Name="label 23" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="24f87fcb-841e-440e-9b23-6acecad5b42f">
+									<Section Name="label 23" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="2004339c-89d6-4613-ae34-fe52941ce00c">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -596,11 +686,11 @@
 											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="1458ecb9-49cf-4689-bd75-5ddff8e73ec4">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="548ebd86-50bd-491d-b0bc-e1bf0d37db02">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="23_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="6c54d8f0-36d1-4604-ae39-bf987d24c872" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+											<Channel Name="23_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="9c35d771-fb94-433c-b2db-6c056c448ee0" RowDim="1" ColDim="1" Units="psi" BitFields="3">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -628,7 +718,7 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b86f2d2e-e433-4074-aeb1-36c8e40e957d" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="8bfafeb0-c908-4b7c-b2ac-704080d4c467" RowDim="1" ColDim="1" Units="" BitFields="3">
 											<Description />
 											<Properties />
 											<Errors />
@@ -637,7 +727,7 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-									<Section Name="label 24" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="51133eeb-5248-4108-98ea-e50a44c283a3">
+									<Section Name="label 24" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="8ce9819d-6d1c-4382-8797-4a01babf4ce1">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Label">
@@ -654,11 +744,11 @@
 											</Property>
 										</Properties>
 										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="5c599c78-7d43-45e9-9a61-31ce36ba4532">
+										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="0997c870-ea8e-403e-8e5a-e5d1d63fdcbd">
 											<Description />
 											<Properties />
 											<Errors />
-											<Channel Name="24_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="a46afae0-7a4e-483b-b9f6-b366afc6a1af" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+											<Channel Name="24_Parameter 0" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="38cf65e4-d9dd-4050-beed-d94aeb9dccaf" RowDim="1" ColDim="1" Units="psi" BitFields="3">
 												<Description />
 												<Properties>
 													<Property Name="user.CD.Encoding Type">
@@ -686,7 +776,7 @@
 												</DefaultValue>
 											</Channel>
 										</Section>
-										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="43ac33c5-afce-45d1-8c61-64c84bd79f25" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Channel Name="Trigger" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="7e6cdc73-1905-4f4c-99c3-27a2a4202b69" RowDim="1" ColDim="1" Units="" BitFields="3">
 											<Description />
 											<Properties />
 											<Errors />
@@ -697,80 +787,6 @@
 									</Section>
 								</Section>
 							</Section>
-						</Section>
-						<Section Name="Status" TypeGUID="d3f909f4-31dd-4b46-b0c0-188c355fd2ae" Identifier="396cda3b-2230-430c-8234-d8d92d975ec3">
-							<Description />
-							<Properties />
-							<Errors />
-							<Channel Name="Receiving Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="ebf022a7-7bab-4222-b98e-5acdecdbd5b0" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Gap Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="308aecd4-497d-4c29-b1b2-29b9f6295176" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Parity Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="6e10374b-f58c-4f84-97c7-74312f0ebf4f" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Long Word Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="dd870023-6adb-4a47-8b2f-0cb42d620b2a" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Bit Timing Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="dee6c68e-0239-4177-a574-a766aff48749" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Timeout Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b63a1a39-c30e-4ea5-8f88-2af94a35ac72" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-						</Section>
-						<Section Name="Configuration Files" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="2344697b-05e7-45f3-b1ab-e307e48c5aed">
-							<Description />
-							<Properties>
-								<Property Name="user.CD.Parameters File Needed">
-									<Boolean>true</Boolean>
-								</Property>
-								<Property Name="user.CD.Win Parameters File Path">
-									<String>C:\Git\niveristand-ballard-arinc429-custom-device\Source\Custom Device Support\Tests\System\Loopback\SingleCore (P2--P3)\Assets\Parameters_DynamicLabels.xml</String>
-								</Property>
-								<Property Name="user.CD.Hardware Configuration File">
-									<DependentFile Type="Relative" Path="HW_Rx00_Tx24_DynamicLabels.xml">
-										<Version>1.0</Version>
-										<ForceDownload>true</ForceDownload>
-										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\HW_Rx00_Tx24_DynamicLabels.xml</RTDestination>
-										<SupportedTarget>Linux_x64</SupportedTarget>
-										<MD5>bd14d291e8698429df60772d203c9be0</MD5>
-									</DependentFile>
-								</Property>
-							</Properties>
-							<Errors />
 						</Section>
 					</Section>
 				</Section>
