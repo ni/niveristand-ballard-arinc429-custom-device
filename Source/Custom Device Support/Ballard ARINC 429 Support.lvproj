@@ -116,6 +116,7 @@
 			<Item Name="Labels.mnu" Type="Document" URL="../Scripting/Palettes/Labels.mnu"/>
 			<Item Name="Parameters.mnu" Type="Document" URL="../Scripting/Palettes/Parameters.mnu"/>
 			<Item Name="Ports.mnu" Type="Document" URL="../Scripting/Palettes/Ports.mnu"/>
+			<Item Name="Logging.mnu" Type="Document" URL="../Scripting/Palettes/Logging.mnu"/>
 		</Item>
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
@@ -704,7 +705,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Top Level</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F71C057C-D415-4C7D-8D34-E2C0A5DCAD7F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A02D0312-7AD8-4FFE-B38C-98E6BE6EBDA8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Scripting.lvlib</Property>
@@ -740,9 +741,10 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Shared/Get MD5 For File.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Palettes</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
