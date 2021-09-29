@@ -103,6 +103,12 @@
 					</Item>
 					<Item Name="Refresh.lvclass" Type="LVClass" URL="../Tests/Unit/Refresh/Refresh.lvclass"/>
 				</Item>
+				<Item Name="Mutation" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Unconfigured Custom Device 1.0.0.nivssdf" Type="Document" URL="../Tests/Unit/Mutation/Assets/Unconfigured Custom Device 1.0.0.nivssdf"/>
+					</Item>
+					<Item Name="Mutation.lvclass" Type="LVClass" URL="../Tests/Unit/Mutation/Mutation.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
