@@ -72,6 +72,7 @@
 				<Item Name="Single Core Simple Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Simple Loopback/Single Core Simple Loopback.lvclass"/>
 				<Item Name="Single Core Complex Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Complex Loopback/Single Core Complex Loopback.lvclass"/>
 				<Item Name="Single Core Acyclic Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Acyclic Loopback/Single Core Acyclic Loopback.lvclass"/>
+				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
