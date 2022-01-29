@@ -18,14 +18,6 @@
 							</xs:restriction>
 						 </xs:simpleType>
 					</xs:element>
-					<xs:element name="direction"  maxOccurs="1" minOccurs="1">
-						 <xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:enumeration value="incoming" />
-								<xs:enumeration value="outgoing" />
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
 					<xs:element name="label" maxOccurs="256" minOccurs="1">
 						<xs:complexType>
 							<xs:sequence>
@@ -68,25 +60,37 @@
 										</xs:restriction>
 						 			</xs:simpleType>
 								</xs:element>
-								<xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false"/>
+								<xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false">
 									<xs:annotation>
 										<xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
 									</xs:annotation>
-								<xs:element type="xs:boolean" name="createSDIChannel" maxOccurs="1" minOccurs="0" default="false"/>
+								</xs:element>
+								<xs:element type="xs:boolean" name="createSDIChannel" maxOccurs="1" minOccurs="0" default="false">
 									<xs:annotation>
 										<xs:documentation>Automatic creation of read-only VeriStand channel for SDI is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
 									</xs:annotation>
-								<xs:element type="xs:boolean" name="createSSMChannel" maxOccurs="1" minOccurs="0" default="false"/>
+								</xs:element>
+								<xs:element type="xs:boolean" name="createSSMChannel" maxOccurs="1" minOccurs="0" default="false">
 									<xs:annotation>
 										<xs:documentation>Automatic creation of read-only VeriStand channel for SSM is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
 									</xs:annotation>
-								<xs:element type="xs:boolean" name="createParityChannel" maxOccurs="1" minOccurs="0" default="false"/>
+								</xs:element>
+								<xs:element type="xs:boolean" name="createParityChannel" maxOccurs="1" minOccurs="0" default="false">
 									<xs:annotation>
 										<xs:documentation>Automatic creation of read-only VeriStand channel for Parity is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
 									</xs:annotation>
+								</xs:element>
 								<xs:element name="parameter" maxOccurs="unbounded" minOccurs="1">
 									<xs:complexType>
-										<xs:choice maxOccurs="unbounded" minOccurs="0">
+										<xs:sequence>
+											<xs:element name="direction"  maxOccurs="1" minOccurs="1">
+												 <xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:enumeration value="incoming" />
+														<xs:enumeration value="outgoing" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
 											<xs:element name="encoding" default="BNR" maxOccurs="1" minOccurs="1">
 												<xs:simpleType>
 													<xs:restriction base="xs:string">
@@ -113,8 +117,8 @@
 												</xs:restriction>
 											</xs:simpleType>
 											</xs:element>
-											<xs:element type="xs:double" name="scale"  default="1.0" maxOccurs="1" minOccurs="0"/>
-											<xs:element type="xs:double" name="offset" default="0.0" maxOccurs="1" minOccurs="0" />
+											<xs:element type="xs:double" name="scale"  default="1.0" maxOccurs="1" minOccurs="1"/>
+											<xs:element type="xs:double" name="offset" default="0.0" maxOccurs="1" minOccurs="1" />
 											<xs:element type="xs:string" name="name">
 												<xs:annotation>
 													<xs:documentation>For Discrete encoding, there is one "name" element per Bit</xs:documentation>
@@ -122,7 +126,7 @@
 											</xs:element>
 											<xs:element type="xs:string" name="unit" maxOccurs="1" minOccurs="0"/>
 											<xs:element type="xs:double" name="defaultValue"  default="0.0"/>
-										</xs:choice>
+										</xs:sequence>
 									</xs:complexType>
 								</xs:element>
 							</xs:sequence>
