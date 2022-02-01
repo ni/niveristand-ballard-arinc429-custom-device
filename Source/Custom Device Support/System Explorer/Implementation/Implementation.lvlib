@@ -54,8 +54,8 @@
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Check for Disabled Devices before Compile.vi" Type="VI" URL="../System Explorer/Check for Disabled Devices before Compile.vi"/>
 		<Item Name="Check For MD5 Change.vi" Type="VI" URL="../System Explorer/Check For MD5 Change.vi"/>
+		<Item Name="Check if Custom Device is Enabled.vi" Type="VI" URL="../System Explorer/Check if Custom Device is Enabled.vi"/>
 		<Item Name="Compare Parameters With Refresh Dialog.vi" Type="VI" URL="../System Explorer/Compare Parameters With Refresh Dialog.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Mutate System Definition.vi" Type="VI" URL="../System Explorer/Mutate System Definition.vi"/>
