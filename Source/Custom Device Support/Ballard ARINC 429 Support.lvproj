@@ -78,7 +78,8 @@
 				<Item Name="Single Core Simple Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Simple Loopback/Single Core Simple Loopback.lvclass"/>
 				<Item Name="Single Core Complex Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Complex Loopback/Single Core Complex Loopback.lvclass"/>
 				<Item Name="Single Core Acyclic Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Acyclic Loopback/Single Core Acyclic Loopback.lvclass"/>
-				<Item Name="Scheduled Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Scheduled Logging Loopback.lvclass"/>
+				<Item Name="Acyclic Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Acyclic Logging Loopback/Acyclic Logging Loopback.lvclass"/>
+				<Item Name="Scheduled Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Scheduled Logging Loopback/Scheduled Logging Loopback.lvclass"/>
 				<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
@@ -554,6 +555,8 @@
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Assert Unsigned Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Unsigned Integer Type.vim"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 			</Item>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
