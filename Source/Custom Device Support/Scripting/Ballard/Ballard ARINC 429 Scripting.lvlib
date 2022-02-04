@@ -34,6 +34,9 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Add Custom Device.vi"/>
+		<Item Name="Check If Custom Device Enabled.vi" Type="VI" URL="../Check If Custom Device Enabled.vi"/>
+		<Item Name="Disable Custom Device.vi" Type="VI" URL="../Disable Custom Device.vi"/>
+		<Item Name="Enable Custom Device.vi" Type="VI" URL="../Enable Custom Device.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Export Custom Device.vi"/>
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>

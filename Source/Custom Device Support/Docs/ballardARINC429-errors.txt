@@ -21,4 +21,7 @@ The parameters configuration file has changed on disk. Use the Refresh button in
 <nierror code="-732255">
 The direction of the label must match the direction of the port.
 </nierror>
+<nierror code="-732256">
+Invalid GUID stored for this item.
+</nierror>
 </nidocument>

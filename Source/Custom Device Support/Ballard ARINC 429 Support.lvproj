@@ -67,12 +67,19 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
 				<Item Name="Shared" Type="Folder">
+					<Item Name="Logging" Type="Folder">
+						<Item Name="Array to Set.vim" Type="VI" URL="../Tests/System/Shared Sub VIs/Array to Set.vim"/>
+						<Item Name="Get Target Address.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Get Target Address.vi"/>
+						<Item Name="Script Logging.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Logging.vi"/>
+						<Item Name="Spreadsheet Array to Column Map.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Spreadsheet Array to Column Map.vi"/>
+					</Item>
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
 				</Item>
 				<Item Name="Single Core Simple Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Simple Loopback/Single Core Simple Loopback.lvclass"/>
 				<Item Name="Single Core Complex Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Complex Loopback/Single Core Complex Loopback.lvclass"/>
 				<Item Name="Single Core Acyclic Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Acyclic Loopback/Single Core Acyclic Loopback.lvclass"/>
-				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
+				<Item Name="Scheduled Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Scheduled Logging Loopback.lvclass"/>
+				<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
@@ -586,7 +593,6 @@
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Write String to Log File.vi" Type="VI" URL="../../../../../Users/nitest/Desktop/Logs/Write String to Log File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>

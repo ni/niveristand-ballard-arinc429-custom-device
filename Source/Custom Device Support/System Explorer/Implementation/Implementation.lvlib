@@ -49,11 +49,13 @@
 		<Item Name="Turn On Change Flag Upstream.vi" Type="VI" URL="../System Explorer/Refresh/Turn On Change Flag Upstream.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
+		<Item Name="EnableDisable RTM.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check For MD5 Change.vi" Type="VI" URL="../System Explorer/Check For MD5 Change.vi"/>
+		<Item Name="Check if Custom Device is Enabled.vi" Type="VI" URL="../System Explorer/Check if Custom Device is Enabled.vi"/>
 		<Item Name="Compare Parameters With Refresh Dialog.vi" Type="VI" URL="../System Explorer/Compare Parameters With Refresh Dialog.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Mutate System Definition.vi" Type="VI" URL="../System Explorer/Mutate System Definition.vi"/>
