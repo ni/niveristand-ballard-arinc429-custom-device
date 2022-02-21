@@ -117,3 +117,27 @@ Once the custom device is configured, you can change the configuration using the
 Each time the configuration is changed, the **Ballard ARINC 429 Refresh** dialog will be displayed to compare the current and new configurations. Press **Apply** to accept the changes, or **Cancel** to exit without reconfiguring.
 
 ![Refresh Dialog](Screenshots/Refresh_dialog.PNG)
+
+## Configuring Logging
+
+The custom device can be configured to log all data received by channels configured to be monitored in the Hardware XML file. The logged data is saved to a .csv file on the real-time target.
+
+To configure logging use the **Logging** page in System Explorer. By default, the **Enable Logging** box is unchecked. Check the **Enable Logging** box and configure the other logging properties to configure the log file. As noted in the help on the page, specify which messages to log using the Hardware XML file. Labels with `monitor="true"` and all labels on channels with `monitorMode="All"` are logged.
+
+![Logging Configuration](Screenshots/Logging_Configuration.png)
+
+When logging is enabled, the log file is opened and written while the system definition is deployed. To stop logging, undeploy the system definition. After retrieving the file from the target, the contents will be saved like the example below. This is the data logged when triggering the acyclic message defined in the User Guide assets (Channel 0, Label 7).
+
+```
+time stamp,channel,label,sdi,data word
+9.958172,0,7,0,3758147591
+14.593172,0,7,0,3758152711
+```
+
+To limit the impact on real-time performance, the logged data read from the bus monitor is not converted to parameters. The **channel**, **label**, and **sdi** values are read from the message and logged. However, the **data word** is the raw 32-bit value of the message. Converting the two logged data words above to binary notation shows that the first message was carrying a data value of **0b110010** or **0d50**.
+
+![Logged Frame 1](Screenshots/Logged_Frame_1.png)
+
+Similarly, the second message was carrying a data value of **0b110111** or **0d55**.
+
+![Logged Frame 2](Screenshots/Logged_Frame_2.png)
