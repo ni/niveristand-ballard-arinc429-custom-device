@@ -120,6 +120,9 @@
 					</Item>
 					<Item Name="Mutation.lvclass" Type="LVClass" URL="../Tests/Unit/Mutation/Mutation.lvclass"/>
 				</Item>
+				<Item Name="Hardware Configuration" Type="Folder">
+					<Item Name="Hardware Configuration.lvclass" Type="LVClass" URL="../Tests/Unit/Hardware Configuration/Hardware Configuration.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
@@ -143,6 +146,7 @@
 		<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 		<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
+		<Item Name="Ballard ARINC 429 Hardware Configuration.lvlib" Type="Library" URL="../Hardware Configuration/Ballard ARINC 429 Hardware Configuration.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
