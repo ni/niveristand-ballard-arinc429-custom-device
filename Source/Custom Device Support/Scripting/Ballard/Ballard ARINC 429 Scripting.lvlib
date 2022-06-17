@@ -108,5 +108,8 @@
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
 		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
 	</Item>
+	<Item Name="Timing" Type="Folder">
+		<Item Name="Add Timing Channels.vi" Type="VI" URL="../Timing/Add Timing Channels.vi"/>
+	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
