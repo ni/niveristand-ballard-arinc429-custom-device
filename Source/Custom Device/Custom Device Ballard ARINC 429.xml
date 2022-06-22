@@ -75,6 +75,23 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>BFC85455-8838-4DF7-A346-52A222E3D717</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Timing Channels</eng>
+						<loc>Add Timing Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Add Timing Channels RTM.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Can Add Timing Channels.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
+				<MenuItem>
 					<GUID>D7FBD458-528E-44DB-9246-263A21180D90</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -605,6 +622,22 @@
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\ARINC 429\Windows\Ballard ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Timing</eng>
+				<loc>Timing</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>8AEA010F-DFF0-4887-9273-580C496D73C1</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\timing.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>

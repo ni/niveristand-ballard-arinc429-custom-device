@@ -28,6 +28,7 @@
 		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
 		<Item Name="Status Channel.vi" Type="VI" URL="../System Explorer/Pages/Status Channel.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
+		<Item Name="Timing.vi" Type="VI" URL="../System Explorer/Pages/Timing.vi"/>
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
 		<Item Name="Word.vi" Type="VI" URL="../System Explorer/Pages/Word.vi"/>
 	</Item>
@@ -49,6 +50,8 @@
 		<Item Name="Turn On Change Flag Upstream.vi" Type="VI" URL="../System Explorer/Refresh/Turn On Change Flag Upstream.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
+		<Item Name="Add Timing Channels RTM.vi" Type="VI" URL="../System Explorer/RTM/Add Timing Channels RTM.vi"/>
+		<Item Name="Can Add Timing Channels.vi" Type="VI" URL="../System Explorer/RTM/Can Add Timing Channels.vi"/>
 		<Item Name="EnableDisable RTM.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
