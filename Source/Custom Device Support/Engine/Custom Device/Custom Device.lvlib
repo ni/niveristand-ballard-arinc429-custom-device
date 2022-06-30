@@ -10,6 +10,7 @@
 		<Item Name="Init" Type="Folder">
 			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Create Map from Identifiers to Indexes.vi"/>
 			<Item Name="Create Map from Values Indexes to Channel and Label Indexes.vi" Type="VI" URL="../Create Map from Values Indexes to Channel and Label Indexes.vi"/>
+			<Item Name="Create Timing Channel Array.vi" Type="VI" URL="../Create Timing Channel Array.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
 			<Item Name="Initialize Logging.vi" Type="VI" URL="../Initialize Logging.vi"/>
@@ -33,6 +34,8 @@
 			<Item Name="Process Records.vi" Type="VI" URL="../Process Records.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
 			<Item Name="Start Sequential Monitor if Not Started.vi" Type="VI" URL="../Start Sequential Monitor if Not Started.vi"/>
+			<Item Name="Timed Read from Hardware.vi" Type="VI" URL="../Timed Read from Hardware.vi"/>
+			<Item Name="Timed Write to Hardware.vi" Type="VI" URL="../Timed Write to Hardware.vi"/>
 			<Item Name="Write Error to System Log.vi" Type="VI" URL="../Write Error to System Log.vi"/>
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>
