@@ -41,12 +41,14 @@
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
+		<Item Name="Get Rx Async.vi" Type="VI" URL="../Get Rx Async.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Import Custom Device.vi"/>
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Initialize Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
+		<Item Name="Set Rx Async.vi" Type="VI" URL="../Set Rx Async.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
