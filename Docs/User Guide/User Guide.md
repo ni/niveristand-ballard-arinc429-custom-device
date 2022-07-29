@@ -31,6 +31,7 @@ The files are configured with two ARINC 429 channels each containing the same tw
 	<channel>
 		<hardwareChannel>16</hardwareChannel>
 		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<transferType>1</transferType>
@@ -49,6 +50,7 @@ The files are configured with two ARINC 429 channels each containing the same tw
 		<label>
 			<labelDecimal>23</labelDecimal>
 			<transferType>0</transferType>
+			<period>10000</period>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>

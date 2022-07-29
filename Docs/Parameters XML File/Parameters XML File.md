@@ -39,9 +39,11 @@ The code snippet below is an example of BCD Parameters.
 <channel>
 	<hardwareChannel>26</hardwareChannel>
 	<direction>outgoing</direction>
+	<speed>high</speed>
 	<label>
 		<labelDecimal>28</labelDecimal>
 		<transferType>0</transferType>
+		<period>10000</period>
 		<parameter>
 			<encoding>BCD</encoding>
 			<signed>true</signed>
@@ -83,6 +85,7 @@ The code snippet below is an example of Discrete Parameters.
 <label>
 	<labelDecimal>23</labelDecimal>
 	<transferType>0</transferType>
+	<period>20000</period>
 	<parameter>
 		<encoding>Discrete</encoding>
 		<startBit>10</startBit>
@@ -104,11 +107,13 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |`<channel>`|Yes|complex|1/16|Opening tag for a channel labels definition.|
 |→`<hardwareChannel>`|Yes|xs:int|1|Specifies the Hardware Channel used. Range is: [0:31].|
 |→`<direction>`|Yes|xs:string|1|Specifies whether the channel is incoming (Rx) or outgoing (Tx).|
+|→`<speed>`|No|xs:string|0/1|Specifies the transfer rate of the channel. Supported values:<br/>low - 12.5 kHz<br/>high - 100 kHz (default)<br/><br/>**Note: This tag is currently unused, but may be used by future releases of the custom device.**|
 |→`<label>`|Yes|complex|1/256|Opening tag for a label definition..|
 |→→`<labelDecimal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (decimal). Range is: [0:255].|
 |→→`<labelOctal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (octal). Range is: [0:377].|
 |→→`<sdi>`|No|xs:string|0/1|Specifies whether these Label settings apply to all SDI variants or a specific one. Supported values: <br/>All (default) - Pastes by creating a new instance of the item.<br/>00 - Pastes only if an item with the same GUID does not already exist.<br/>01 - Pastes only if an item with the same name does not already exist.<br/>10 - Pastes by replacing an item.<br/>11 - Prompts the operator with a dialog before pasting.|
 |→→`<transferType>`|No|xs:int|0/1|Specifies the transfer type for a Tx message. Use 0 for a scheduled label; use 1 for an acyclic label. Default Value (if XML element is absent) is 0 (Scheduled).|
+|→→`<period>`|No|xs:int|0/1|Specifies the period, in microseconds, for a scheduled Tx label. Default Value (if XML element is absent) is 0.<br/><br/>**Note: This tag is currently unused, but may be used by future releases of the custom device.**|
 |→→`<createTimestampChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the label timestamp. This property is supported only for a receive (Rx) label, not for a transmit (Tx) label. Default Value (if XML element is absent) is false.|
 |→→`<createSDIChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label SDI Bits. Default Value (if XML element is absent) is false.|
 |→→`<createSSMChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label SSM Bits. Default Value (if XML element is absent) is false.|

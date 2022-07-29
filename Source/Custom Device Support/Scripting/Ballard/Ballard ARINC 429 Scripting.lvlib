@@ -68,6 +68,8 @@
 		<Item Name="Port To Labels.vi" Type="VI" URL="../Label/Port To Labels.vi"/>
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 		<Item Name="Remove Timestamp Channel.vi" Type="VI" URL="../Label/Remove Timestamp Channel.vi"/>
+		<Item Name="Get Transmit Period.vi" Type="VI" URL="../Label/Get Transmit Period.vi"/>
+		<Item Name="Set Transmit Period.vi" Type="VI" URL="../Label/Set Transmit Period.vi"/>
 	</Item>
 	<Item Name="Logging" Type="Folder">
 		<Item Name="Add Logging Section.vi" Type="VI" URL="../Logging/Add Logging Section.vi"/>
@@ -101,6 +103,8 @@
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
 		<Item Name="System Definition To Ports.vi" Type="VI" URL="../Port/System Definition To Ports.vi"/>
+		<Item Name="Get Port Speed.vi" Type="VI" URL="../Port/Get Port Speed.vi"/>
+		<Item Name="Set Port Speed.vi" Type="VI" URL="../Port/Set Port Speed.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
