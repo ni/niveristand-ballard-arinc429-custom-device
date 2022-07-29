@@ -62,6 +62,7 @@
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Pack Message Identifier.vi" Type="VI" URL="../Shared/Pack Message Identifier.vi"/>
 			<Item Name="Unpack Message Identifier.vi" Type="VI" URL="../Shared/Unpack Message Identifier.vi"/>
+			<Item Name="Transfer Speed.ctl" Type="VI" URL="../Shared/Transfer Speed.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>

@@ -101,6 +101,8 @@
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
 		<Item Name="System Definition To Ports.vi" Type="VI" URL="../Port/System Definition To Ports.vi"/>
+		<Item Name="Get Port Speed.vi" Type="VI" URL="../Port/Get Port Speed.vi"/>
+		<Item Name="Set Port Speed.vi" Type="VI" URL="../Port/Set Port Speed.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>

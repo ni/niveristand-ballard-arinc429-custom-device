@@ -28,6 +28,7 @@
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
 		<direction>incoming</direction>
+		<speed>low</speed>
 		<label>
 			<labelDecimal>134</labelDecimal>
 			<createTimestampChannel>true</createTimestampChannel>
@@ -48,6 +49,7 @@
 		<channel>
 		<hardwareChannel>2</hardwareChannel>
 		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -66,6 +68,7 @@
 	<channel>
 		<hardwareChannel>4</hardwareChannel>
 		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -105,6 +108,7 @@
 	<channel>
 		<hardwareChannel>17</hardwareChannel>
 		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>134</labelDecimal>
 			<parameter>
@@ -123,6 +127,7 @@
 	<channel>
 		<hardwareChannel>19</hardwareChannel>
 		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<parameter>
@@ -141,6 +146,7 @@
 	<channel>
 		<hardwareChannel>21</hardwareChannel>
 		<direction>outgoing</direction>
+		<speed>low</speed>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<parameter>
