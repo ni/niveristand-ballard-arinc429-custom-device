@@ -111,6 +111,7 @@
 		<speed>high</speed>
 		<label>
 			<labelDecimal>134</labelDecimal>
+			<period>20000</period>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -149,6 +150,7 @@
 		<speed>low</speed>
 		<label>
 			<labelDecimal>136</labelDecimal>
+			<transferType>1</transferType>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
