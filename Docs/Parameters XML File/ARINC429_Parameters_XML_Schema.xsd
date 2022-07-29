@@ -1,141 +1,157 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="parameters">
-		<xs:annotation>
-			<xs:documentation>Notes																					</xs:documentation>
-			<xs:documentation>hardwareChannel is 0-Based, range accepted is: 0-31 (cf. to respective supplier doc.)	</xs:documentation>
-			<xs:documentation>startBit is 0-Based, range accepted is: 8-31 (Tx), 0-31 (Rx)							</xs:documentation>
-		</xs:annotation>
-    <xs:complexType>
-		<xs:sequence>
-			<xs:element name="channel" maxOccurs="32" minOccurs="1">
-			  <xs:complexType>
-				<xs:sequence>
-					<xs:element name="hardwareChannel">
-						<xs:simpleType>
-							<xs:restriction base="xs:int">
-							  <xs:minInclusive value="0"/>
-							  <xs:maxInclusive value="31"/>
-							</xs:restriction>
-						 </xs:simpleType>
-					</xs:element>
-					<xs:element name="direction"  maxOccurs="1" minOccurs="1">
-						 <xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:enumeration value="incoming" />
-								<xs:enumeration value="outgoing" />
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="label" maxOccurs="256" minOccurs="1">
-						<xs:complexType>
-							<xs:sequence>
-								<xs:element name="labelDecimal" maxOccurs="1" minOccurs="0">
-									<xs:simpleType>
-										<xs:restriction base="xs:int">
-											<xs:minInclusive value="0"/>
-											<xs:maxInclusive value="255"/>
-										 </xs:restriction>
-									</xs:simpleType>
-								</xs:element>
-								<xs:element name="labelOctal" maxOccurs="1" minOccurs="0">
-									<xs:simpleType>
-										<xs:restriction base="xs:int">
-											<xs:pattern value="([0-7])+"/>
-											<xs:minInclusive value="0"/>
-											<xs:maxInclusive value="377"/>
-										</xs:restriction>
-									</xs:simpleType>
-								</xs:element>
-								<xs:element name="sdi"  maxOccurs="1" minOccurs="0" default="All">
-									 <xs:simpleType>
-										<xs:restriction base="xs:string">
-											<xs:enumeration value="All" />
-											<xs:enumeration value="00" />
-											<xs:enumeration value="01" />
-											<xs:enumeration value="10" />
-											<xs:enumeration value="11" />
-										</xs:restriction>
-									</xs:simpleType>
-								</xs:element>
-								<xs:element name="transferType"  maxOccurs="1" minOccurs="0" default="0">
-									<xs:annotation>
-										<xs:documentation>Value of 0 specifies a scheduled label. Value of 1 specifies an acyclic label. This tag is ignored for Rx labels.</xs:documentation>
-									</xs:annotation>
-									<xs:simpleType>
-										<xs:restriction base="xs:int">
-							  			  <xs:minInclusive value="0"/>
-							  			  <xs:maxInclusive value="1"/>
-										</xs:restriction>
-						 			</xs:simpleType>
-								</xs:element>
-								<xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false"/>
-									<xs:annotation>
-										<xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
-									</xs:annotation>
-								<xs:element type="xs:boolean" name="createSDIChannel" maxOccurs="1" minOccurs="0" default="false"/>
-									<xs:annotation>
-										<xs:documentation>Automatic creation of read-only VeriStand channel for SDI is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
-									</xs:annotation>
-								<xs:element type="xs:boolean" name="createSSMChannel" maxOccurs="1" minOccurs="0" default="false"/>
-									<xs:annotation>
-										<xs:documentation>Automatic creation of read-only VeriStand channel for SSM is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
-									</xs:annotation>
-								<xs:element type="xs:boolean" name="createParityChannel" maxOccurs="1" minOccurs="0" default="false"/>
-									<xs:annotation>
-										<xs:documentation>Automatic creation of read-only VeriStand channel for Parity is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
-									</xs:annotation>
-								<xs:element name="parameter" maxOccurs="unbounded" minOccurs="1">
-									<xs:complexType>
-										<xs:choice maxOccurs="unbounded" minOccurs="0">
-											<xs:element name="encoding" default="BNR" maxOccurs="1" minOccurs="1">
-												<xs:simpleType>
-													<xs:restriction base="xs:string">
-														<xs:enumeration value="BNR"/>
-														<xs:enumeration value="BCD"/>
-														<xs:enumeration value="Discrete"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element type="xs:boolean" name="signed" maxOccurs="1" minOccurs="0" default="false"/>
-											<xs:element name="startBit"  maxOccurs="1" minOccurs="1"  default="8">
-												<xs:simpleType>
-													<xs:restriction base="xs:int">
-														<xs:minInclusive value="0"/>
-														<xs:maxInclusive value="31"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element name="numberOfBits" maxOccurs="1" minOccurs="1">
-											<xs:simpleType>
-												<xs:restriction base="xs:int">
-													<xs:minInclusive value="1"/>
-													<xs:maxInclusive value="32"/>
-												</xs:restriction>
-											</xs:simpleType>
-											</xs:element>
-											<xs:element type="xs:double" name="scale"  default="1.0" maxOccurs="1" minOccurs="0"/>
-											<xs:element type="xs:double" name="offset" default="0.0" maxOccurs="1" minOccurs="0" />
-											<xs:element type="xs:string" name="name">
-												<xs:annotation>
-													<xs:documentation>For Discrete encoding, there is one "name" element per Bit</xs:documentation>
-												</xs:annotation>
-											</xs:element>
-											<xs:element type="xs:string" name="unit" maxOccurs="1" minOccurs="0"/>
-											<xs:element type="xs:double" name="defaultValue"  default="0.0"/>
-										</xs:choice>
-									</xs:complexType>
-								</xs:element>
-							</xs:sequence>
-						</xs:complexType>
-					</xs:element>
-				</xs:sequence>
-			  </xs:complexType>
-			</xs:element>
-		</xs:sequence>
-    </xs:complexType>
-	<xs:unique name="uniquehardwareChannel">
-		<xs:selector xpath="channel"/>
-		<xs:field xpath="hardwareChannel"/>
-	</xs:unique>
-  </xs:element>
+   <xs:element name="parameters">
+      <xs:annotation>
+         <xs:documentation>Notes</xs:documentation>
+         <xs:documentation>hardwareChannel is 1-Based, range accepted is: 1-32 (cf. to respective supplier doc.)</xs:documentation>
+         <xs:documentation>startBit is 0-Based, range accepted is: 8-31 (Tx), 0-31 (Rx)</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="channel" maxOccurs="32" minOccurs="1">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="hardwareChannel">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:int">
+                              <xs:minInclusive value="1"/>
+                              <xs:maxInclusive value="32"/>
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                     <xs:element name="direction" maxOccurs="1" minOccurs="1">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:string">
+                              <xs:enumeration value="incoming" />
+                              <xs:enumeration value="outgoing" />
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                     <xs:element name="speed" default="high" maxOccurs="1" minOccurs="0">
+                        <xs:annotation>
+                           <xs:documentation>For ARINC 429, high speed is 100kHz, low speed is 12.5kHz.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                           <xs:restriction base="xs:string">
+                              <xs:enumeration value="high" />
+                              <xs:enumeration value="low" />
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                     <xs:element name="label" maxOccurs="256" minOccurs="1">
+                        <xs:complexType>
+                           <xs:sequence>
+                              <xs:element name="labelDecimal" maxOccurs="1" minOccurs="0">
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                       <xs:minInclusive value="0"/>
+                                       <xs:maxInclusive value="255"/>
+                                    </xs:restriction>
+                                 </xs:simpleType>
+                              </xs:element>
+                              <xs:element name="labelOctal" maxOccurs="1" minOccurs="0">
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                       <xs:pattern value="([0-7])+"/>
+                                       <xs:minInclusive value="0"/>
+                                       <xs:maxInclusive value="377"/>
+                                    </xs:restriction>
+                                 </xs:simpleType>
+                              </xs:element>
+                              <xs:element name="sdi" maxOccurs="1" minOccurs="0" default="All">
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                       <xs:enumeration value="All" />
+                                       <xs:enumeration value="00" />
+                                       <xs:enumeration value="01" />
+                                       <xs:enumeration value="10" />
+                                       <xs:enumeration value="11" />
+                                    </xs:restriction>
+                                 </xs:simpleType>
+                              </xs:element>
+                              <xs:element name="transferType" maxOccurs="1" minOccurs="0" default="0">
+                                 <xs:annotation>
+                                    <xs:documentation>Value of 0 specifies a scheduled label. Value of 1 specifies an acyclic label. This tag is ignored for Rx labels.</xs:documentation>
+                                 </xs:annotation>
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                       <xs:minInclusive value="0"/>
+                                       <xs:maxInclusive value="1"/>
+                                    </xs:restriction>
+                                 </xs:simpleType>
+                              </xs:element>
+                              <xs:element type="xs:int" name="period" default="1000" maxOccurs="1" minOccurs="0">
+                                 <xs:annotation>
+                                    <xs:documentation>Period (in microseconds) at which scheduled Tx labels are continuously transmitted. This tag is ignored for Rx labels.</xs:documentation>
+                                 </xs:annotation>
+                              </xs:element>
+                              <xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false"/>
+                                 <xs:annotation>
+                                    <xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
+                                 </xs:annotation>
+                              <xs:element type="xs:boolean" name="createSDIChannel" maxOccurs="1" minOccurs="0" default="false"/>
+                                 <xs:annotation>
+                                    <xs:documentation>Automatic creation of read-only VeriStand channel for SDI is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
+                                 </xs:annotation>
+                              <xs:element type="xs:boolean" name="createSSMChannel" maxOccurs="1" minOccurs="0" default="false"/>
+                                 <xs:annotation>
+                                    <xs:documentation>Automatic creation of read-only VeriStand channel for SSM is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
+                                 </xs:annotation>
+                              <xs:element type="xs:boolean" name="createParityChannel" maxOccurs="1" minOccurs="0" default="false"/>
+                                 <xs:annotation>
+                                    <xs:documentation>Automatic creation of read-only VeriStand channel for Parity is only supported for Rx labels. This tag is ignored for Tx labels.</xs:documentation>
+                                 </xs:annotation>
+                              <xs:element name="parameter" maxOccurs="unbounded" minOccurs="1">
+                                 <xs:complexType>
+                                    <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                       <xs:element name="encoding" default="BNR" maxOccurs="1" minOccurs="1">
+                                          <xs:simpleType>
+                                             <xs:restriction base="xs:string">
+                                                <xs:enumeration value="BNR"/>
+                                                <xs:enumeration value="BCD"/>
+                                                <xs:enumeration value="Discrete"/>
+                                             </xs:restriction>
+                                          </xs:simpleType>
+                                       </xs:element>
+                                       <xs:element type="xs:boolean" name="signed" maxOccurs="1" minOccurs="0" default="false"/>
+                                       <xs:element name="startBit" maxOccurs="1" minOccurs="1"  default="8">
+                                          <xs:simpleType>
+                                             <xs:restriction base="xs:int">
+                                                <xs:minInclusive value="0"/>
+                                                <xs:maxInclusive value="31"/>
+                                             </xs:restriction>
+                                          </xs:simpleType>
+                                       </xs:element>
+                                       <xs:element name="numberOfBits" maxOccurs="1" minOccurs="1">
+                                          <xs:simpleType>
+                                             <xs:restriction base="xs:int">
+                                                <xs:minInclusive value="1"/>
+                                                <xs:maxInclusive value="32"/>
+                                             </xs:restriction>
+                                          </xs:simpleType>
+                                       </xs:element>
+                                       <xs:element type="xs:double" name="scale" default="1.0" maxOccurs="1" minOccurs="0"/>
+                                       <xs:element type="xs:double" name="offset" default="0.0" maxOccurs="1" minOccurs="0" />
+                                       <xs:element type="xs:string" name="name">
+                                          <xs:annotation>
+                                             <xs:documentation>For Discrete encoding, there is one "name" element per Bit</xs:documentation>
+                                          </xs:annotation>
+                                       </xs:element>
+                                       <xs:element type="xs:string" name="unit" maxOccurs="1" minOccurs="0"/>
+                                       <xs:element type="xs:double" name="defaultValue"  default="0.0"/>
+                                    </xs:choice>
+                                 </xs:complexType>
+                              </xs:element>
+                           </xs:sequence>
+                        </xs:complexType>
+                     </xs:element>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+      <xs:unique name="uniquehardwareChannel">
+         <xs:selector xpath="channel"/>
+         <xs:field xpath="hardwareChannel"/>
+      </xs:unique>
+   </xs:element>
 </xs:schema>
