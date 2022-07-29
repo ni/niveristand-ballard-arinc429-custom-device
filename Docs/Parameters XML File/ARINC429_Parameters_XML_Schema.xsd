@@ -79,7 +79,7 @@
                                     </xs:restriction>
                                  </xs:simpleType>
                               </xs:element>
-                              <xs:element type="xs:int" name="period" default="1000" maxOccurs="1" minOccurs="0">
+                              <xs:element type="xs:int" name="period" default="0" maxOccurs="1" minOccurs="0">
                                  <xs:annotation>
                                     <xs:documentation>Period (in microseconds) at which scheduled Tx labels are continuously transmitted. This tag is ignored for Rx labels.</xs:documentation>
                                  </xs:annotation>
