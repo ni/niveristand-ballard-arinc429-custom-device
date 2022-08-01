@@ -308,7 +308,7 @@
 									<Boolean>true</Boolean>
 								</Property>
 								<Property Name="user.CD.Hardware Configuration File">
-									<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\ballard429tests\POC_8Tx_to_8Rx_Full_90_Percent_Bus_Load_HW_Core_0.xml">
+									<DependentFile Type="Absolute" Path="C:\git\ni\niveristand-ballard-arinc429-custom-device\Source\Custom Device Support\Tests\Unit\Hardware Configuration\Assets\POC_8Tx_to_8Rx_Full_90_Percent_Bus_Load_HW_Core_0.xml">
 										<Version>1.0</Version>
 										<ForceDownload>true</ForceDownload>
 										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\POC_8Tx_to_8Rx_Full_90_Percent_Bus_Load_HW_Core_0.xml</RTDestination>
@@ -317,7 +317,7 @@
 									</DependentFile>
 								</Property>
 								<Property Name="user.CD.Win Parameters File Path">
-									<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\ballard429tests\POC_8Tx_to_8Rx_Full_90_Percent_Bus_Load_PARAM_Core_0_ni.xml">
+									<DependentFile Type="Absolute" Path="C:\git\ni\niveristand-ballard-arinc429-custom-device\Source\Custom Device Support\Tests\Unit\Hardware Configuration\Assets\POC_8Tx_to_8Rx_Full_90_Percent_Bus_Load_PARAM_Core_0_ni.xml">
 										<Version />
 										<RTDestination />
 										<SupportedTarget />

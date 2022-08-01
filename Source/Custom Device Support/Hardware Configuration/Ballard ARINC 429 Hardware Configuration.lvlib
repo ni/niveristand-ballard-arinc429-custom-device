@@ -17,6 +17,7 @@
 		<Item Name="Get Rx Label Configuration.vi" Type="VI" URL="../Get Rx Label Configuration.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Append SDI.vi" Type="VI" URL="../Append SDI.vi"/>
 		<Item Name="Get Next Identifier.vi" Type="VI" URL="../Get Next Identifier.vi"/>
 	</Item>
 	<Item Name="Tx" Type="Folder">

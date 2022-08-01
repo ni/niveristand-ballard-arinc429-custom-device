@@ -1,0 +1,1711 @@
+<bti:core xmlns:bti="http://www.ballardtech.com/DatabusSchemas/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ID="0" name="Core_0" schemaVersion="1.0">
+	<bti:coreConfiguration>
+		<bti:sequentialLog perChannelStreaming="false"/>
+		<bti:builtInTest/>
+		<bti:pxi/>
+		<bti:sysMon/>
+		<bti:timing/>
+	</bti:coreConfiguration>
+
+
+<!--***************************************	Rx Channels ***************************************-->
+	<bti:channel429 ID="1" name="CH0" hardwareChannel="0" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="2" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="3" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="4" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="5" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="6" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="7" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="8" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="9" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="10" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="11" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="12" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="13" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="14" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="15" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="16" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="17" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="18" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="19" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="20" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="21" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="22" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="23" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="24" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="25" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="26" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="27" name="CH1" hardwareChannel="1" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="28" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="29" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="30" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="31" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="32" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="33" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="34" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="35" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="36" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="37" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="38" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="39" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="40" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="41" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="42" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="43" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="44" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="45" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="46" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="47" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="48" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="49" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="50" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="51" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="52" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="53" name="CH2" hardwareChannel="2" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="54" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="55" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="56" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="57" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="58" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="59" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="60" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="61" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="62" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="63" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="64" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="65" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="66" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="67" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="68" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="69" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="70" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="71" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="72" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="73" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="74" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="75" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="76" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="77" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="78" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="79" name="CH3" hardwareChannel="3" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="80" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="81" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="82" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="83" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="84" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="85" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="86" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="87" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="88" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="89" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="90" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="91" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="92" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="93" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="94" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="95" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="96" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="97" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="98" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="99" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="100" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="101" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="102" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="103" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="104" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="105" name="CH4" hardwareChannel="4" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="106" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="107" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="108" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="109" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="110" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="111" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="112" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="113" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="114" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="115" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="116" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="117" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="118" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="119" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="120" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="121" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="122" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="123" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="124" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="125" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="126" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="127" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="128" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="129" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="130" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="131" name="CH5" hardwareChannel="5" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="132" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="133" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="134" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="135" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="136" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="137" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="138" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="139" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="140" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="141" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="142" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="143" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="144" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="145" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="146" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="147" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="148" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="149" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="150" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="151" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="152" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="153" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="154" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="155" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="156" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="157" name="CH6" hardwareChannel="6" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="158" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="159" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="160" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="161" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="162" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="163" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="164" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="165" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="166" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="167" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="168" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="169" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="170" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="171" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="172" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="173" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="174" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="175" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="176" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="177" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="178" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="179" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="180" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="181" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="182" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+	<bti:channel429 ID="183" name="CH7" hardwareChannel="7" monitorMode="Selective">
+		<bti:rxChannel speedKHz="100">
+			<bti:labels>
+				<bti:label ID="184" name="label 0" labelDecimal="0" monitor="true"/>
+				<bti:label ID="185" name="label 1" labelDecimal="1" monitor="true"/>
+				<bti:label ID="186" name="label 2" labelDecimal="2" monitor="true"/>
+				<bti:label ID="187" name="label 3" labelDecimal="3" monitor="true"/>
+				<bti:label ID="188" name="label 4" labelDecimal="4" monitor="true"/>
+				<bti:label ID="189" name="label 5" labelDecimal="5" monitor="true"/>
+				<bti:label ID="190" name="label 6" labelDecimal="6" monitor="true"/>
+				<bti:label ID="191" name="label 7" labelDecimal="7" monitor="true"/>
+				<bti:label ID="192" name="label 8" labelDecimal="8" monitor="true"/>
+				<bti:label ID="193" name="label 9" labelDecimal="9" monitor="true"/>
+				<bti:label ID="194" name="label 10" labelDecimal="10" monitor="true"/>
+				<bti:label ID="195" name="label 11" labelDecimal="11" monitor="true"/>
+				<bti:label ID="196" name="label 12" labelDecimal="12" monitor="true"/>
+				<bti:label ID="197" name="label 13" labelDecimal="13" monitor="true"/>
+				<bti:label ID="198" name="label 14" labelDecimal="14" monitor="true"/>
+				<bti:label ID="199" name="label 15" labelDecimal="15" monitor="true"/>
+				<bti:label ID="200" name="label 16" labelDecimal="16" monitor="true"/>
+				<bti:label ID="201" name="label 17" labelDecimal="17" monitor="true"/>
+				<bti:label ID="202" name="label 18" labelDecimal="18" monitor="true"/>
+				<bti:label ID="203" name="label 19" labelDecimal="19" monitor="true"/>
+				<bti:label ID="204" name="label 20" labelDecimal="20" monitor="true"/>
+				<bti:label ID="205" name="label 21" labelDecimal="21" monitor="true"/>
+				<bti:label ID="206" name="label 22" labelDecimal="22" monitor="true"/>
+				<bti:label ID="207" name="label 23" labelDecimal="23" monitor="true"/>
+				<bti:label ID="208" name="label 24" labelDecimal="24" monitor="true"/>
+			</bti:labels>
+		</bti:rxChannel>
+	</bti:channel429>
+
+<!--***************************************	Tx Channels ***************************************-->
+	<bti:channel429 ID="209" name="CH16" hardwareChannel="16">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="210" name="label 0" messageBufferIDRef="211" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="211" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="212" name="label 1" messageBufferIDRef="213" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="213" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="214" name="label 2" messageBufferIDRef="215" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="215" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="216" name="label 3" messageBufferIDRef="217" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="217" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="218" name="label 4" messageBufferIDRef="219" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="219" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="220" name="label 5" messageBufferIDRef="221" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="221" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="222" name="label 6" messageBufferIDRef="223" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="223" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="224" name="label 7" messageBufferIDRef="225" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="225" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="226" name="label 8" messageBufferIDRef="227" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="227" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="228" name="label 9" messageBufferIDRef="229" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="229" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="230" name="label 10" messageBufferIDRef="231" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="231" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="232" name="label 11" messageBufferIDRef="233" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="233" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="234" name="label 12" messageBufferIDRef="235" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="235" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="236" name="label 13" messageBufferIDRef="237" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="237" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="238" name="label 14" messageBufferIDRef="239" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="239" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="240" name="label 15" messageBufferIDRef="241" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="241" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="242" name="label 16" messageBufferIDRef="243" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="243" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="244" name="label 17" messageBufferIDRef="245" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="245" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="246" name="label 18" messageBufferIDRef="247" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="247" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="248" name="label 19" messageBufferIDRef="249" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="249" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="250" name="label 20" messageBufferIDRef="251" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="251" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="252" name="label 21" messageBufferIDRef="253" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="253" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="254" name="label 22" messageBufferIDRef="255" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="255" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="256" name="label 23" messageBufferIDRef="257" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="257" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="258" name="label 24" messageBufferIDRef="259" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="259" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="260" name="CH17" hardwareChannel="17">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="261" name="label 0" messageBufferIDRef="262" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="262" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="263" name="label 1" messageBufferIDRef="264" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="264" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="265" name="label 2" messageBufferIDRef="266" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="266" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="267" name="label 3" messageBufferIDRef="268" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="268" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="269" name="label 4" messageBufferIDRef="270" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="270" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="271" name="label 5" messageBufferIDRef="272" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="272" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="273" name="label 6" messageBufferIDRef="274" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="274" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="275" name="label 7" messageBufferIDRef="276" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="276" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="277" name="label 8" messageBufferIDRef="278" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="278" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="279" name="label 9" messageBufferIDRef="280" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="280" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="281" name="label 10" messageBufferIDRef="282" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="282" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="283" name="label 11" messageBufferIDRef="284" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="284" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="285" name="label 12" messageBufferIDRef="286" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="286" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="287" name="label 13" messageBufferIDRef="288" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="288" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="289" name="label 14" messageBufferIDRef="290" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="290" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="291" name="label 15" messageBufferIDRef="292" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="292" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="293" name="label 16" messageBufferIDRef="294" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="294" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="295" name="label 17" messageBufferIDRef="296" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="296" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="297" name="label 18" messageBufferIDRef="298" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="298" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="299" name="label 19" messageBufferIDRef="300" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="300" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="301" name="label 20" messageBufferIDRef="302" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="302" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="303" name="label 21" messageBufferIDRef="304" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="304" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="305" name="label 22" messageBufferIDRef="306" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="306" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="307" name="label 23" messageBufferIDRef="308" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="308" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="309" name="label 24" messageBufferIDRef="310" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="310" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="311" name="CH18" hardwareChannel="18">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="312" name="label 0" messageBufferIDRef="313" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="313" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="314" name="label 1" messageBufferIDRef="315" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="315" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="316" name="label 2" messageBufferIDRef="317" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="317" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="318" name="label 3" messageBufferIDRef="319" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="319" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="320" name="label 4" messageBufferIDRef="321" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="321" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="322" name="label 5" messageBufferIDRef="323" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="323" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="324" name="label 6" messageBufferIDRef="325" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="325" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="326" name="label 7" messageBufferIDRef="327" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="327" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="328" name="label 8" messageBufferIDRef="329" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="329" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="330" name="label 9" messageBufferIDRef="331" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="331" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="332" name="label 10" messageBufferIDRef="333" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="333" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="334" name="label 11" messageBufferIDRef="335" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="335" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="336" name="label 12" messageBufferIDRef="337" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="337" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="338" name="label 13" messageBufferIDRef="339" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="339" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="340" name="label 14" messageBufferIDRef="341" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="341" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="342" name="label 15" messageBufferIDRef="343" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="343" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="344" name="label 16" messageBufferIDRef="345" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="345" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="346" name="label 17" messageBufferIDRef="347" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="347" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="348" name="label 18" messageBufferIDRef="349" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="349" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="350" name="label 19" messageBufferIDRef="351" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="351" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="352" name="label 20" messageBufferIDRef="353" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="353" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="354" name="label 21" messageBufferIDRef="355" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="355" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="356" name="label 22" messageBufferIDRef="357" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="357" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="358" name="label 23" messageBufferIDRef="359" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="359" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="360" name="label 24" messageBufferIDRef="361" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="361" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="362" name="CH19" hardwareChannel="19">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="363" name="label 0" messageBufferIDRef="364" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="364" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="365" name="label 1" messageBufferIDRef="366" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="366" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="367" name="label 2" messageBufferIDRef="368" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="368" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="369" name="label 3" messageBufferIDRef="370" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="370" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="371" name="label 4" messageBufferIDRef="372" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="372" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="373" name="label 5" messageBufferIDRef="374" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="374" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="375" name="label 6" messageBufferIDRef="376" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="376" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="377" name="label 7" messageBufferIDRef="378" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="378" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="379" name="label 8" messageBufferIDRef="380" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="380" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="381" name="label 9" messageBufferIDRef="382" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="382" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="383" name="label 10" messageBufferIDRef="384" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="384" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="385" name="label 11" messageBufferIDRef="386" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="386" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="387" name="label 12" messageBufferIDRef="388" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="388" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="389" name="label 13" messageBufferIDRef="390" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="390" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="391" name="label 14" messageBufferIDRef="392" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="392" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="393" name="label 15" messageBufferIDRef="394" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="394" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="395" name="label 16" messageBufferIDRef="396" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="396" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="397" name="label 17" messageBufferIDRef="398" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="398" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="399" name="label 18" messageBufferIDRef="400" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="400" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="401" name="label 19" messageBufferIDRef="402" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="402" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="403" name="label 20" messageBufferIDRef="404" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="404" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="405" name="label 21" messageBufferIDRef="406" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="406" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="407" name="label 22" messageBufferIDRef="408" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="408" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="409" name="label 23" messageBufferIDRef="410" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="410" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="411" name="label 24" messageBufferIDRef="412" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="412" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="413" name="CH20" hardwareChannel="20">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="414" name="label 0" messageBufferIDRef="415" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="415" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="416" name="label 1" messageBufferIDRef="417" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="417" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="418" name="label 2" messageBufferIDRef="419" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="419" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="420" name="label 3" messageBufferIDRef="421" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="421" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="422" name="label 4" messageBufferIDRef="423" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="423" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="424" name="label 5" messageBufferIDRef="425" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="425" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="426" name="label 6" messageBufferIDRef="427" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="427" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="428" name="label 7" messageBufferIDRef="429" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="429" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="430" name="label 8" messageBufferIDRef="431" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="431" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="432" name="label 9" messageBufferIDRef="433" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="433" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="434" name="label 10" messageBufferIDRef="435" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="435" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="436" name="label 11" messageBufferIDRef="437" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="437" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="438" name="label 12" messageBufferIDRef="439" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="439" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="440" name="label 13" messageBufferIDRef="441" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="441" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="442" name="label 14" messageBufferIDRef="443" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="443" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="444" name="label 15" messageBufferIDRef="445" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="445" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="446" name="label 16" messageBufferIDRef="447" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="447" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="448" name="label 17" messageBufferIDRef="449" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="449" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="450" name="label 18" messageBufferIDRef="451" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="451" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="452" name="label 19" messageBufferIDRef="453" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="453" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="454" name="label 20" messageBufferIDRef="455" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="455" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="456" name="label 21" messageBufferIDRef="457" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="457" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="458" name="label 22" messageBufferIDRef="459" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="459" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="460" name="label 23" messageBufferIDRef="461" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="461" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="462" name="label 24" messageBufferIDRef="463" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="463" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="464" name="CH21" hardwareChannel="21">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="465" name="label 0" messageBufferIDRef="466" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="466" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="467" name="label 1" messageBufferIDRef="468" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="468" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="469" name="label 2" messageBufferIDRef="470" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="470" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="471" name="label 3" messageBufferIDRef="472" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="472" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="473" name="label 4" messageBufferIDRef="474" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="474" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="475" name="label 5" messageBufferIDRef="476" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="476" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="477" name="label 6" messageBufferIDRef="478" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="478" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="479" name="label 7" messageBufferIDRef="480" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="480" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="481" name="label 8" messageBufferIDRef="482" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="482" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="483" name="label 9" messageBufferIDRef="484" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="484" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="485" name="label 10" messageBufferIDRef="486" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="486" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="487" name="label 11" messageBufferIDRef="488" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="488" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="489" name="label 12" messageBufferIDRef="490" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="490" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="491" name="label 13" messageBufferIDRef="492" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="492" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="493" name="label 14" messageBufferIDRef="494" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="494" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="495" name="label 15" messageBufferIDRef="496" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="496" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="497" name="label 16" messageBufferIDRef="498" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="498" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="499" name="label 17" messageBufferIDRef="500" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="500" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="501" name="label 18" messageBufferIDRef="502" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="502" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="503" name="label 19" messageBufferIDRef="504" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="504" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="505" name="label 20" messageBufferIDRef="506" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="506" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="507" name="label 21" messageBufferIDRef="508" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="508" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="509" name="label 22" messageBufferIDRef="510" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="510" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="511" name="label 23" messageBufferIDRef="512" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="512" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="513" name="label 24" messageBufferIDRef="514" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="514" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="515" name="CH22" hardwareChannel="22">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="516" name="label 0" messageBufferIDRef="517" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="517" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="518" name="label 1" messageBufferIDRef="519" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="519" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="520" name="label 2" messageBufferIDRef="521" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="521" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="522" name="label 3" messageBufferIDRef="523" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="523" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="524" name="label 4" messageBufferIDRef="525" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="525" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="526" name="label 5" messageBufferIDRef="527" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="527" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="528" name="label 6" messageBufferIDRef="529" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="529" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="530" name="label 7" messageBufferIDRef="531" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="531" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="532" name="label 8" messageBufferIDRef="533" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="533" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="534" name="label 9" messageBufferIDRef="535" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="535" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="536" name="label 10" messageBufferIDRef="537" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="537" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="538" name="label 11" messageBufferIDRef="539" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="539" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="540" name="label 12" messageBufferIDRef="541" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="541" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="542" name="label 13" messageBufferIDRef="543" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="543" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="544" name="label 14" messageBufferIDRef="545" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="545" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="546" name="label 15" messageBufferIDRef="547" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="547" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="548" name="label 16" messageBufferIDRef="549" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="549" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="550" name="label 17" messageBufferIDRef="551" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="551" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="552" name="label 18" messageBufferIDRef="553" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="553" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="554" name="label 19" messageBufferIDRef="555" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="555" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="556" name="label 20" messageBufferIDRef="557" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="557" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="558" name="label 21" messageBufferIDRef="559" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="559" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="560" name="label 22" messageBufferIDRef="561" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="561" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="562" name="label 23" messageBufferIDRef="563" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="563" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="564" name="label 24" messageBufferIDRef="565" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="565" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+	<bti:channel429 ID="566" name="CH23" hardwareChannel="23">
+		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
+			<bti:messages>
+				<bti:message ID="567" name="label 0" messageBufferIDRef="568" minRate="10" maxRate="10" labelDecimal="0">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="568" name="MessageBuffer_label 0">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="569" name="label 1" messageBufferIDRef="570" minRate="10" maxRate="10" labelDecimal="1">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="570" name="MessageBuffer_label 1">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="571" name="label 2" messageBufferIDRef="572" minRate="10" maxRate="10" labelDecimal="2">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="572" name="MessageBuffer_label 2">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="573" name="label 3" messageBufferIDRef="574" minRate="10" maxRate="10" labelDecimal="3">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="574" name="MessageBuffer_label 3">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="575" name="label 4" messageBufferIDRef="576" minRate="10" maxRate="10" labelDecimal="4">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="576" name="MessageBuffer_label 4">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="577" name="label 5" messageBufferIDRef="578" minRate="10" maxRate="10" labelDecimal="5">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="578" name="MessageBuffer_label 5">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="579" name="label 6" messageBufferIDRef="580" minRate="10" maxRate="10" labelDecimal="6">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="580" name="MessageBuffer_label 6">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="581" name="label 7" messageBufferIDRef="582" minRate="10" maxRate="10" labelDecimal="7">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="582" name="MessageBuffer_label 7">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="583" name="label 8" messageBufferIDRef="584" minRate="10" maxRate="10" labelDecimal="8">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="584" name="MessageBuffer_label 8">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="585" name="label 9" messageBufferIDRef="586" minRate="10" maxRate="10" labelDecimal="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="586" name="MessageBuffer_label 9">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="587" name="label 10" messageBufferIDRef="588" minRate="10" maxRate="10" labelDecimal="10">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="588" name="MessageBuffer_label 10">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="589" name="label 11" messageBufferIDRef="590" minRate="10" maxRate="10" labelDecimal="11">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="590" name="MessageBuffer_label 11">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="591" name="label 12" messageBufferIDRef="592" minRate="10" maxRate="10" labelDecimal="12">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="592" name="MessageBuffer_label 12">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="593" name="label 13" messageBufferIDRef="594" minRate="10" maxRate="10" labelDecimal="13">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="594" name="MessageBuffer_label 13">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="595" name="label 14" messageBufferIDRef="596" minRate="10" maxRate="10" labelDecimal="14">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="596" name="MessageBuffer_label 14">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="597" name="label 15" messageBufferIDRef="598" minRate="10" maxRate="10" labelDecimal="15">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="598" name="MessageBuffer_label 15">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="599" name="label 16" messageBufferIDRef="600" minRate="10" maxRate="10" labelDecimal="16">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="600" name="MessageBuffer_label 16">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="601" name="label 17" messageBufferIDRef="602" minRate="10" maxRate="10" labelDecimal="17">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="602" name="MessageBuffer_label 17">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="603" name="label 18" messageBufferIDRef="604" minRate="10" maxRate="10" labelDecimal="18">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="604" name="MessageBuffer_label 18">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="605" name="label 19" messageBufferIDRef="606" minRate="10" maxRate="10" labelDecimal="19">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="606" name="MessageBuffer_label 19">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="607" name="label 20" messageBufferIDRef="608" minRate="10" maxRate="10" labelDecimal="20">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="608" name="MessageBuffer_label 20">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="609" name="label 21" messageBufferIDRef="610" minRate="10" maxRate="10" labelDecimal="21">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="610" name="MessageBuffer_label 21">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="611" name="label 22" messageBufferIDRef="612" minRate="10" maxRate="10" labelDecimal="22">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="612" name="MessageBuffer_label 22">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="613" name="label 23" messageBufferIDRef="614" minRate="10" maxRate="10" labelDecimal="23">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="614" name="MessageBuffer_label 23">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+				<bti:message ID="615" name="label 24" messageBufferIDRef="616" minRate="10" maxRate="10" labelDecimal="24">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="616" name="MessageBuffer_label 24">
+							<bti:rawData>8AAAA8AA</bti:rawData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+				</bti:message>
+			</bti:messages>
+		</bti:txChannel>
+	</bti:channel429>
+
+</bti:core>
