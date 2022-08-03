@@ -69,23 +69,6 @@
 			<Item Name="Ballard-API-errors.txt" Type="Document" URL="../Docs/Ballard-API-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="System" Type="Folder">
-				<Item Name="Shared" Type="Folder">
-					<Item Name="Logging" Type="Folder">
-						<Item Name="Array to Set.vim" Type="VI" URL="../Tests/System/Shared Sub VIs/Array to Set.vim"/>
-						<Item Name="Get Target Address.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Get Target Address.vi"/>
-						<Item Name="Script Logging.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Logging.vi"/>
-						<Item Name="Spreadsheet Array to Column Map.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Spreadsheet Array to Column Map.vi"/>
-					</Item>
-					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
-				</Item>
-				<Item Name="Single Core Simple Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Simple Loopback/Single Core Simple Loopback.lvclass"/>
-				<Item Name="Single Core Complex Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Complex Loopback/Single Core Complex Loopback.lvclass"/>
-				<Item Name="Single Core Acyclic Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Acyclic Loopback/Single Core Acyclic Loopback.lvclass"/>
-				<Item Name="Acyclic Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Acyclic Logging Loopback/Acyclic Logging Loopback.lvclass"/>
-				<Item Name="Scheduled Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Scheduled Logging Loopback/Scheduled Logging Loopback.lvclass"/>
-				<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
-			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
 					<Item Name="Engine.lvclass" Type="LVClass" URL="../Tests/Unit/Execution/Engine/Engine.lvclass"/>
@@ -192,9 +175,6 @@
 				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
 				<Item Name="Temporary Filename__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Filename__ogtk.vi"/>
 				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
-				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
-				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
-				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -554,13 +534,9 @@
 				<Item Name="Custom Device Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Serialization/Custom Device Serialization.lvlib"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
-				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Assert Unsigned Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Unsigned Integer Type.vim"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Get Bits Per Digit from Base.vim" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Get Bits Per Digit from Base.vim"/>
 			</Item>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
@@ -599,8 +575,6 @@
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
