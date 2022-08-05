@@ -94,16 +94,16 @@
 						</bti:messageBuffer>
 					</bti:messageBuffers>
 				</bti:message>
-				<bti:message ID="31" name="label 9_01" messageBufferIDRef="36" minRate="80" maxRate="120" labelDecimal="9"  SDI="01">
+				<bti:message ID="31" name="label 9_1" messageBufferIDRef="36" minRate="80" maxRate="120" labelDecimal="9"  SDI="01">
 					<bti:messageBuffers>
 						<bti:messageBuffer ID="36" name="MessageBuffer_label 9_01">
 							<bti:rawData>8AAAA8AA</bti:rawData>
 						</bti:messageBuffer>
 					</bti:messageBuffers>
 				</bti:message>
-				<bti:message ID="37" name="label 9_10" messageBufferIDRef="38" minRate="80" maxRate="120" labelDecimal="9"  SDI="10">
+				<bti:message ID="37" name="label 9_2" messageBufferIDRef="38" minRate="80" maxRate="120" labelDecimal="9"  SDI="10">
 					<bti:messageBuffers>
-						<bti:messageBuffer ID="38" name="MessageBuffer_label 9_10">
+						<bti:messageBuffer ID="38" name="MessageBuffer_label 9_02">
 							<bti:rawData>8AAAA8AA</bti:rawData>
 						</bti:messageBuffer>
 					</bti:messageBuffers>

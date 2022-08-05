@@ -75,7 +75,7 @@
 			</parameter>
 		</label>
 		<!--*** Label 10: 1 parameter BNR unsigned no scale/offset PSI ***-->
-		<!--*** Used to validate reception of multiple scheduled SDIs ***-->
+		<!--*** Used to validate reception of multiple acyclic SDIs ***-->
 		<label>
 			<labelDecimal>10</labelDecimal>
 			<parameter>
@@ -84,6 +84,36 @@
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam10.1</name>
+				<scale>1</scale>
+				<offset>0</offset>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+		<!--*** Label 10, SDI 1: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<label>
+			<labelDecimal>10</labelDecimal>
+			<sdi>01</sdi>
+			<parameter>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<name>RxAcyclicParam10.1_1</name>
+				<scale>1</scale>
+				<offset>0</offset>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+		<!--*** Label 10, SDI 1: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<label>
+			<labelDecimal>10</labelDecimal>
+			<sdi>10</sdi>
+			<parameter>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<name>RxAcyclicParam10.1_2</name>
 				<scale>1</scale>
 				<offset>0</offset>
 				<unit>psi</unit>
@@ -530,7 +560,7 @@
 			</parameter>
 		</label>
 		<!--*** Label 9, SDI 1: 1 parameter BNR unsigned no scale/offset PSI ***-->
-<!-- 		<label>
+		<label>
 			<labelDecimal>9</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -546,9 +576,9 @@
 				<unit>psi</unit>
 				<defaultValue>500</defaultValue>
 			</parameter>
-		</label> -->
+		</label>
 		<!--*** Label 9, SDI 2: 1 parameter BNR unsigned no scale/offset PSI ***-->
-<!-- 		<label>
+		<label>
 			<labelDecimal>9</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -564,7 +594,7 @@
 				<unit>psi</unit>
 				<defaultValue>500</defaultValue>
 			</parameter>
-		</label> -->
+		</label>
 	</channel>
 	<!--*** Channel 31 ***-->
 	<channel>

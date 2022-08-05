@@ -74,11 +74,18 @@
 					<Item Name="Ballard Multichannel Tx and RX PARAM Constants.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Ballard Multichannel Tx and RX PARAM Constants.vi"/>
 					<Item Name="Generate VS Channels Info.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Generate VS Channels Info.vi"/>
 					<Item Name="Get Class Data File Path.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Get Class Data File Path.vi"/>
+					<Item Name="Get Shared File Paths.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Get Shared File Paths.vi"/>
 					<Item Name="Reset Acyclic Channels.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Reset Acyclic Channels.vi"/>
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
 				</Item>
-				<Item Name="Disabled Custom Device" Type="Folder">
-					<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
+				<Item Name="Logging Loopback" Type="Folder">
+					<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
+				</Item>
+				<Item Name="Single Board Loopback" Type="Folder">
+					<Item Name="Single Board Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board Loopback/Single Board Loopback.lvclass"/>
+				</Item>
+				<Item Name="Deployment" Type="Folder">
+					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
@@ -556,6 +563,8 @@
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 			</Item>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
