@@ -104,7 +104,7 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-		<!--*** Label 10, SDI 1: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<!--*** Label 10, SDI 2: 1 parameter BNR unsigned no scale/offset PSI ***-->
 		<label>
 			<labelDecimal>10</labelDecimal>
 			<sdi>10</sdi>
