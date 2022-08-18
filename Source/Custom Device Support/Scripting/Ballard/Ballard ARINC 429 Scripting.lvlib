@@ -41,12 +41,14 @@
 		<Item Name="Find Ballard ARINC-429 Custom Devices.vi" Type="VI" URL="../Find Ballard ARINC-429 Custom Devices.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Ballard ARINC-429 Custom Device.vi" Type="VI" URL="../Get Owning Ballard ARINC-429 Custom Device.vi"/>
+		<Item Name="Get Rx Async.vi" Type="VI" URL="../Get Rx Async.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Import Custom Device.vi"/>
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Initialize Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
+		<Item Name="Set Rx Async.vi" Type="VI" URL="../Set Rx Async.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
@@ -66,6 +68,8 @@
 		<Item Name="Port To Labels.vi" Type="VI" URL="../Label/Port To Labels.vi"/>
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 		<Item Name="Remove Timestamp Channel.vi" Type="VI" URL="../Label/Remove Timestamp Channel.vi"/>
+		<Item Name="Get Transmit Period.vi" Type="VI" URL="../Label/Get Transmit Period.vi"/>
+		<Item Name="Set Transmit Period.vi" Type="VI" URL="../Label/Set Transmit Period.vi"/>
 	</Item>
 	<Item Name="Logging" Type="Folder">
 		<Item Name="Add Logging Section.vi" Type="VI" URL="../Logging/Add Logging Section.vi"/>
@@ -99,6 +103,8 @@
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Remove Ports Section.vi" Type="VI" URL="../Port/Remove Ports Section.vi"/>
 		<Item Name="System Definition To Ports.vi" Type="VI" URL="../Port/System Definition To Ports.vi"/>
+		<Item Name="Get Port Speed.vi" Type="VI" URL="../Port/Get Port Speed.vi"/>
+		<Item Name="Set Port Speed.vi" Type="VI" URL="../Port/Set Port Speed.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -107,6 +113,13 @@
 		<Item Name="Add Status Section.vi" Type="VI" URL="../Status/Add Status Section.vi"/>
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
 		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
+	</Item>
+	<Item Name="Timing" Type="Folder">
+		<Item Name="Add Timing Section.vi" Type="VI" URL="../Timing/Add Timing Section.vi"/>
+		<Item Name="Get Timing Section Reference.vi" Type="VI" URL="../Timing/Get Timing Section Reference.vi"/>
+		<Item Name="Get Rx Execution Time.vi" Type="VI" URL="../Timing/Get Rx Execution Time.vi"/>
+		<Item Name="Get Tx Acyclic Execution Time.vi" Type="VI" URL="../Timing/Get Tx Acyclic Execution Time.vi"/>
+		<Item Name="Get Tx Scheduled Execution Time.vi" Type="VI" URL="../Timing/Get Tx Scheduled Execution Time.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>

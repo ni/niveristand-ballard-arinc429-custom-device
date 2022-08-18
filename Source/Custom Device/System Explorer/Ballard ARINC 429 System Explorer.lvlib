@@ -11,6 +11,8 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
+			<Item Name="Add Timing Channels RTM.vi" Type="VI" URL="../Add Timing Channels RTM.vi"/>
+			<Item Name="Can Add Timing Channels.vi" Type="VI" URL="../Can Add Timing Channels.vi"/>
 			<Item Name="EnableDisable RTM.vi" Type="VI" URL="../EnableDisable RTM.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
