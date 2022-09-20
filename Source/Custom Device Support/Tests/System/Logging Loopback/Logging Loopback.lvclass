@@ -36,7 +36,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.5</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="VeriStandTestCase.lvclass" Type="Parent" URL="../../../../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
+		<Item Name="VeriStandTestCase.lvclass" Type="Parent" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Testing Tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 	</Item>
 	<Item Name="Logging Loopback.ctl" Type="Class Private Data" URL="Logging Loopback.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
