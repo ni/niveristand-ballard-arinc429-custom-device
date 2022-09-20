@@ -52,7 +52,7 @@ LabVIEW 2020
 - [VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-message-library/releases)
 - [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
-  - To link correctly, this repository should be cloned as source to the same directory level as this repository
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 
