@@ -15,8 +15,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Base.nivssdf" Type="Document" URL="../Support/Base.nivssdf"/>
-			<Item Name="HW_Rx00_Tx24_Scheduled and Dynamic Labels.xml" Type="Document" URL="../Support/HW_Rx00_Tx24_Scheduled and Dynamic Labels.xml"/>
-			<Item Name="Parameters in Scheduled and Dynamic Labels.xml" Type="Document" URL="../Support/Parameters in Scheduled and Dynamic Labels.xml"/>
+			<Item Name="Multichannel Tx and Rx HW.xml" Type="Document" URL="../Support/Multichannel Tx and Rx HW.xml"/>
+			<Item Name="Multichannel Tx and Rx PARMS.xml" Type="Document" URL="../Support/Multichannel Tx and Rx PARMS.xml"/>
 		</Item>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 		<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard ARINC 429/Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
