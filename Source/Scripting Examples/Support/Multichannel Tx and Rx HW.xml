@@ -42,7 +42,7 @@
 	</bti:channel429>
 <!--*******************************************************************************************-->
 <!--***************************************	Tx Channels ***************************************-->
-	<bti:channel429 ID="24" name="Channel 24" hardwareChannel="24">
+	<bti:channel429 ID="16" name="Channel 16" hardwareChannel="16">
 		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Millisecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
 			<bti:asyncMessageList asyncBufferMaxSize="10">
 				<bti:messageBuffers>
