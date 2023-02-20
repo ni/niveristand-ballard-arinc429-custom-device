@@ -65,6 +65,7 @@
 			<Item Name="Pack Message Identifier.vi" Type="VI" URL="../Shared/Pack Message Identifier.vi"/>
 			<Item Name="Unpack Message Identifier.vi" Type="VI" URL="../Shared/Unpack Message Identifier.vi"/>
 			<Item Name="Transfer Speed.ctl" Type="VI" URL="../Shared/Transfer Speed.ctl"/>
+			<Item Name="SDI.ctl" Type="VI" URL="../Shared/SDI.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>
@@ -599,7 +600,6 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SDI.ctl" Type="VI" URL="../Shared/SDI.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
