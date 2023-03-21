@@ -83,7 +83,7 @@
 
 	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>24</hardwareChannel>
+		<hardwareChannel>16</hardwareChannel>
 		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>07</labelDecimal>

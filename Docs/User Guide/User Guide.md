@@ -10,6 +10,10 @@ A valid hardware configuration for the core must be provided to each instance of
 
 ![BTI XML Editor](Screenshots/BTI_XML_Configuration.PNG)
 
+Additionally, the `name` attribute for each label in the hardware configuration file should adhere to the following format in order to be recognized by the custom device: name="label #" where # is the `labelDecimal`, e.g. "label 16".  If the label uses SDI, the label should also include `_N` at the end of the label, where N is the SDI in decimal form, e.g. "label 16_1" for SDI=01, or "label 16_3" for SDI=11.  The `BTI XML Editor` will *NOT* generate these label names by default, so you will need to input them in the editor or modify the hardware configuration file.
+
+Example line from hardware configuration file:  <bti:message ID="123" *name="label 16_2"* messageBufferIDRef="123123" minRate="1000" maxRate="1000" *labelDecimal="16" SDI="10"* monitor="false">
+
 A simple Hardware XML file is included for getting started with the custom device.
 
 ## Configure the Custom Device
