@@ -151,6 +151,7 @@
 		<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 		<Item Name="Ballard ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/Ballard ARINC 429 Hardware API.lvlib"/>
+		<Item Name="Ballard ARINC 429 Hardware Configuration.lvlib" Type="Library" URL="../Hardware Configuration/Ballard ARINC 429 Hardware Configuration.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
