@@ -18,6 +18,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Get Next Identifier.vi" Type="VI" URL="../Get Next Identifier.vi"/>
+		<Item Name="Port Speed to String.vi" Type="VI" URL="../Port Speed to String.vi"/>
 	</Item>
 	<Item Name="Tx" Type="Folder">
 		<Item Name="Get Tx Acyclic Message Configuration.vi" Type="VI" URL="../Get Tx Acyclic Message Configuration.vi"/>
