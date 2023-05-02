@@ -66,6 +66,7 @@
 		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/On Compile - Group Hardware Channels by Message Type.vi"/>
 		<Item Name="Parameters File Handler.vi" Type="VI" URL="../System Explorer/Parameters File Handler.vi"/>
 		<Item Name="Update Custom Device Version in System Definition.vi" Type="VI" URL="../System Explorer/Update Custom Device Version in System Definition.vi"/>
+		<Item Name="Update Recent Config File Paths.vi" Type="VI" URL="../System Explorer/Update Recent Config File Paths.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>

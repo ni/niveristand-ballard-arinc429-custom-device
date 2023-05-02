@@ -16,6 +16,7 @@
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
 		<Item Name="Check If Error Already Exists.vi" Type="VI" URL="../Configuration Files/Check If Error Already Exists.vi"/>
+		<Item Name="Generate Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Generate Hardware Configuration File.vi"/>
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File Path.vi"/>
 		<Item Name="Get Parameters Configuration File Path.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File Path.vi"/>
