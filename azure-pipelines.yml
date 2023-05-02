@@ -73,15 +73,15 @@ stages:
         - controlFileName: 'control_custom_device'
           payloadMaps:
             - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Ballard'
-              payloadLocation: 'Source\Built\Ballard'
+              payloadLocation: 'Ballard'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
-              payloadLocation: 'Source\Built\Errors'
+              payloadLocation: 'Errors'
 
         - controlFileName: 'control_scripting'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Ballard ARINC 429'
-              payloadLocation: 'Source\Built\Scripting'
+              payloadLocation: 'Scripting'
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Ballard ARINC 429'
-              payloadLocation: 'Source\Built\Scripting Examples'
+              payloadLocation: 'Scripting Examples'
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
-              payloadLocation: 'Source\Built\Errors'
+              payloadLocation: 'Errors'
