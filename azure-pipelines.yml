@@ -65,7 +65,7 @@ stages:
           target: 'Linux x64'
           buildSpec: 'Engine Release'
 
-      releaseVersion: '24.5.0'
+      releaseVersion: '24.8.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ballard_arinc_429'
 
