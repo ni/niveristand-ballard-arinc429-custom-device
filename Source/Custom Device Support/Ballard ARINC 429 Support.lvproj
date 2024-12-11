@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Property Name="CCSymbols" Type="Str">Enable_Error,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -159,6 +159,40 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
+				<Item Name="Stop Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Stop Sequential Monitor.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Reset Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Rx/Data/Reset Reader.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Build Last Error Info.vi"/>
+				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
+				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
+				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
+				<Item Name="Initialize By Core Serial Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Core Serial Number.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
+				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
+				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
+				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
+				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
+				<Item Name="Configure All From File.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Configure All From File.vi"/>
+				<Item Name="Configure All From Bin.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From Bin.vi"/>
+				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From XML.vi"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Action-Status/Start.vi"/>
+				<Item Name="Start Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start Channel.vi"/>
+				<Item Name="Start All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Channels.vi"/>
+				<Item Name="Start All Rx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Rx Channels.vi"/>
+				<Item Name="Start All Tx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Tx Channels.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
+				<Item Name="Handle From Channel Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Configure/Handle From Channel Number.vi"/>
+				<Item Name="429 Record.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/429 Record.ctl"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Seq Run Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Run Status.ctl"/>
+				<Item Name="Seq Fill Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Fill Status.ctl"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
@@ -249,7 +283,6 @@
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="Assert Unsigned Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Unsigned Integer Type.vim"/>
 				<Item Name="Get Bits Per Digit from Base.vim" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Get Bits Per Digit from Base.vim"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
@@ -553,6 +586,12 @@
 				<Item Name="Build Path - Traditional - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - Traditional - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names Array - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names Array - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 			</Item>
 			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -586,6 +625,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="NationalInstruments.VeriStand.SystemStorage.dll" Type="Document" URL="../../../../ni-central/src/veristand/main/veristandd/vs_all/objects/export/dist/release/Inst/Program Files/National Instruments/VeriStand 2020/NationalInstruments.VeriStand.SystemStorage.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -649,15 +689,32 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ED3C26ED-E4F8-4101-9B59-8E2C46ECFF37}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F54207F4-A7A1-4266-ABB4-A2CC255E0B27}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Encoding and Decoding.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Hardware API.lvlib</Property>
+				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Hardware Configuration.lvlib</Property>
+				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Scripting.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Ballard ARINC 429 System Explorer.lvlib</Property>
@@ -673,7 +730,27 @@
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Ballard-API-errors.txt</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ARINC 429 Import.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Custom Device API.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/ARINC 429 Scripting.lvlib</Property>
+				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Library</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Messaging.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
@@ -828,8 +905,42 @@
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="429 Record.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/429 Record.ctl"/>
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Build Last Error Info.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
+				<Item Name="Configure All From Bin.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From Bin.vi"/>
+				<Item Name="Configure All From File.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Configure All From File.vi"/>
+				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From XML.vi"/>
+				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
+				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
+				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Handle From Channel Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Configure/Handle From Channel Number.vi"/>
+				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
+				<Item Name="Initialize By Core Serial Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Core Serial Number.vi"/>
+				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
+				<Item Name="Reset Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Rx/Data/Reset Reader.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
+				<Item Name="Seq Fill Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Fill Status.ctl"/>
+				<Item Name="Seq Run Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Run Status.ctl"/>
+				<Item Name="Start All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Channels.vi"/>
+				<Item Name="Start All Rx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Rx Channels.vi"/>
+				<Item Name="Start All Tx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Tx Channels.vi"/>
+				<Item Name="Start Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start Channel.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Action-Status/Start.vi"/>
+				<Item Name="Stop Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Stop Sequential Monitor.vi"/>
+				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
+				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -861,6 +972,9 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -874,11 +988,14 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
+				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -955,6 +1072,7 @@
 			</Item>
 			<Item Name="Transfer Speed.ctl" Type="VI" URL="../Shared/Transfer Speed.ctl"/>
 			<Item Name="Transfer Type.ctl" Type="VI" URL="../Shared/Transfer Type.ctl"/>
+			<Item Name="Unpack Message Identifier.vi" Type="VI" URL="../Shared/Unpack Message Identifier.vi"/>
 			<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../Shared/Verify File Exists and Not Empty.vi"/>
 			<Item Name="VS Channel Definition for Parameter.ctl" Type="VI" URL="../Shared/VS Channel Definition for Parameter.ctl"/>
 			<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="../Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
