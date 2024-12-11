@@ -435,7 +435,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorage.dll" Type="Document" URL="../../../../../../../Dev/ni-central/src/veristand/main/veristandd/vs_all/objects/export/dist/release/Inst/Program Files/National Instruments/VeriStand 2020/NationalInstruments.VeriStand.SystemStorage.dll"/>
+			<Item Name="NationalInstruments.VeriStand.SystemStorage.dll" Type="Document" URL="../../../../ni-central/src/veristand/main/veristandd/vs_all/objects/export/dist/release/Inst/Program Files/National Instruments/VeriStand 2020/NationalInstruments.VeriStand.SystemStorage.dll"/>
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -521,7 +521,7 @@
 				<Property Name="Destination[4].path" Type="Path">../Built/Ballard/ARINC 429/Windows/Page Help</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{96682854-CE63-47B6-9C06-9A3D318A7136}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4252C5BF-6B87-4094-A9F7-29B7D033BC9A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -538,7 +538,7 @@
 				<Property Name="Source[1].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
@@ -774,7 +774,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorage.dll" Type="Document" URL="../../../../../../../Dev/ni-central/src/veristand/main/veristandd/vs_all/objects/export/dist/release/Inst/Program Files/National Instruments/VeriStand 2020/NationalInstruments.VeriStand.SystemStorage.dll"/>
+			<Item Name="NationalInstruments.VeriStand.SystemStorage.dll" Type="Document" URL="../../../../ni-central/src/veristand/main/veristandd/vs_all/objects/export/dist/release/Inst/Program Files/National Instruments/VeriStand 2020/NationalInstruments.VeriStand.SystemStorage.dll"/>
 			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard ARINC 429 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
