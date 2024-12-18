@@ -137,7 +137,7 @@
 			<Item Name="Copy PPLs to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy PPLs to NI VeriStand dir.vi"/>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
 			<Item Name="Post-Build Action Scripting.vi" Type="VI" URL="../Utility/Post-Build Action Scripting.vi"/>
-			<Item Name="Pre-Build Action.vi" Type="VI" URL="../../../../../agent/_work/1/s/niveristand-ballard-arinc429-custom-device/Source/Custom Device Support/Utility/Pre-Build Action.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Utility/Pre-Build Action.vi"/>
 		</Item>
 		<Item Name="Palettes" Type="Folder">
 			<Item Name="dir.mnu" Type="Document" URL="../Scripting/Palettes/dir.mnu"/>
@@ -657,7 +657,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D7808751-E905-410A-9769-7CEED577EA29}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{144A52D5-F9CC-42BF-85D8-44F988343022}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Engine.lvlib</Property>
