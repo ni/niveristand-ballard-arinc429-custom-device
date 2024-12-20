@@ -160,6 +160,43 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Build Last Error Info.vi"/>
+				<Item Name="Stop Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Stop Sequential Monitor.vi"/>
+				<Item Name="Reset Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Rx/Data/Reset Reader.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Build Last Error Info.vi"/>
+				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
+				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
+				<Item Name="Initialize By Core Serial Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Core Serial Number.vi"/>
+				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
+				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
+				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
+				<Item Name="Write External Status LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External Status LED.vi"/>
+				<Item Name="LED Color.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/LED Color.ctl"/>
+				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
+				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
+				<Item Name="Configure All From File.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Configure All From File.vi"/>
+				<Item Name="Configure All From Bin.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From Bin.vi"/>
+				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From XML.vi"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Action-Status/Start.vi"/>
+				<Item Name="Start Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start Channel.vi"/>
+				<Item Name="Start All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Channels.vi"/>
+				<Item Name="Start All Rx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Rx Channels.vi"/>
+				<Item Name="Start All Tx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Tx Channels.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
+				<Item Name="Handle From Channel Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Configure/Handle From Channel Number.vi"/>
+				<Item Name="429 Record.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/429 Record.ctl"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Seq Run Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Run Status.ctl"/>
+				<Item Name="Seq Fill Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Fill Status.ctl"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
@@ -657,7 +694,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{144A52D5-F9CC-42BF-85D8-44F988343022}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3EBBD3CC-DB89-4E98-9661-4C017073A8D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard ARINC 429 Engine.lvlib</Property>
@@ -682,7 +719,6 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Ballard-API-errors.txt</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
@@ -836,8 +872,45 @@
 		<Item Name="Ballard ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/Ballard ARINC 429 Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="429 Record.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/429 Record.ctl"/>
 				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Build Last Error Info.vi"/>
+				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Build Last Error Info.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
+				<Item Name="Configure All From Bin.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From Bin.vi"/>
+				<Item Name="Configure All From File.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Configure All From File.vi"/>
+				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From XML.vi"/>
+				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
+				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Error Info.ctl"/>
+				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
+				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Handle From Channel Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Configure/Handle From Channel Number.vi"/>
+				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
+				<Item Name="Initialize By Core Serial Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Core Serial Number.vi"/>
+				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
+				<Item Name="LED Color.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/LED Color.ctl"/>
+				<Item Name="Reset Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Rx/Data/Reset Reader.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
+				<Item Name="Seq Fill Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Fill Status.ctl"/>
+				<Item Name="Seq Run Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Seq Run Status.ctl"/>
+				<Item Name="Start All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Channels.vi"/>
+				<Item Name="Start All Rx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Rx Channels.vi"/>
+				<Item Name="Start All Tx Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Tx Channels.vi"/>
+				<Item Name="Start Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start Channel.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Action-Status/Start.vi"/>
+				<Item Name="Stop Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Stop Sequential Monitor.vi"/>
+				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
+				<Item Name="Write External Status LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External Status LED.vi"/>
+				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
