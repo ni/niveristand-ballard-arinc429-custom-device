@@ -28,13 +28,13 @@ The custom device supports the following functionality:
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2023
+LabVIEW 2024
 
 ## Dependencies
 
 ### Running the custom device
 
-- [VeriStand 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2024 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 - Optional: [Astronics Ballard Avionics Driver](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
 
 **Note**: For using 2025 Q1 Base System Image of Astronics Ballard Avionics Driver, install the package [libpcre1](http://download.ni.com/#ni-linux-rt/feeds/2025Q1/x64/main/core2-64/libpcre1_8.45-r0.241_core2-64.ipk) on the target using the command: `opkg install <path to the libpcre1 package on target>`
@@ -46,7 +46,7 @@ LabVIEW 2023
 
 ### Developing or building from source
 
-- [LabVIEW 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2024 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [Astronics Ballard Avionics Driver and LabVIEW API](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
