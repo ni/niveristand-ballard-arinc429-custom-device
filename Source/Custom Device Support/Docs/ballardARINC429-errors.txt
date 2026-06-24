@@ -24,4 +24,11 @@ The direction of the label must match the direction of the port.
 <nierror code="-732256">
 Invalid GUID stored for this item.
 </nierror>
+</nierror>
+<nierror code="-732301">
+Dataloss occurred during encoding of this parameter. This can occur a value is written to the parameter that requires a greater number of bits than the defined bit width of the parameter.
+</nierror>
+<nierror code="-732302">
+Dataloss occurred during encoding of this parameter. This can occur if the parameter is unsigned, and a negative value is written to it.
+</nierror>
 </nidocument>
